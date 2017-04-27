@@ -5,6 +5,7 @@ provides-nominal:
 provides-member:
 provides-dynamic-lookup:
 depends-top-level:
+- "Date"
 - "Droplet"
 - "StringLiteralType"
 - "UnicodeScalarType"
@@ -24,6 +25,7 @@ depends-member:
 - ["Ps29CustomPlaygroundQuickLookable", "init"]
 - ["Ps17CustomReflectable", "init"]
 - ["Ps23CustomStringConvertible", "init"]
+- ["V10Foundation4Date", "init"]
 - ["C5Vapor7Droplet", "get"]
 - ["C5Vapor7Droplet", "init"]
 - ["C5Vapor7Droplet", "run"]
@@ -46,6 +48,7 @@ depends-member:
 - ["P13PathIndexable9PathIndex", "init"]
 - ["P11Polymorphic11Polymorphic", "init"]
 - ["P5Vapor24PolymorphicInitializable", "init"]
+- ["P10Foundation20ReferenceConvertible", "init"]
 - ["P5Vapor23RequestContentSubscript", "init"]
 - ["P4HTTP9Responder", "get"]
 - ["P4HTTP9Responder", "init"]
@@ -80,6 +83,7 @@ depends-nominal:
 - "Ps29CustomPlaygroundQuickLookable"
 - "Ps17CustomReflectable"
 - "Ps23CustomStringConvertible"
+- "V10Foundation4Date"
 - "C5Vapor7Droplet"
 - "Ps9Equatable"
 - "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
@@ -100,6 +104,7 @@ depends-nominal:
 - "P13PathIndexable9PathIndex"
 - "P11Polymorphic11Polymorphic"
 - "P5Vapor24PolymorphicInitializable"
+- "P10Foundation20ReferenceConvertible"
 - "P5Vapor23RequestContentSubscript"
 - "P4HTTP9Responder"
 - "P4HTTP21ResponseRepresentable"
@@ -237,4 +242,4 @@ depends-external:
 - "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/TypeSafeRouting.swiftmodule"
 - "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/WebSockets.swiftmodule"
 - "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/Socks.swiftmodule"
-interface-hash: "5effcd16fff9063088f977b11e88d5a0"
+interface-hash: "7beaa2fb74f8fe1f3264ae42ff7b640b"

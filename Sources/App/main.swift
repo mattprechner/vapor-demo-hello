@@ -1,9 +1,12 @@
+import Foundation
 import Vapor
 
 let drop = Droplet()
 
 drop.get("/") { request in
-    return "Hello World!"
+
+	let date = Date()
+    return "Hello World"
 }
 
 drop.run()
