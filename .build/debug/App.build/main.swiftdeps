@@ -18,6 +18,7 @@ depends-member:
 - ["Ps9AnyObject", "dateFormat"]
 - ["Ps9AnyObject", "get"]
 - ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "parameters"]
 - ["Ps9AnyObject", "run"]
 - ["Ps9AnyObject", "string"]
 - ["P4HTTP17BodyRepresentable", "init"]
@@ -28,6 +29,8 @@ depends-member:
 - ["Ps7CVarArg", "init"]
 - ["Ps7CVarArg", "string"]
 - ["Ps10Comparable", "init"]
+- ["P4Node7Context", "string"]
+- ["P4Node7Context", "subscript"]
 - ["P5Vapor9Countable", "init"]
 - ["Ps28CustomDebugStringConvertible", "dateFormat"]
 - ["Ps28CustomDebugStringConvertible", "init"]
@@ -36,6 +39,7 @@ depends-member:
 - ["Ps17CustomReflectable", "init"]
 - ["Ps23CustomStringConvertible", "dateFormat"]
 - ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "parameters"]
 - ["Ps23CustomStringConvertible", "string"]
 - ["V10Foundation4Date", "init"]
 - ["CSo13DateFormatter", "dateFormat"]
@@ -47,9 +51,28 @@ depends-member:
 - ["Ps9Equatable", "dateFormat"]
 - ["Ps9Equatable", "init"]
 - ["Ps9Equatable", "string"]
+- ["Ps9Equatable", "subscript"]
+- ["Ps25ExpressibleByArrayLiteral", "string"]
+- ["Ps25ExpressibleByArrayLiteral", "subscript"]
+- ["Ps27ExpressibleByBooleanLiteral", "string"]
+- ["Ps27ExpressibleByBooleanLiteral", "subscript"]
+- ["Ps30ExpressibleByDictionaryLiteral", "string"]
+- ["Ps30ExpressibleByDictionaryLiteral", "subscript"]
 - ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "string"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "subscript"]
+- ["Ps25ExpressibleByFloatLiteral", "string"]
+- ["Ps25ExpressibleByFloatLiteral", "subscript"]
+- ["Ps27ExpressibleByIntegerLiteral", "string"]
+- ["Ps27ExpressibleByIntegerLiteral", "subscript"]
+- ["Ps23ExpressibleByNilLiteral", "string"]
+- ["Ps23ExpressibleByNilLiteral", "subscript"]
 - ["Ps26ExpressibleByStringLiteral", "init"]
+- ["Ps26ExpressibleByStringLiteral", "string"]
+- ["Ps26ExpressibleByStringLiteral", "subscript"]
 - ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "string"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "subscript"]
 - ["CSo9Formatter", "dateFormat"]
 - ["CSo9Formatter", "init"]
 - ["CSo9Formatter", "string"]
@@ -61,6 +84,7 @@ depends-member:
 - ["P4JSON17JSONInitializable", "init"]
 - ["P4JSON17JSONRepresentable", "init"]
 - ["Ps25LosslessStringConvertible", "init"]
+- ["C4HTTP7Message", "parameters"]
 - ["Ps10MirrorPath", "init"]
 - ["PSo8NSCoding", "dateFormat"]
 - ["PSo8NSCoding", "init"]
@@ -77,15 +101,32 @@ depends-member:
 - ["PSo16NSObjectProtocol", "string"]
 - ["PSo14NSSecureCoding", "init"]
 - ["CSo8NSString", "init"]
+- ["O4Node4Node", "string"]
+- ["O4Node4Node", "subscript"]
 - ["P4Node10NodeBacked", "init"]
+- ["P4Node10NodeBacked", "string"]
+- ["P4Node10NodeBacked", "subscript"]
 - ["P4Node15NodeConvertible", "init"]
+- ["P4Node15NodeConvertible", "string"]
+- ["P4Node15NodeConvertible", "subscript"]
 - ["P4Node17NodeInitializable", "init"]
+- ["P4Node17NodeInitializable", "string"]
+- ["P4Node17NodeInitializable", "subscript"]
 - ["P4Node17NodeRepresentable", "init"]
+- ["P4Node17NodeRepresentable", "parameters"]
+- ["P4Node17NodeRepresentable", "string"]
+- ["P4Node17NodeRepresentable", "subscript"]
+- ["P7Routing19ParametersContainer", "parameters"]
 - ["P13PathIndexable9PathIndex", "init"]
 - ["P13PathIndexable13PathIndexable", "init"]
+- ["P13PathIndexable13PathIndexable", "string"]
+- ["P13PathIndexable13PathIndexable", "subscript"]
 - ["P11Polymorphic11Polymorphic", "init"]
+- ["P11Polymorphic11Polymorphic", "string"]
+- ["P11Polymorphic11Polymorphic", "subscript"]
 - ["P5Vapor24PolymorphicInitializable", "init"]
 - ["P10Foundation20ReferenceConvertible", "init"]
+- ["C4HTTP7Request", "parameters"]
 - ["P5Vapor23RequestContentSubscript", "init"]
 - ["P4HTTP9Responder", "get"]
 - ["P4HTTP9Responder", "init"]
@@ -98,6 +139,7 @@ depends-member:
 - ["P15TypeSafeRouting19StringInitializable", "init"]
 - ["Ps16TextOutputStream", "init"]
 - ["Ps20TextOutputStreamable", "init"]
+- ["P9Transport15TransferMessage", "parameters"]
 - ["P5Vapor11Validatable", "init"]
 - ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
 - ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
@@ -117,6 +159,7 @@ depends-nominal:
 - "P4Core18BytesRepresentable"
 - "Ps7CVarArg"
 - "Ps10Comparable"
+- "P4Node7Context"
 - "P5Vapor9Countable"
 - "Ps28CustomDebugStringConvertible"
 - "Ps29CustomPlaygroundQuickLookable"
@@ -126,7 +169,13 @@ depends-nominal:
 - "CSo13DateFormatter"
 - "C5Vapor7Droplet"
 - "Ps9Equatable"
+- "Ps25ExpressibleByArrayLiteral"
+- "Ps27ExpressibleByBooleanLiteral"
+- "Ps30ExpressibleByDictionaryLiteral"
 - "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- "Ps25ExpressibleByFloatLiteral"
+- "Ps27ExpressibleByIntegerLiteral"
+- "Ps23ExpressibleByNilLiteral"
 - "Ps26ExpressibleByStringLiteral"
 - "Ps33ExpressibleByUnicodeScalarLiteral"
 - "CSo9Formatter"
@@ -136,6 +185,7 @@ depends-nominal:
 - "P4JSON17JSONInitializable"
 - "P4JSON17JSONRepresentable"
 - "Ps25LosslessStringConvertible"
+- "C4HTTP7Message"
 - "Ps10MirrorPath"
 - "PSo8NSCoding"
 - "PSo9NSCopying"
@@ -144,15 +194,18 @@ depends-nominal:
 - "PSo16NSObjectProtocol"
 - "PSo14NSSecureCoding"
 - "CSo8NSString"
+- "O4Node4Node"
 - "P4Node10NodeBacked"
 - "P4Node15NodeConvertible"
 - "P4Node17NodeInitializable"
 - "P4Node17NodeRepresentable"
+- "P7Routing19ParametersContainer"
 - "P13PathIndexable9PathIndex"
 - "P13PathIndexable13PathIndexable"
 - "P11Polymorphic11Polymorphic"
 - "P5Vapor24PolymorphicInitializable"
 - "P10Foundation20ReferenceConvertible"
+- "C4HTTP7Request"
 - "P5Vapor23RequestContentSubscript"
 - "P4HTTP9Responder"
 - "P4HTTP21ResponseRepresentable"
@@ -161,6 +214,7 @@ depends-nominal:
 - "P15TypeSafeRouting19StringInitializable"
 - "Ps16TextOutputStream"
 - "Ps20TextOutputStreamable"
+- "P9Transport15TransferMessage"
 - "P5Vapor11Validatable"
 - "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
 - "Ps34_ExpressibleByBuiltinStringLiteral"
@@ -290,4 +344,4 @@ depends-external:
 - "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/TypeSafeRouting.swiftmodule"
 - "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/WebSockets.swiftmodule"
 - "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/Socks.swiftmodule"
-interface-hash: "893f76a7b3c4650b87c226f707aff83b"
+interface-hash: "1fca868ddb67645ecd8c154d30e010bb"
