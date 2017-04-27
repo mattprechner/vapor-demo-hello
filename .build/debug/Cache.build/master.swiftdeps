@@ -1,0 +1,7 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.48 clang-802.0.38)"
+options: "d4eb50708e27342f7b5db578d0e647ba"
+build_time: [546606967, 127478000]
+inputs:
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/vapor.git-5492988889259800272/Sources/Cache/CacheProtocol.swift": [546606899, 0]
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/vapor.git-5492988889259800272/Sources/Cache/FluentCache.swift": [546606899, 0]
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/vapor.git-5492988889259800272/Sources/Cache/MemoryCache.swift": [546606899, 0]

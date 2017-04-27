@@ -1,0 +1,275 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Program"
+provides-nominal:
+- "P4HTTP7Program"
+provides-member:
+- ["P4HTTP7Program", ""]
+- ["O9Transport13SecurityLayer", ""]
+- ["P4HTTP7Program", "defaultMiddleware"]
+- ["P4HTTP7Program", "make"]
+- ["O9Transport13SecurityLayer", "port"]
+- ["P4HTTP7Program", "make"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "??"
+- !private "Array"
+- "AssignmentPrecedence"
+- "Int"
+- "Middleware"
+- "Program"
+- "SecurityLayer"
+- "String"
+- !private "StringLiteralType"
+- !private "URI"
+- !private "_defaultMiddlewareStorage"
+depends-member:
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "securityLayer"]
+- !private ["P4HTTP17BodyRepresentable", "init"]
+- !private ["P4HTTP17BodyRepresentable", "securityLayer"]
+- !private ["P4Core16BytesConvertible", "init"]
+- !private ["P4Core16BytesConvertible", "securityLayer"]
+- !private ["P4Core18BytesInitializable", "init"]
+- !private ["P4Core18BytesInitializable", "securityLayer"]
+- !private ["P4Core18BytesRepresentable", "init"]
+- !private ["P4Core18BytesRepresentable", "securityLayer"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "securityLayer"]
+- !private ["Ps7CVarArg", "subscript"]
+- !private ["Ps10Collection", "subscript"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps10Comparable", "securityLayer"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "securityLayer"]
+- !private ["Ps28CustomDebugStringConvertible", "subscript"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "securityLayer"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "securityLayer"]
+- !private ["Ps17CustomReflectable", "subscript"]
+- !private ["Ps23CustomStringConvertible", "defaultPorts"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "securityLayer"]
+- !private ["Ps23CustomStringConvertible", "subscript"]
+- !private ["Vs10Dictionary", "deinit"]
+- !private ["Vs10Dictionary", "subscript"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "securityLayer"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "subscript"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "securityLayer"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "securityLayer"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "securityLayer"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "securityLayer"]
+- !private ["P4HTTP13KeyAccessible", "subscript"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps25LosslessStringConvertible", "securityLayer"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["Ps10MirrorPath", "securityLayer"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "securityLayer"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "securityLayer"]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["PSo16NSMutableCopying", "securityLayer"]
+- !private ["CSo8NSObject", "securityLayer"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "securityLayer"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["PSo14NSSecureCoding", "securityLayer"]
+- !private ["CSo8NSString", "init"]
+- !private ["CSo8NSString", "securityLayer"]
+- ["P4HTTP7Program", "Int"]
+- ["P4HTTP7Program", "Middleware"]
+- ["P4HTTP7Program", "SecurityLayer"]
+- ["P4HTTP7Program", "Self"]
+- ["P4HTTP7Program", "String"]
+- !private ["P4HTTP7Program", "URI"]
+- !private ["P4HTTP7Program", "_defaultMiddlewareStorage"]
+- ["P4HTTP7Program", "defaultMiddleware"]
+- ["P4HTTP7Program", "host"]
+- ["P4HTTP7Program", "init"]
+- ["P4HTTP7Program", "make"]
+- ["P4HTTP7Program", "middleware"]
+- ["P4HTTP7Program", "port"]
+- ["P4HTTP7Program", "securityLayer"]
+- !private ["P4HTTP21ResponseRepresentable", "init"]
+- !private ["P4HTTP21ResponseRepresentable", "securityLayer"]
+- ["O9Transport13SecurityLayer", "Int"]
+- ["O9Transport13SecurityLayer", "none"]
+- ["O9Transport13SecurityLayer", "port"]
+- ["O9Transport13SecurityLayer", "tls"]
+- !private ["Ps8Sequence", "subscript"]
+- !private ["SS", "init"]
+- !private ["SS", "securityLayer"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps16TextOutputStream", "securityLayer"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["Ps20TextOutputStreamable", "securityLayer"]
+- !private ["V3URI3URI", "defaultPorts"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "securityLayer"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "securityLayer"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "securityLayer"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "securityLayer"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "init"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "securityLayer"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "securityLayer"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "securityLayer"]
+- !private ["Ps10_Indexable", "subscript"]
+- !private ["Ps14_IndexableBase", "subscript"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "securityLayer"]
+- !private ["Ps21_ObjectiveCBridgeable", "subscript"]
+depends-nominal:
+- !private "Ps9AnyObject"
+- !private "P4HTTP17BodyRepresentable"
+- !private "P4Core16BytesConvertible"
+- !private "P4Core18BytesInitializable"
+- !private "P4Core18BytesRepresentable"
+- !private "Ps7CVarArg"
+- !private "Ps10Collection"
+- !private "Ps10Comparable"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- !private "Vs10Dictionary"
+- !private "Ps9Equatable"
+- !private "Ps30ExpressibleByDictionaryLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "Ps8Hashable"
+- !private "P4HTTP13KeyAccessible"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "PSo16NSMutableCopying"
+- !private "CSo8NSObject"
+- !private "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- "P4HTTP7Program"
+- !private "P4HTTP21ResponseRepresentable"
+- "O9Transport13SecurityLayer"
+- !private "Ps8Sequence"
+- !private "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- !private "V3URI3URI"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps33_ExpressibleByStringInterpolation"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- !private "Ps9_Hashable"
+- !private "Ps10_Indexable"
+- !private "Ps14_IndexableBase"
+- !private "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/CLibreSSL.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.apinotesc"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/Transport.swiftmodule"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/Core.swiftmodule"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/libc.swiftmodule"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/SocksCore.swiftmodule"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/TLS.swiftmodule"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/whrlpool.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/ui_compat.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/txt_db.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/x509v3.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/x509.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/ts.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/tls.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/ripemd.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/rc4.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/rc2.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/rand.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/poly1305.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/pkcs12.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/safestack.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/opensslfeatures.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/opensslconf.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/ossl_typ.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/ocsp.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/modes.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/md5.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/md4.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/krb5_asn.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/idea.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/gost.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/lhash.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/err.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/ui.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/rsa.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/engine.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/ssl3.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/ssl.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/srtp.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/ssl23.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/tls1.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/evp.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/ssl2.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/pem2.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/pkcs7.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/x509_vfy.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/sha.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/ec.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/ecdh.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/ecdsa.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/stack.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/pem.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/hmac.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/dtls1.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/dso.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/dsa.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/dh.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/des.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/conf_api.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/conf.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/crypto.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/comp.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/cms.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/obj_mac.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/objects.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/cmac.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/chacha.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/cast.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/camellia.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/buffer.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/blowfish.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/asn1t.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/asn1_mac.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/bio.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/bn.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/opensslv.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/asn1.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/aes.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/CLibreSSL.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/URI.swiftmodule"
+interface-hash: "e1e2ff42bdcebede2523e77338a3a719"

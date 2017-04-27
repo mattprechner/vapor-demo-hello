@@ -1,0 +1,8 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.48 clang-802.0.38)"
+options: "a0e7fede02a9fbf26e1799929ff5f304"
+build_time: [546606954, 380075000]
+inputs:
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/crypto.git-7980259129511365902/Sources/Random/CryptoRandom.swift": [546606914, 0]
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/crypto.git-7980259129511365902/Sources/Random/Random+Deprecated.swift": [546606914, 0]
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/crypto.git-7980259129511365902/Sources/Random/Random.swift": [546606914, 0]
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/crypto.git-7980259129511365902/Sources/Random/URandom.swift": [546606914, 0]

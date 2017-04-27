@@ -1,0 +1,7 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.48 clang-802.0.38)"
+options: "0b12e3b58f91c52edd71594e3406d3ae"
+build_time: [546606943, 356356000]
+inputs:
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/Turnstile.git-2443676010155639616/Sources/TurnstileCrypto/BCrypt.swift": [546606901, 0]
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/Turnstile.git-2443676010155639616/Sources/TurnstileCrypto/Random.swift": [546606901, 0]
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/Turnstile.git-2443676010155639616/Sources/TurnstileCrypto/URandom.swift": [546606901, 0]

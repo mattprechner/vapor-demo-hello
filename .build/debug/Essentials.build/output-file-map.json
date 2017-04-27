@@ -1,0 +1,17 @@
+{
+  "": {
+    "swift-dependencies": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/Essentials.build/master.swiftdeps"
+  },
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/crypto.git-7980259129511365902/Sources/Essentials/ByteStream.swift": {
+    "dependencies": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/Essentials.build/ByteStream.d",
+    "object": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/Essentials.build/ByteStream.swift.o",
+    "swiftmodule": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/Essentials.build/ByteStream~partial.swiftmodule",
+    "swift-dependencies": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/Essentials.build/ByteStream.swiftdeps"
+  },
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/crypto.git-7980259129511365902/Sources/Essentials/Helpers.swift": {
+    "dependencies": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/Essentials.build/Helpers.d",
+    "object": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/Essentials.build/Helpers.swift.o",
+    "swiftmodule": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/Essentials.build/Helpers~partial.swiftmodule",
+    "swift-dependencies": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/Essentials.build/Helpers.swiftdeps"
+  }
+}

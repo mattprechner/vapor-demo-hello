@@ -1,0 +1,94 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["Ps8Sequence", ""]
+- ["Ps8Sequence", "percentDecodedString"]
+provides-dynamic-lookup:
+depends-top-level:
+- "Byte"
+- "Sequence"
+- "String"
+- !private "URIParser"
+- !private "percentDecoded"
+depends-member:
+- !private ["Ps9AnyObject", "Error"]
+- !private ["Sa", "string"]
+- !private ["Ps23BidirectionalCollection", "string"]
+- !private ["Ps7CVarArg", "string"]
+- !private ["Ps10Collection", "string"]
+- !private ["Ps28CustomDebugStringConvertible", "string"]
+- !private ["Ps17CustomReflectable", "string"]
+- !private ["Ps23CustomStringConvertible", "string"]
+- !private ["OC3URI9URIParser5Error", "deinit"]
+- !private ["OC3URI9URIParser5Error", "invalidPercentEncoding"]
+- !private ["Ps5Error", "invalidPercentEncoding"]
+- !private ["Ps25ExpressibleByArrayLiteral", "string"]
+- !private ["Ps17MutableCollection", "string"]
+- !private ["Ps22RandomAccessCollection", "string"]
+- !private ["Ps26RangeReplaceableCollection", "string"]
+- ["Ps8Sequence", "Byte"]
+- ["Ps8Sequence", "Iterator"]
+- ["Ps8Sequence", "String"]
+- !private ["Ps8Sequence", "URIParser"]
+- !private ["Ps8Sequence", "array"]
+- !private ["Ps8Sequence", "percentDecoded"]
+- ["Ps8Sequence", "percentDecodedString"]
+- !private ["Ps8Sequence", "string"]
+- !private ["C4Core16StaticDataBuffer", "Error"]
+- !private ["C3URI9URIParser", "Error"]
+- !private ["Ps14_ArrayProtocol", "string"]
+- !private ["Ps23_BidirectionalIndexable", "string"]
+- !private ["Ps24_DestructorSafeContainer", "string"]
+- !private ["Ps10_Indexable", "string"]
+- !private ["Ps14_IndexableBase", "string"]
+- !private ["Ps17_MutableIndexable", "string"]
+- !private ["Ps21_ObjectiveCBridgeable", "string"]
+- !private ["Ps22_RandomAccessIndexable", "string"]
+- !private ["Ps26_RangeReplaceableIndexable", "string"]
+depends-nominal:
+- !private "Ps9AnyObject"
+- !private "Sa"
+- !private "Ps23BidirectionalCollection"
+- !private "Ps7CVarArg"
+- !private "Ps10Collection"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- !private "OC3URI9URIParser5Error"
+- !private "Ps5Error"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps17MutableCollection"
+- !private "Ps22RandomAccessCollection"
+- !private "Ps26RangeReplaceableCollection"
+- "Ps8Sequence"
+- !private "C4Core16StaticDataBuffer"
+- !private "C3URI9URIParser"
+- !private "Ps14_ArrayProtocol"
+- !private "Ps23_BidirectionalIndexable"
+- !private "Ps24_DestructorSafeContainer"
+- !private "Ps10_Indexable"
+- !private "Ps14_IndexableBase"
+- !private "Ps17_MutableIndexable"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps22_RandomAccessIndexable"
+- !private "Ps26_RangeReplaceableIndexable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/Core.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/CLibreSSL.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.apinotesc"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/libc.swiftmodule"
+interface-hash: "0580100ae5b430315fd2d0249ec31ba5"

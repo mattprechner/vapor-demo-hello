@@ -1,0 +1,370 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "UDPInternetSocket"
+provides-nominal:
+- "C9SocksCore17UDPInternetSocket"
+provides-member:
+- ["C9SocksCore17UDPInternetSocket", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!="
+- !private "..<"
+- !private "=="
+- !private ">"
+- !private "??"
+- !private "Array"
+- "AssignmentPrecedence"
+- "BooleanLiteralType"
+- !private "BufferCapacity"
+- !private "Bytes"
+- "Darwin"
+- "Descriptor"
+- "Int"
+- !private "Int32"
+- "InternetAddress"
+- "InternetSocket"
+- !private "MemoryLayout"
+- !private "OpaquePointer"
+- "ResolvedInternetAddress"
+- "SocketConfig"
+- !private "SocksError"
+- "UDPInternetSocket"
+- "UInt8"
+- !private "UnsafeMutablePointer"
+- !private "sockaddr"
+- !private "sockaddr_storage"
+- !private "socket_close"
+- !private "socket_recvfrom"
+- !private "socket_sendto"
+- !private "socklen_t"
+depends-member:
+- !private ["Ps9AnyObject", "Array"]
+- !private ["Ps9AnyObject", "BufferCapacity"]
+- !private ["Ps9AnyObject", "Bytes"]
+- !private ["Ps9AnyObject", "MemoryLayout"]
+- !private ["Ps9AnyObject", "OpaquePointer"]
+- !private ["Ps9AnyObject", "ResolvedInternetAddress"]
+- !private ["Ps9AnyObject", "SocksError"]
+- !private ["Ps9AnyObject", "UDPInternetSocket"]
+- !private ["Ps9AnyObject", "UnsafeMutablePointer"]
+- ["Ps9AnyObject", "address"]
+- !private ["Ps9AnyObject", "capacity"]
+- !private ["Ps9AnyObject", "characters"]
+- ["Ps9AnyObject", "close"]
+- ["Ps9AnyObject", "closed"]
+- ["Ps9AnyObject", "config"]
+- !private ["Ps9AnyObject", "createNewSocket"]
+- ["Ps9AnyObject", "descriptor"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "raw"]
+- !private ["Ps9AnyObject", "rawBytes"]
+- !private ["Ps9AnyObject", "rawLen"]
+- !private ["Ps9AnyObject", "setReuseAddress"]
+- !private ["Ps9AnyObject", "socket_close"]
+- !private ["Ps9AnyObject", "socket_recvfrom"]
+- !private ["Ps9AnyObject", "socket_sendto"]
+- !private ["Ps9AnyObject", "socklen_t"]
+- ["Ps9AnyObject", ""]
+- !private ["Sa", "count"]
+- !private ["Sa", "init"]
+- !private ["Sa", "subscript"]
+- !private ["Ps23BidirectionalCollection", "count"]
+- !private ["Ps23BidirectionalCollection", "init"]
+- !private ["Ps23BidirectionalCollection", "subscript"]
+- !private ["Ps17BitwiseOperations", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["C9SocksCore5Bytes", "capacity"]
+- !private ["C9SocksCore5Bytes", "characters"]
+- !private ["C9SocksCore5Bytes", "init"]
+- !private ["C9SocksCore5Bytes", "rawBytes"]
+- !private ["Ps7CVarArg", "allocate"]
+- !private ["Ps7CVarArg", "deallocate"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps10Collection", "count"]
+- !private ["Ps10Collection", "init"]
+- !private ["Ps10Collection", "subscript"]
+- !private ["Ps10Comparable", "allocate"]
+- !private ["Ps10Comparable", "deallocate"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "allocate"]
+- !private ["Ps28CustomDebugStringConvertible", "count"]
+- !private ["Ps28CustomDebugStringConvertible", "deallocate"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "subscript"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "allocate"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "deallocate"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "allocate"]
+- !private ["Ps17CustomReflectable", "count"]
+- !private ["Ps17CustomReflectable", "deallocate"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "subscript"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "count"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "raw"]
+- !private ["Ps23CustomStringConvertible", "rawLen"]
+- !private ["Ps23CustomStringConvertible", "subscript"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "allocate"]
+- !private ["Ps9Equatable", "deallocate"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "raw"]
+- !private ["Ps9Equatable", "rawLen"]
+- !private ["Ps5Error", "init"]
+- !private ["O9SocksCore11ErrorReason", "closeSocketFailed"]
+- !private ["O9SocksCore11ErrorReason", "readFailed"]
+- !private ["O9SocksCore11ErrorReason", "sendFailedToSendAllBytes"]
+- !private ["O9SocksCore11ErrorReason", "socketIsClosed"]
+- !private ["Ps25ExpressibleByArrayLiteral", "count"]
+- !private ["Ps25ExpressibleByArrayLiteral", "init"]
+- !private ["Ps25ExpressibleByArrayLiteral", "subscript"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "init"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "allocate"]
+- !private ["Ps8Hashable", "deallocate"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps7Integer", "init"]
+- !private ["Ps17IntegerArithmetic", "init"]
+- !private ["V9SocksCore15InternetAddress", "addressFamily"]
+- !private ["V9SocksCore15InternetAddress", "resolve"]
+- !private ["P9SocksCore14InternetSocket", "Array"]
+- !private ["P9SocksCore14InternetSocket", "BufferCapacity"]
+- !private ["P9SocksCore14InternetSocket", "Bytes"]
+- !private ["P9SocksCore14InternetSocket", "MemoryLayout"]
+- !private ["P9SocksCore14InternetSocket", "OpaquePointer"]
+- !private ["P9SocksCore14InternetSocket", "ResolvedInternetAddress"]
+- !private ["P9SocksCore14InternetSocket", "SocksError"]
+- !private ["P9SocksCore14InternetSocket", "UDPInternetSocket"]
+- !private ["P9SocksCore14InternetSocket", "UnsafeMutablePointer"]
+- ["P9SocksCore14InternetSocket", "address"]
+- ["P9SocksCore14InternetSocket", "close"]
+- ["P9SocksCore14InternetSocket", "closed"]
+- ["P9SocksCore14InternetSocket", "config"]
+- !private ["P9SocksCore14InternetSocket", "createNewSocket"]
+- ["P9SocksCore14InternetSocket", "descriptor"]
+- ["P9SocksCore14InternetSocket", "init"]
+- !private ["P9SocksCore14InternetSocket", "setReuseAddress"]
+- !private ["P9SocksCore14InternetSocket", "socket_close"]
+- !private ["P9SocksCore14InternetSocket", "socket_recvfrom"]
+- !private ["P9SocksCore14InternetSocket", "socket_sendto"]
+- !private ["P9SocksCore14InternetSocket", "socklen_t"]
+- ["P9SocksCore14InternetSocket", ""]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Os12MemoryLayout", "size"]
+- !private ["Ps17MutableCollection", "count"]
+- !private ["Ps17MutableCollection", "init"]
+- !private ["Ps17MutableCollection", "subscript"]
+- !private ["Vs13OpaquePointer", "init"]
+- !private ["Ps22RandomAccessCollection", "count"]
+- !private ["Ps22RandomAccessCollection", "init"]
+- !private ["Ps22RandomAccessCollection", "subscript"]
+- !private ["Ps26RangeReplaceableCollection", "count"]
+- !private ["Ps26RangeReplaceableCollection", "init"]
+- !private ["Ps26RangeReplaceableCollection", "subscript"]
+- !private ["P9SocksCore9RawSocket", "Array"]
+- !private ["P9SocksCore9RawSocket", "BufferCapacity"]
+- !private ["P9SocksCore9RawSocket", "Bytes"]
+- !private ["P9SocksCore9RawSocket", "MemoryLayout"]
+- !private ["P9SocksCore9RawSocket", "OpaquePointer"]
+- !private ["P9SocksCore9RawSocket", "ResolvedInternetAddress"]
+- !private ["P9SocksCore9RawSocket", "SocksError"]
+- !private ["P9SocksCore9RawSocket", "UDPInternetSocket"]
+- !private ["P9SocksCore9RawSocket", "UnsafeMutablePointer"]
+- ["P9SocksCore9RawSocket", "address"]
+- ["P9SocksCore9RawSocket", "close"]
+- ["P9SocksCore9RawSocket", "closed"]
+- ["P9SocksCore9RawSocket", "config"]
+- !private ["P9SocksCore9RawSocket", "createNewSocket"]
+- ["P9SocksCore9RawSocket", "descriptor"]
+- ["P9SocksCore9RawSocket", "init"]
+- !private ["P9SocksCore9RawSocket", "setReuseAddress"]
+- !private ["P9SocksCore9RawSocket", "socket_close"]
+- !private ["P9SocksCore9RawSocket", "socket_recvfrom"]
+- !private ["P9SocksCore9RawSocket", "socket_sendto"]
+- !private ["P9SocksCore9RawSocket", "socklen_t"]
+- ["P9SocksCore9RawSocket", ""]
+- !private ["C9SocksCore23ResolvedInternetAddress", "init"]
+- !private ["C9SocksCore23ResolvedInternetAddress", "raw"]
+- !private ["C9SocksCore23ResolvedInternetAddress", "rawLen"]
+- !private ["Ps8Sequence", "count"]
+- !private ["Ps8Sequence", "init"]
+- !private ["Ps8Sequence", "subscript"]
+- !private ["P9SocksCore6Socket", "Array"]
+- !private ["P9SocksCore6Socket", "BufferCapacity"]
+- !private ["P9SocksCore6Socket", "Bytes"]
+- !private ["P9SocksCore6Socket", "MemoryLayout"]
+- !private ["P9SocksCore6Socket", "OpaquePointer"]
+- !private ["P9SocksCore6Socket", "ResolvedInternetAddress"]
+- !private ["P9SocksCore6Socket", "SocksError"]
+- !private ["P9SocksCore6Socket", "UDPInternetSocket"]
+- !private ["P9SocksCore6Socket", "UnsafeMutablePointer"]
+- ["P9SocksCore6Socket", "address"]
+- ["P9SocksCore6Socket", "close"]
+- ["P9SocksCore6Socket", "closed"]
+- ["P9SocksCore6Socket", "config"]
+- !private ["P9SocksCore6Socket", "createNewSocket"]
+- ["P9SocksCore6Socket", "descriptor"]
+- ["P9SocksCore6Socket", "init"]
+- !private ["P9SocksCore6Socket", "setReuseAddress"]
+- !private ["P9SocksCore6Socket", "socket_close"]
+- !private ["P9SocksCore6Socket", "socket_recvfrom"]
+- !private ["P9SocksCore6Socket", "socket_sendto"]
+- !private ["P9SocksCore6Socket", "socklen_t"]
+- ["P9SocksCore6Socket", ""]
+- !private ["V9SocksCore12SocketConfig", "UDP"]
+- !private ["V9SocksCore10SocksError", "deinit"]
+- !private ["V9SocksCore10SocksError", "init"]
+- !private ["Ps10Strideable", "allocate"]
+- !private ["Ps10Strideable", "deallocate"]
+- !private ["Ps10Strideable", "init"]
+- !private ["C9SocksCore17UDPInternetSocket", "Array"]
+- !private ["C9SocksCore17UDPInternetSocket", "BufferCapacity"]
+- !private ["C9SocksCore17UDPInternetSocket", "Bytes"]
+- ["C9SocksCore17UDPInternetSocket", "Descriptor"]
+- ["C9SocksCore17UDPInternetSocket", "Int"]
+- !private ["C9SocksCore17UDPInternetSocket", "Int32"]
+- ["C9SocksCore17UDPInternetSocket", "InternetAddress"]
+- !private ["C9SocksCore17UDPInternetSocket", "MemoryLayout"]
+- !private ["C9SocksCore17UDPInternetSocket", "OpaquePointer"]
+- ["C9SocksCore17UDPInternetSocket", "ResolvedInternetAddress"]
+- ["C9SocksCore17UDPInternetSocket", "SocketConfig"]
+- !private ["C9SocksCore17UDPInternetSocket", "SocksError"]
+- !private ["C9SocksCore17UDPInternetSocket", "UDPInternetSocket"]
+- ["C9SocksCore17UDPInternetSocket", "UInt8"]
+- !private ["C9SocksCore17UDPInternetSocket", "UnsafeMutablePointer"]
+- ["C9SocksCore17UDPInternetSocket", "address"]
+- ["C9SocksCore17UDPInternetSocket", "close"]
+- ["C9SocksCore17UDPInternetSocket", "closed"]
+- ["C9SocksCore17UDPInternetSocket", "config"]
+- !private ["C9SocksCore17UDPInternetSocket", "createNewSocket"]
+- ["C9SocksCore17UDPInternetSocket", "deinit"]
+- ["C9SocksCore17UDPInternetSocket", "descriptor"]
+- ["C9SocksCore17UDPInternetSocket", "init"]
+- ["C9SocksCore17UDPInternetSocket", "recvfrom"]
+- ["C9SocksCore17UDPInternetSocket", "sendto"]
+- !private ["C9SocksCore17UDPInternetSocket", "setReuseAddress"]
+- !private ["C9SocksCore17UDPInternetSocket", "sockaddr"]
+- !private ["C9SocksCore17UDPInternetSocket", "sockaddr_storage"]
+- !private ["C9SocksCore17UDPInternetSocket", "socket_close"]
+- !private ["C9SocksCore17UDPInternetSocket", "socket_recvfrom"]
+- !private ["C9SocksCore17UDPInternetSocket", "socket_sendto"]
+- !private ["C9SocksCore17UDPInternetSocket", "socklen_t"]
+- !private ["Vs6UInt32", "init"]
+- !private ["Sp", "allocate"]
+- !private ["Sp", "deallocate"]
+- !private ["Sp", "init"]
+- !private ["Ps15UnsignedInteger", "init"]
+- !private ["Ps14_ArrayProtocol", "count"]
+- !private ["Ps14_ArrayProtocol", "init"]
+- !private ["Ps14_ArrayProtocol", "subscript"]
+- !private ["Ps23_BidirectionalIndexable", "count"]
+- !private ["Ps23_BidirectionalIndexable", "init"]
+- !private ["Ps23_BidirectionalIndexable", "subscript"]
+- !private ["Ps24_DestructorSafeContainer", "count"]
+- !private ["Ps24_DestructorSafeContainer", "init"]
+- !private ["Ps24_DestructorSafeContainer", "subscript"]
+- !private ["Ps28_DisallowMixedSignArithmetic", "init"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "init"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "allocate"]
+- !private ["Ps9_Hashable", "deallocate"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps14_Incrementable", "init"]
+- !private ["Ps10_Indexable", "count"]
+- !private ["Ps10_Indexable", "init"]
+- !private ["Ps10_Indexable", "subscript"]
+- !private ["Ps14_IndexableBase", "count"]
+- !private ["Ps14_IndexableBase", "init"]
+- !private ["Ps14_IndexableBase", "subscript"]
+- !private ["Ps8_Integer", "init"]
+- !private ["Ps18_IntegerArithmetic", "init"]
+- !private ["Ps17_MutableIndexable", "count"]
+- !private ["Ps17_MutableIndexable", "init"]
+- !private ["Ps17_MutableIndexable", "subscript"]
+- !private ["Ps8_Pointer", "allocate"]
+- !private ["Ps8_Pointer", "deallocate"]
+- !private ["Ps8_Pointer", "init"]
+- !private ["Ps22_RandomAccessIndexable", "count"]
+- !private ["Ps22_RandomAccessIndexable", "init"]
+- !private ["Ps22_RandomAccessIndexable", "subscript"]
+- !private ["Ps26_RangeReplaceableIndexable", "count"]
+- !private ["Ps26_RangeReplaceableIndexable", "init"]
+- !private ["Ps26_RangeReplaceableIndexable", "subscript"]
+- !private ["Ps11_Strideable", "allocate"]
+- !private ["Ps11_Strideable", "deallocate"]
+- !private ["Ps11_Strideable", "init"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Sa"
+- !private "Ps23BidirectionalCollection"
+- !private "Ps17BitwiseOperations"
+- !private "Sb"
+- !private "C9SocksCore5Bytes"
+- !private "Ps7CVarArg"
+- !private "Ps10Collection"
+- !private "Ps10Comparable"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- !private "Ps9Equatable"
+- !private "Ps5Error"
+- !private "O9SocksCore11ErrorReason"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- !private "Ps8Hashable"
+- !private "Ps7Integer"
+- !private "Ps17IntegerArithmetic"
+- !private "V9SocksCore15InternetAddress"
+- "P9SocksCore14InternetSocket"
+- !private "Ps25LosslessStringConvertible"
+- !private "Os12MemoryLayout"
+- !private "Ps17MutableCollection"
+- !private "Vs13OpaquePointer"
+- !private "Ps22RandomAccessCollection"
+- !private "Ps26RangeReplaceableCollection"
+- "P9SocksCore9RawSocket"
+- !private "C9SocksCore23ResolvedInternetAddress"
+- !private "Ps8Sequence"
+- "P9SocksCore6Socket"
+- !private "V9SocksCore12SocketConfig"
+- !private "V9SocksCore10SocksError"
+- !private "Ps10Strideable"
+- "C9SocksCore17UDPInternetSocket"
+- !private "Vs6UInt32"
+- !private "Sp"
+- !private "Ps15UnsignedInteger"
+- !private "Ps14_ArrayProtocol"
+- !private "Ps23_BidirectionalIndexable"
+- !private "Ps24_DestructorSafeContainer"
+- !private "Ps28_DisallowMixedSignArithmetic"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps35_ExpressibleByBuiltinIntegerLiteral"
+- !private "Ps9_Hashable"
+- !private "Ps14_Incrementable"
+- !private "Ps10_Indexable"
+- !private "Ps14_IndexableBase"
+- !private "Ps8_Integer"
+- !private "Ps18_IntegerArithmetic"
+- !private "Ps17_MutableIndexable"
+- !private "Ps8_Pointer"
+- !private "Ps22_RandomAccessIndexable"
+- !private "Ps26_RangeReplaceableIndexable"
+- !private "Ps11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/CLibreSSL.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+interface-hash: "eed6db87a13f11b07f7cfd9f0f4d80e2"

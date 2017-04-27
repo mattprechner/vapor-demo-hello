@@ -1,0 +1,17 @@
+{
+  "": {
+    "swift-dependencies": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/Polymorphic.build/master.swiftdeps"
+  },
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/polymorphic.git--4354167031091999056/Sources/Polymorphic.swift": {
+    "dependencies": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/Polymorphic.build/Polymorphic.d",
+    "object": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/Polymorphic.build/Polymorphic.swift.o",
+    "swiftmodule": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/Polymorphic.build/Polymorphic~partial.swiftmodule",
+    "swift-dependencies": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/Polymorphic.build/Polymorphic.swiftdeps"
+  },
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/polymorphic.git--4354167031091999056/Sources/String+Polymorphic.swift": {
+    "dependencies": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/Polymorphic.build/String+Polymorphic.d",
+    "object": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/Polymorphic.build/String+Polymorphic.swift.o",
+    "swiftmodule": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/Polymorphic.build/String+Polymorphic~partial.swiftmodule",
+    "swift-dependencies": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/Polymorphic.build/String+Polymorphic.swiftdeps"
+  }
+}

@@ -1,0 +1,13 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.48 clang-802.0.38)"
+options: "fe4c61a3a5b935bb500a69ff6a9e3db4"
+build_time: [546606957, 917750000]
+inputs:
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/engine.git-3311994267206676365/Sources/Transport/Streams/FoundationStream.swift": [546606914, 0]
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/engine.git-3311994267206676365/Sources/Transport/Streams/Socks+Stream.swift": [546606914, 0]
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/engine.git-3311994267206676365/Sources/Transport/Streams/Stream.swift": [546606914, 0]
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/engine.git-3311994267206676365/Sources/Transport/Streams/StreamBuffer.swift": [546606914, 0]
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/engine.git-3311994267206676365/Sources/Transport/Streams/Watchable.swift": [546606914, 0]
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/engine.git-3311994267206676365/Sources/Transport/TransferProtocols/TransferProtocols.swift": [546606914, 0]
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/engine.git-3311994267206676365/Sources/Transport/Streams/ProgramStream/ClientStream.swift": [546606914, 0]
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/engine.git-3311994267206676365/Sources/Transport/Streams/ProgramStream/ProgramStream.swift": [546606914, 0]
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/engine.git-3311994267206676365/Sources/Transport/Streams/ProgramStream/ServerStream.swift": [546606914, 0]

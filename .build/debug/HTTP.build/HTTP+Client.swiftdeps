@@ -1,0 +1,624 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ClientError"
+- "BasicClient"
+- "VERSION"
+- "Client"
+- "=="
+provides-nominal:
+- "O4HTTP11ClientError"
+- "C4HTTP6Client"
+provides-member:
+- ["O4HTTP11ClientError", ""]
+- ["C4HTTP6Client", ""]
+- ["P4HTTP14ClientProtocol", ""]
+- ["P4HTTP14ClientProtocol", "assertValid"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!"
+- !private "+"
+- "=="
+- "AssignmentPrecedence"
+- "BasicClient"
+- "Client"
+- "ClientError"
+- "ClientProtocol"
+- "ClientStream"
+- "Int"
+- "Middleware"
+- "Parser"
+- "Request"
+- "Responder"
+- "Response"
+- "SecurityLayer"
+- "Serializer"
+- "Stream"
+- !private "StreamBuffer"
+- "String"
+- "StringLiteralType"
+- "Swift"
+- "TCPClientStream"
+- "TransferParser"
+- "TransferSerializer"
+- "VERSION"
+depends-member:
+- !private ["Ps9AnyObject", "ClientError"]
+- !private ["Ps9AnyObject", "ClientStreamType"]
+- !private ["Ps9AnyObject", "Handler"]
+- !private ["Ps9AnyObject", "ParserType"]
+- !private ["Ps9AnyObject", "Request"]
+- !private ["Ps9AnyObject", "SerializerType"]
+- !private ["Ps9AnyObject", "StreamBuffer"]
+- !private ["Ps9AnyObject", "VERSION"]
+- !private ["Ps9AnyObject", "assertValid"]
+- ["Ps9AnyObject", "defaultMiddleware"]
+- !private ["Ps9AnyObject", "flush"]
+- !private ["Ps9AnyObject", "headers"]
+- ["Ps9AnyObject", "host"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "isEmpty"]
+- ["Ps9AnyObject", "middleware"]
+- ["Ps9AnyObject", "port"]
+- ["Ps9AnyObject", "respond"]
+- !private ["Ps9AnyObject", "responder"]
+- ["Ps9AnyObject", "scheme"]
+- ["Ps9AnyObject", "securityLayer"]
+- ["Ps9AnyObject", "stream"]
+- !private ["Ps9AnyObject", "uri"]
+- ["Ps9AnyObject", ""]
+- !private ["Sa", "chain"]
+- !private ["Ps23BidirectionalCollection", "chain"]
+- !private ["Ps17BitwiseOperations", "hashValue"]
+- ["P4HTTP17BodyRepresentable", "init"]
+- !private ["P4HTTP17BodyRepresentable", "isEmpty"]
+- !private ["P4HTTP17BodyRepresentable", "securityLayer"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["P4Core16BytesConvertible", "init"]
+- !private ["P4Core16BytesConvertible", "isEmpty"]
+- !private ["P4Core16BytesConvertible", "securityLayer"]
+- ["P4Core18BytesInitializable", "init"]
+- !private ["P4Core18BytesInitializable", "isEmpty"]
+- !private ["P4Core18BytesInitializable", "securityLayer"]
+- ["P4Core18BytesRepresentable", "init"]
+- !private ["P4Core18BytesRepresentable", "isEmpty"]
+- !private ["P4Core18BytesRepresentable", "securityLayer"]
+- !private ["Ps7CVarArg", "chain"]
+- !private ["Ps7CVarArg", "hashValue"]
+- ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "isEmpty"]
+- !private ["Ps7CVarArg", "securityLayer"]
+- !private ["Ps7CVarArg", "subscript"]
+- !private ["C4HTTP6Client", "ClientError"]
+- !private ["C4HTTP6Client", "ClientStreamType"]
+- ["C4HTTP6Client", "Int"]
+- ["C4HTTP6Client", "Middleware"]
+- ["C4HTTP6Client", "Parser"]
+- ["C4HTTP6Client", "ParserType"]
+- ["C4HTTP6Client", "Request"]
+- ["C4HTTP6Client", "Responder"]
+- ["C4HTTP6Client", "Response"]
+- ["C4HTTP6Client", "SecurityLayer"]
+- ["C4HTTP6Client", "Serializer"]
+- ["C4HTTP6Client", "SerializerType"]
+- ["C4HTTP6Client", "Stream"]
+- !private ["C4HTTP6Client", "StreamBuffer"]
+- ["C4HTTP6Client", "String"]
+- !private ["C4HTTP6Client", "VERSION"]
+- !private ["C4HTTP6Client", "assertValid"]
+- ["C4HTTP6Client", "defaultMiddleware"]
+- ["C4HTTP6Client", "deinit"]
+- ["C4HTTP6Client", "host"]
+- ["C4HTTP6Client", "init"]
+- ["C4HTTP6Client", "middleware"]
+- ["C4HTTP6Client", "port"]
+- ["C4HTTP6Client", "respond"]
+- !private ["C4HTTP6Client", "responder"]
+- ["C4HTTP6Client", "scheme"]
+- ["C4HTTP6Client", "securityLayer"]
+- ["C4HTTP6Client", "stream"]
+- ["O4HTTP11ClientError", "=="]
+- ["O4HTTP11ClientError", "_code"]
+- ["O4HTTP11ClientError", "_domain"]
+- ["O4HTTP11ClientError", "_getEmbeddedNSError"]
+- ["O4HTTP11ClientError", "_toAnyHashable"]
+- ["O4HTTP11ClientError", "_userInfo"]
+- ["O4HTTP11ClientError", "deinit"]
+- ["O4HTTP11ClientError", "hashValue"]
+- ["O4HTTP11ClientError", "invalidRequestHost"]
+- ["O4HTTP11ClientError", "invalidRequestPort"]
+- ["O4HTTP11ClientError", "invalidRequestScheme"]
+- ["O4HTTP11ClientError", "unableToConnect"]
+- ["O4HTTP11ClientError", "userInfoNotAllowedOnHTTP"]
+- !private ["P4HTTP14ClientProtocol", "ClientError"]
+- !private ["P4HTTP14ClientProtocol", "ClientStreamType"]
+- !private ["P4HTTP14ClientProtocol", "ParserType"]
+- ["P4HTTP14ClientProtocol", "Request"]
+- !private ["P4HTTP14ClientProtocol", "SerializerType"]
+- !private ["P4HTTP14ClientProtocol", "StreamBuffer"]
+- !private ["P4HTTP14ClientProtocol", "VERSION"]
+- ["P4HTTP14ClientProtocol", "assertValid"]
+- ["P4HTTP14ClientProtocol", "defaultMiddleware"]
+- ["P4HTTP14ClientProtocol", "host"]
+- ["P4HTTP14ClientProtocol", "init"]
+- ["P4HTTP14ClientProtocol", "middleware"]
+- ["P4HTTP14ClientProtocol", "port"]
+- ["P4HTTP14ClientProtocol", "respond"]
+- !private ["P4HTTP14ClientProtocol", "responder"]
+- ["P4HTTP14ClientProtocol", "scheme"]
+- ["P4HTTP14ClientProtocol", "securityLayer"]
+- ["P4HTTP14ClientProtocol", "stream"]
+- ["P4HTTP14ClientProtocol", ""]
+- !private ["P9Transport12ClientStream", "connect"]
+- !private ["P9Transport12ClientStream", "init"]
+- !private ["Ps10Collection", "chain"]
+- !private ["Ps10Collection", "subscript"]
+- !private ["Ps10Comparable", "hashValue"]
+- ["Ps10Comparable", "init"]
+- !private ["Ps10Comparable", "isEmpty"]
+- !private ["Ps10Comparable", "securityLayer"]
+- !private ["Ps28CustomDebugStringConvertible", "chain"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "isEmpty"]
+- !private ["Ps28CustomDebugStringConvertible", "securityLayer"]
+- !private ["Ps28CustomDebugStringConvertible", "subscript"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "hashValue"]
+- ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "isEmpty"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "securityLayer"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "chain"]
+- !private ["Ps17CustomReflectable", "hashValue"]
+- ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "isEmpty"]
+- !private ["Ps17CustomReflectable", "securityLayer"]
+- !private ["Ps17CustomReflectable", "subscript"]
+- !private ["Ps23CustomStringConvertible", "Handler"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "chain"]
+- !private ["Ps23CustomStringConvertible", "hashValue"]
+- !private ["Ps23CustomStringConvertible", "headers"]
+- !private ["Ps23CustomStringConvertible", "host"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "isEmpty"]
+- !private ["Ps23CustomStringConvertible", "port"]
+- !private ["Ps23CustomStringConvertible", "scheme"]
+- !private ["Ps23CustomStringConvertible", "securityLayer"]
+- !private ["Ps23CustomStringConvertible", "subscript"]
+- !private ["Ps23CustomStringConvertible", "uri"]
+- !private ["Ps23CustomStringConvertible", "userInfo"]
+- !private ["Vs10Dictionary", "deinit"]
+- !private ["Vs10Dictionary", "subscript"]
+- ["Ps9Equatable", "_code"]
+- ["Ps9Equatable", "_domain"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- ["Ps9Equatable", "_getEmbeddedNSError"]
+- ["Ps9Equatable", "_toAnyHashable"]
+- ["Ps9Equatable", "_userInfo"]
+- !private ["Ps9Equatable", "flush"]
+- ["Ps9Equatable", "hashValue"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "invalidRequestHost"]
+- !private ["Ps9Equatable", "invalidRequestPort"]
+- !private ["Ps9Equatable", "invalidRequestScheme"]
+- !private ["Ps9Equatable", "isEmpty"]
+- !private ["Ps9Equatable", "securityLayer"]
+- !private ["Ps9Equatable", "unableToConnect"]
+- !private ["Ps9Equatable", "userInfoNotAllowedOnHTTP"]
+- ["Ps9Equatable", ""]
+- ["Ps5Error", "_code"]
+- ["Ps5Error", "_domain"]
+- ["Ps5Error", "_getEmbeddedNSError"]
+- ["Ps5Error", "_toAnyHashable"]
+- ["Ps5Error", "_userInfo"]
+- ["Ps5Error", "hashValue"]
+- !private ["Ps5Error", "invalidRequestHost"]
+- !private ["Ps5Error", "invalidRequestPort"]
+- !private ["Ps5Error", "invalidRequestScheme"]
+- !private ["Ps5Error", "unableToConnect"]
+- !private ["Ps5Error", "userInfoNotAllowedOnHTTP"]
+- ["Ps5Error", ""]
+- !private ["Ps25ExpressibleByArrayLiteral", "chain"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "subscript"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "isEmpty"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "securityLayer"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "hashValue"]
+- ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "isEmpty"]
+- !private ["Ps26ExpressibleByStringLiteral", "securityLayer"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "isEmpty"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "securityLayer"]
+- !private ["VC4HTTP7Request7Handler", "deinit"]
+- !private ["VC4HTTP7Request7Handler", "init"]
+- ["Ps8Hashable", "_code"]
+- ["Ps8Hashable", "_domain"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- ["Ps8Hashable", "_getEmbeddedNSError"]
+- ["Ps8Hashable", "_toAnyHashable"]
+- ["Ps8Hashable", "_userInfo"]
+- ["Ps8Hashable", "hashValue"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "invalidRequestHost"]
+- !private ["Ps8Hashable", "invalidRequestPort"]
+- !private ["Ps8Hashable", "invalidRequestScheme"]
+- !private ["Ps8Hashable", "isEmpty"]
+- !private ["Ps8Hashable", "securityLayer"]
+- !private ["Ps8Hashable", "unableToConnect"]
+- !private ["Ps8Hashable", "userInfoNotAllowedOnHTTP"]
+- ["Ps8Hashable", ""]
+- !private ["V4HTTP9HeaderKey", "deinit"]
+- !private ["Si", "hashValue"]
+- !private ["Ps7Integer", "hashValue"]
+- !private ["Ps17IntegerArithmetic", "hashValue"]
+- !private ["P4HTTP13KeyAccessible", "subscript"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps25LosslessStringConvertible", "isEmpty"]
+- !private ["Ps25LosslessStringConvertible", "securityLayer"]
+- !private ["C4HTTP7Message", "Handler"]
+- !private ["C4HTTP7Message", "headers"]
+- !private ["C4HTTP7Message", "uri"]
+- !private ["Ps10MirrorPath", "hashValue"]
+- ["Ps10MirrorPath", "init"]
+- !private ["Ps10MirrorPath", "isEmpty"]
+- !private ["Ps10MirrorPath", "securityLayer"]
+- !private ["Ps17MutableCollection", "chain"]
+- ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "isEmpty"]
+- !private ["PSo8NSCoding", "securityLayer"]
+- ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "isEmpty"]
+- !private ["PSo9NSCopying", "securityLayer"]
+- ["PSo16NSMutableCopying", "init"]
+- !private ["PSo16NSMutableCopying", "isEmpty"]
+- !private ["PSo16NSMutableCopying", "securityLayer"]
+- !private ["CSo8NSObject", "isEmpty"]
+- !private ["CSo8NSObject", "securityLayer"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "isEmpty"]
+- !private ["PSo16NSObjectProtocol", "securityLayer"]
+- ["PSo14NSSecureCoding", "init"]
+- !private ["PSo14NSSecureCoding", "isEmpty"]
+- !private ["PSo14NSSecureCoding", "securityLayer"]
+- ["CSo8NSString", "init"]
+- !private ["CSo8NSString", "isEmpty"]
+- !private ["CSo8NSString", "securityLayer"]
+- ["C4HTTP6Parser", "deinit"]
+- !private ["P4HTTP7Program", "ClientError"]
+- !private ["P4HTTP7Program", "ClientStreamType"]
+- !private ["P4HTTP7Program", "ParserType"]
+- ["P4HTTP7Program", "Request"]
+- !private ["P4HTTP7Program", "SerializerType"]
+- !private ["P4HTTP7Program", "StreamBuffer"]
+- !private ["P4HTTP7Program", "VERSION"]
+- !private ["P4HTTP7Program", "assertValid"]
+- ["P4HTTP7Program", "defaultMiddleware"]
+- ["P4HTTP7Program", "host"]
+- ["P4HTTP7Program", "init"]
+- ["P4HTTP7Program", "middleware"]
+- ["P4HTTP7Program", "port"]
+- ["P4HTTP7Program", "respond"]
+- !private ["P4HTTP7Program", "responder"]
+- ["P4HTTP7Program", "scheme"]
+- ["P4HTTP7Program", "securityLayer"]
+- ["P4HTTP7Program", "stream"]
+- ["P4HTTP7Program", ""]
+- !private ["P9Transport13ProgramStream", "connect"]
+- !private ["P9Transport13ProgramStream", "init"]
+- !private ["Ps22RandomAccessCollection", "chain"]
+- !private ["Ps26RangeReplaceableCollection", "chain"]
+- !private ["C4HTTP7Request", "Handler"]
+- !private ["C4HTTP7Request", "headers"]
+- !private ["C4HTTP7Request", "uri"]
+- !private ["P4HTTP9Responder", "ClientError"]
+- !private ["P4HTTP9Responder", "ClientStreamType"]
+- !private ["P4HTTP9Responder", "ParserType"]
+- ["P4HTTP9Responder", "Request"]
+- !private ["P4HTTP9Responder", "SerializerType"]
+- !private ["P4HTTP9Responder", "StreamBuffer"]
+- !private ["P4HTTP9Responder", "VERSION"]
+- !private ["P4HTTP9Responder", "assertValid"]
+- ["P4HTTP9Responder", "defaultMiddleware"]
+- ["P4HTTP9Responder", "host"]
+- ["P4HTTP9Responder", "init"]
+- ["P4HTTP9Responder", "middleware"]
+- ["P4HTTP9Responder", "port"]
+- ["P4HTTP9Responder", "respond"]
+- !private ["P4HTTP9Responder", "responder"]
+- ["P4HTTP9Responder", "scheme"]
+- ["P4HTTP9Responder", "securityLayer"]
+- ["P4HTTP9Responder", "stream"]
+- ["P4HTTP9Responder", ""]
+- ["P4HTTP21ResponseRepresentable", "init"]
+- !private ["P4HTTP21ResponseRepresentable", "isEmpty"]
+- !private ["P4HTTP21ResponseRepresentable", "securityLayer"]
+- !private ["O9Transport13SecurityLayer", "isSecure"]
+- !private ["O9Transport13SecurityLayer", "none"]
+- !private ["Ps8Sequence", "chain"]
+- !private ["Ps8Sequence", "subscript"]
+- ["C4HTTP10Serializer", "deinit"]
+- !private ["Ps13SignedInteger", "hashValue"]
+- !private ["Ps12SignedNumber", "hashValue"]
+- !private ["P9Transport6Stream", "close"]
+- !private ["P9Transport6Stream", "closed"]
+- !private ["P9Transport6Stream", "flush"]
+- !private ["P9Transport6Stream", "init"]
+- !private ["C9Transport12StreamBuffer", "flush"]
+- !private ["C9Transport12StreamBuffer", "init"]
+- !private ["Ps10Strideable", "hashValue"]
+- ["SS", "init"]
+- !private ["SS", "isEmpty"]
+- !private ["SS", "securityLayer"]
+- ["Ps16TextOutputStream", "init"]
+- !private ["Ps16TextOutputStream", "isEmpty"]
+- !private ["Ps16TextOutputStream", "securityLayer"]
+- ["Ps20TextOutputStreamable", "init"]
+- !private ["Ps20TextOutputStreamable", "isEmpty"]
+- !private ["Ps20TextOutputStreamable", "securityLayer"]
+- !private ["P9Transport15TransferMessage", "Handler"]
+- !private ["P9Transport15TransferMessage", "headers"]
+- !private ["P9Transport15TransferMessage", "uri"]
+- !private ["P9Transport14TransferParser", "init"]
+- !private ["P9Transport14TransferParser", "parse"]
+- !private ["P9Transport18TransferSerializer", "init"]
+- !private ["P9Transport18TransferSerializer", "serialize"]
+- !private ["V3URI3URI", "host"]
+- !private ["V3URI3URI", "port"]
+- !private ["V3URI3URI", "scheme"]
+- !private ["V3URI3URI", "userInfo"]
+- !private ["P9Transport9Watchable", "close"]
+- !private ["P9Transport9Watchable", "closed"]
+- !private ["P9Transport9Watchable", "flush"]
+- !private ["P9Transport9Watchable", "init"]
+- !private ["Ps14_ArrayProtocol", "chain"]
+- !private ["Ps23_BidirectionalIndexable", "chain"]
+- !private ["Ps24_DestructorSafeContainer", "chain"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "isEmpty"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "securityLayer"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "hashValue"]
+- ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "isEmpty"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "securityLayer"]
+- ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "isEmpty"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "securityLayer"]
+- ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "isEmpty"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "securityLayer"]
+- ["Ps33_ExpressibleByStringInterpolation", "init"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "isEmpty"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "securityLayer"]
+- ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "isEmpty"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "securityLayer"]
+- ["Ps9_Hashable", "_code"]
+- ["Ps9_Hashable", "_domain"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- ["Ps9_Hashable", "_getEmbeddedNSError"]
+- ["Ps9_Hashable", "_toAnyHashable"]
+- ["Ps9_Hashable", "_userInfo"]
+- ["Ps9_Hashable", "hashValue"]
+- ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "invalidRequestHost"]
+- !private ["Ps9_Hashable", "invalidRequestPort"]
+- !private ["Ps9_Hashable", "invalidRequestScheme"]
+- !private ["Ps9_Hashable", "isEmpty"]
+- !private ["Ps9_Hashable", "securityLayer"]
+- !private ["Ps9_Hashable", "unableToConnect"]
+- !private ["Ps9_Hashable", "userInfoNotAllowedOnHTTP"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps14_Incrementable", "hashValue"]
+- !private ["Ps10_Indexable", "chain"]
+- !private ["Ps10_Indexable", "subscript"]
+- !private ["Ps14_IndexableBase", "chain"]
+- !private ["Ps14_IndexableBase", "subscript"]
+- !private ["Ps8_Integer", "hashValue"]
+- !private ["Ps18_IntegerArithmetic", "hashValue"]
+- !private ["Ps17_MutableIndexable", "chain"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "chain"]
+- !private ["Ps21_ObjectiveCBridgeable", "hashValue"]
+- ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "isEmpty"]
+- !private ["Ps21_ObjectiveCBridgeable", "securityLayer"]
+- !private ["Ps21_ObjectiveCBridgeable", "subscript"]
+- !private ["Ps22_RandomAccessIndexable", "chain"]
+- !private ["Ps26_RangeReplaceableIndexable", "chain"]
+- !private ["Ps14_SignedInteger", "hashValue"]
+- !private ["Ps11_Strideable", "hashValue"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Sa"
+- !private "Ps23BidirectionalCollection"
+- !private "Ps17BitwiseOperations"
+- "P4HTTP17BodyRepresentable"
+- !private "Sb"
+- "P4Core16BytesConvertible"
+- "P4Core18BytesInitializable"
+- "P4Core18BytesRepresentable"
+- "Ps7CVarArg"
+- "C4HTTP6Client"
+- "O4HTTP11ClientError"
+- "P4HTTP14ClientProtocol"
+- !private "P9Transport12ClientStream"
+- !private "Ps10Collection"
+- "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- !private "Vs10Dictionary"
+- "Ps9Equatable"
+- "Ps5Error"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps30ExpressibleByDictionaryLiteral"
+- "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- "Ps26ExpressibleByStringLiteral"
+- "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "VC4HTTP7Request7Handler"
+- "Ps8Hashable"
+- !private "V4HTTP9HeaderKey"
+- !private "Si"
+- !private "Ps7Integer"
+- !private "Ps17IntegerArithmetic"
+- !private "P4HTTP13KeyAccessible"
+- "Ps25LosslessStringConvertible"
+- !private "C4HTTP7Message"
+- "Ps10MirrorPath"
+- !private "Ps17MutableCollection"
+- "PSo8NSCoding"
+- "PSo9NSCopying"
+- "PSo16NSMutableCopying"
+- !private "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSo14NSSecureCoding"
+- "CSo8NSString"
+- "C4HTTP6Parser"
+- "P4HTTP7Program"
+- !private "P9Transport13ProgramStream"
+- !private "Ps22RandomAccessCollection"
+- !private "Ps26RangeReplaceableCollection"
+- !private "C4HTTP7Request"
+- "P4HTTP9Responder"
+- "P4HTTP21ResponseRepresentable"
+- !private "O9Transport13SecurityLayer"
+- !private "Ps8Sequence"
+- "C4HTTP10Serializer"
+- !private "Ps13SignedInteger"
+- !private "Ps12SignedNumber"
+- !private "P9Transport6Stream"
+- !private "C9Transport12StreamBuffer"
+- !private "Ps10Strideable"
+- "SS"
+- "Ps16TextOutputStream"
+- "Ps20TextOutputStreamable"
+- !private "P9Transport15TransferMessage"
+- !private "P9Transport14TransferParser"
+- !private "P9Transport18TransferSerializer"
+- !private "V3URI3URI"
+- !private "P9Transport9Watchable"
+- !private "Ps14_ArrayProtocol"
+- !private "Ps23_BidirectionalIndexable"
+- !private "Ps24_DestructorSafeContainer"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps35_ExpressibleByBuiltinIntegerLiteral"
+- "Ps34_ExpressibleByBuiltinStringLiteral"
+- "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- "Ps33_ExpressibleByStringInterpolation"
+- "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- !private "Ps14_Incrementable"
+- !private "Ps10_Indexable"
+- !private "Ps14_IndexableBase"
+- !private "Ps8_Integer"
+- !private "Ps18_IntegerArithmetic"
+- !private "Ps17_MutableIndexable"
+- "Ps21_ObjectiveCBridgeable"
+- !private "Ps22_RandomAccessIndexable"
+- !private "Ps26_RangeReplaceableIndexable"
+- !private "Ps14_SignedInteger"
+- !private "Ps11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/CLibreSSL.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.apinotesc"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/Transport.swiftmodule"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/Core.swiftmodule"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/libc.swiftmodule"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/SocksCore.swiftmodule"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/TLS.swiftmodule"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/whrlpool.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/ui_compat.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/txt_db.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/x509v3.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/x509.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/ts.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/tls.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/ripemd.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/rc4.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/rc2.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/rand.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/poly1305.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/pkcs12.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/safestack.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/opensslfeatures.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/opensslconf.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/ossl_typ.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/ocsp.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/modes.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/md5.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/md4.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/krb5_asn.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/idea.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/gost.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/lhash.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/err.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/ui.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/rsa.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/engine.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/ssl3.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/ssl.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/srtp.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/ssl23.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/tls1.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/evp.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/ssl2.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/pem2.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/pkcs7.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/x509_vfy.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/sha.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/ec.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/ecdh.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/ecdsa.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/stack.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/pem.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/hmac.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/dtls1.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/dso.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/dsa.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/dh.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/des.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/conf_api.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/conf.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/crypto.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/comp.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/cms.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/obj_mac.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/objects.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/cmac.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/chacha.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/cast.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/camellia.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/buffer.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/blowfish.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/asn1t.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/asn1_mac.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/bio.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/bn.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/opensslv.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/asn1.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/aes.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/CLibreSSL.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/URI.swiftmodule"
+interface-hash: "b8da37b7aa6b3c075ba7915e29f5ffd7"

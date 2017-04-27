@@ -1,0 +1,6 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.48 clang-802.0.38)"
+options: "8e552e25e9e56f74677a6f6e9146a28e"
+build_time: [546606954, 381428000]
+inputs:
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/crypto.git-7980259129511365902/Sources/Cipher/Cipher.swift": [546606914, 0]
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/crypto.git-7980259129511365902/Sources/Cipher/Method.swift": [546606914, 0]

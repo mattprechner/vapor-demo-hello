@@ -1,0 +1,29 @@
+{
+  "": {
+    "swift-dependencies": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/FormData.build/master.swiftdeps"
+  },
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/multipart.git-4210556629793786970/Sources/FormData/ContentDispositionParser.swift": {
+    "dependencies": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/FormData.build/ContentDispositionParser.d",
+    "object": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/FormData.build/ContentDispositionParser.swift.o",
+    "swiftmodule": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/FormData.build/ContentDispositionParser~partial.swiftmodule",
+    "swift-dependencies": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/FormData.build/ContentDispositionParser.swiftdeps"
+  },
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/multipart.git-4210556629793786970/Sources/FormData/Field.swift": {
+    "dependencies": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/FormData.build/Field.d",
+    "object": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/FormData.build/Field.swift.o",
+    "swiftmodule": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/FormData.build/Field~partial.swiftmodule",
+    "swift-dependencies": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/FormData.build/Field.swiftdeps"
+  },
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/multipart.git-4210556629793786970/Sources/FormData/Parser.swift": {
+    "dependencies": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/FormData.build/Parser.d",
+    "object": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/FormData.build/Parser.swift.o",
+    "swiftmodule": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/FormData.build/Parser~partial.swiftmodule",
+    "swift-dependencies": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/FormData.build/Parser.swiftdeps"
+  },
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/multipart.git-4210556629793786970/Sources/FormData/Serializer.swift": {
+    "dependencies": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/FormData.build/Serializer.d",
+    "object": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/FormData.build/Serializer.swift.o",
+    "swiftmodule": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/FormData.build/Serializer~partial.swiftmodule",
+    "swift-dependencies": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/FormData.build/Serializer.swiftdeps"
+  }
+}

@@ -1,0 +1,10 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.48 clang-802.0.38)"
+options: "ef4015b5a6b88b7548f3ff163887432b"
+build_time: [546606968, 467744000]
+inputs:
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/vapor.git-5492988889259800272/Sources/Sessions/CacheSessions.swift": [546606899, 0]
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/vapor.git-5492988889259800272/Sources/Sessions/MemorySessions.swift": [546606899, 0]
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/vapor.git-5492988889259800272/Sources/Sessions/Request+Session.swift": [546606899, 0]
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/vapor.git-5492988889259800272/Sources/Sessions/Session.swift": [546606899, 0]
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/vapor.git-5492988889259800272/Sources/Sessions/SessionsMiddleware.swift": [546606899, 0]
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/vapor.git-5492988889259800272/Sources/Sessions/SessionsProtocol.swift": [546606899, 0]

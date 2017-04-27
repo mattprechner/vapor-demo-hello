@@ -1,0 +1,53 @@
+{
+  "": {
+    "swift-dependencies": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/FluentTester.build/master.swiftdeps"
+  },
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/fluent.git-6251908308727715749/Sources/FluentTester/Atom.swift": {
+    "dependencies": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/FluentTester.build/Atom.d",
+    "object": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/FluentTester.build/Atom.swift.o",
+    "swiftmodule": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/FluentTester.build/Atom~partial.swiftmodule",
+    "swift-dependencies": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/FluentTester.build/Atom.swiftdeps"
+  },
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/fluent.git-6251908308727715749/Sources/FluentTester/Compound.swift": {
+    "dependencies": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/FluentTester.build/Compound.d",
+    "object": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/FluentTester.build/Compound.swift.o",
+    "swiftmodule": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/FluentTester.build/Compound~partial.swiftmodule",
+    "swift-dependencies": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/FluentTester.build/Compound.swiftdeps"
+  },
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/fluent.git-6251908308727715749/Sources/FluentTester/Student.swift": {
+    "dependencies": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/FluentTester.build/Student.d",
+    "object": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/FluentTester.build/Student.swift.o",
+    "swiftmodule": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/FluentTester.build/Student~partial.swiftmodule",
+    "swift-dependencies": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/FluentTester.build/Student.swiftdeps"
+  },
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/fluent.git-6251908308727715749/Sources/FluentTester/Tester+InsertAndFind.swift": {
+    "dependencies": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/FluentTester.build/Tester+InsertAndFind.d",
+    "object": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/FluentTester.build/Tester+InsertAndFind.swift.o",
+    "swiftmodule": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/FluentTester.build/Tester+InsertAndFind~partial.swiftmodule",
+    "swift-dependencies": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/FluentTester.build/Tester+InsertAndFind.swiftdeps"
+  },
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/fluent.git-6251908308727715749/Sources/FluentTester/Tester+PivotsAndRelations.swift": {
+    "dependencies": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/FluentTester.build/Tester+PivotsAndRelations.d",
+    "object": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/FluentTester.build/Tester+PivotsAndRelations.swift.o",
+    "swiftmodule": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/FluentTester.build/Tester+PivotsAndRelations~partial.swiftmodule",
+    "swift-dependencies": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/FluentTester.build/Tester+PivotsAndRelations.swiftdeps"
+  },
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/fluent.git-6251908308727715749/Sources/FluentTester/Tester+Schema.swift": {
+    "dependencies": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/FluentTester.build/Tester+Schema.d",
+    "object": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/FluentTester.build/Tester+Schema.swift.o",
+    "swiftmodule": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/FluentTester.build/Tester+Schema~partial.swiftmodule",
+    "swift-dependencies": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/FluentTester.build/Tester+Schema.swiftdeps"
+  },
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/fluent.git-6251908308727715749/Sources/FluentTester/Tester+Utilities.swift": {
+    "dependencies": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/FluentTester.build/Tester+Utilities.d",
+    "object": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/FluentTester.build/Tester+Utilities.swift.o",
+    "swiftmodule": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/FluentTester.build/Tester+Utilities~partial.swiftmodule",
+    "swift-dependencies": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/FluentTester.build/Tester+Utilities.swiftdeps"
+  },
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/fluent.git-6251908308727715749/Sources/FluentTester/Tester.swift": {
+    "dependencies": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/FluentTester.build/Tester.d",
+    "object": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/FluentTester.build/Tester.swift.o",
+    "swiftmodule": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/FluentTester.build/Tester~partial.swiftmodule",
+    "swift-dependencies": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/FluentTester.build/Tester.swiftdeps"
+  }
+}

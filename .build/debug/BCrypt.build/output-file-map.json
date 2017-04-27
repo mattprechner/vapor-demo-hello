@@ -1,0 +1,17 @@
+{
+  "": {
+    "swift-dependencies": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/BCrypt.build/master.swiftdeps"
+  },
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/crypto.git-7980259129511365902/Sources/BCrypt/BCrypt+Deprecated.swift": {
+    "dependencies": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/BCrypt.build/BCrypt+Deprecated.d",
+    "object": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/BCrypt.build/BCrypt+Deprecated.swift.o",
+    "swiftmodule": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/BCrypt.build/BCrypt+Deprecated~partial.swiftmodule",
+    "swift-dependencies": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/BCrypt.build/BCrypt+Deprecated.swiftdeps"
+  },
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/crypto.git-7980259129511365902/Sources/BCrypt/BCrypt.swift": {
+    "dependencies": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/BCrypt.build/BCrypt.d",
+    "object": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/BCrypt.build/BCrypt.swift.o",
+    "swiftmodule": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/BCrypt.build/BCrypt~partial.swiftmodule",
+    "swift-dependencies": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/BCrypt.build/BCrypt.swiftdeps"
+  }
+}

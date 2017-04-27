@@ -1,0 +1,7 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.48 clang-802.0.38)"
+options: "b18ab0ae37df7f1814dbea8520190567"
+build_time: [546606966, 155859000]
+inputs:
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/routing.git-5366657101075133678/Sources/TypeSafeRouting/Generated.swift": [546606906, 0]
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/routing.git-5366657101075133678/Sources/TypeSafeRouting/StringInitializable.swift": [546606906, 0]
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/routing.git-5366657101075133678/Sources/TypeSafeRouting/TypeSafeRoutingError.swift": [546606906, 0]

@@ -1,0 +1,72 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Context"
+- "EmptyNode"
+provides-nominal:
+- "P4Node7Context"
+- "O4Node4Node"
+- "Sa"
+- "Vs10Dictionary"
+provides-member:
+- ["P4Node7Context", ""]
+- ["O4Node4Node", ""]
+- ["Sa", ""]
+- ["Vs10Dictionary", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "Array"
+- "Context"
+- "Dictionary"
+- "EmptyNode"
+- "Node"
+depends-member:
+- ["Sa", "deinit"]
+- ["P4Node7Context", "object"]
+- ["P4Node7Context", ""]
+- ["Vs10Dictionary", "deinit"]
+- ["Ps9Equatable", "object"]
+- ["Ps25ExpressibleByArrayLiteral", "object"]
+- ["Ps27ExpressibleByBooleanLiteral", "object"]
+- ["Ps30ExpressibleByDictionaryLiteral", "object"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "object"]
+- ["Ps25ExpressibleByFloatLiteral", "object"]
+- ["Ps27ExpressibleByIntegerLiteral", "object"]
+- ["Ps23ExpressibleByNilLiteral", "object"]
+- ["Ps26ExpressibleByStringLiteral", "object"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "object"]
+- ["O4Node4Node", "deinit"]
+- ["O4Node4Node", "object"]
+- ["P4Node10NodeBacked", "object"]
+- ["P4Node15NodeConvertible", "object"]
+- ["P4Node17NodeInitializable", "object"]
+- ["P4Node17NodeRepresentable", "object"]
+- ["P13PathIndexable13PathIndexable", "object"]
+- ["P11Polymorphic11Polymorphic", "object"]
+depends-nominal:
+- "Sa"
+- "P4Node7Context"
+- "Vs10Dictionary"
+- "Ps9Equatable"
+- "Ps25ExpressibleByArrayLiteral"
+- "Ps27ExpressibleByBooleanLiteral"
+- "Ps30ExpressibleByDictionaryLiteral"
+- "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- "Ps25ExpressibleByFloatLiteral"
+- "Ps27ExpressibleByIntegerLiteral"
+- "Ps23ExpressibleByNilLiteral"
+- "Ps26ExpressibleByStringLiteral"
+- "Ps33ExpressibleByUnicodeScalarLiteral"
+- "O4Node4Node"
+- "P4Node10NodeBacked"
+- "P4Node15NodeConvertible"
+- "P4Node17NodeInitializable"
+- "P4Node17NodeRepresentable"
+- "P13PathIndexable13PathIndexable"
+- "P11Polymorphic11Polymorphic"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/Polymorphic.swiftmodule"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/PathIndexable.swiftmodule"
+interface-hash: "553a519b54b527ddce944dc338bfdeef"

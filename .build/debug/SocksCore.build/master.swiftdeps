@@ -1,0 +1,19 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.48 clang-802.0.38)"
+options: "97083304b323112963a94c486c87b34e"
+build_time: [546606943, 351841000]
+inputs:
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/socks.git--8001262774462276871/Sources/SocksCore/Address+C.swift": [546606908, 0]
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/socks.git--8001262774462276871/Sources/SocksCore/Address.swift": [546606908, 0]
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/socks.git--8001262774462276871/Sources/SocksCore/Bytes.swift": [546606908, 0]
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/socks.git--8001262774462276871/Sources/SocksCore/Conversions.swift": [546606908, 0]
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/socks.git--8001262774462276871/Sources/SocksCore/Error.swift": [546606908, 0]
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/socks.git--8001262774462276871/Sources/SocksCore/FDSet.swift": [546606908, 0]
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/socks.git--8001262774462276871/Sources/SocksCore/InternetSocket.swift": [546606908, 0]
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/socks.git--8001262774462276871/Sources/SocksCore/Pipe.swift": [546606908, 0]
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/socks.git--8001262774462276871/Sources/SocksCore/Select.swift": [546606908, 0]
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/socks.git--8001262774462276871/Sources/SocksCore/Socket.swift": [546606908, 0]
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/socks.git--8001262774462276871/Sources/SocksCore/SocketOptions+Deprecated.swift": [546606908, 0]
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/socks.git--8001262774462276871/Sources/SocksCore/SocketOptions.swift": [546606908, 0]
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/socks.git--8001262774462276871/Sources/SocksCore/TCPSocket.swift": [546606908, 0]
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/socks.git--8001262774462276871/Sources/SocksCore/Types.swift": [546606908, 0]
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/socks.git--8001262774462276871/Sources/SocksCore/UDPSocket.swift": [546606908, 0]

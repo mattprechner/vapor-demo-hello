@@ -1,0 +1,320 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "WebMemoryRealm"
+- "MemoryAccount"
+provides-nominal:
+- "C12TurnstileWeb14WebMemoryRealm"
+- "V12TurnstileWeb13MemoryAccount"
+provides-member:
+- ["C12TurnstileWeb14WebMemoryRealm", ""]
+- ["V12TurnstileWeb13MemoryAccount", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "&&"
+- !private "=="
+- !private "APIKey"
+- "Account"
+- !private "AccountTakenError"
+- "AssignmentPrecedence"
+- "Credentials"
+- !private "DigitsAccount"
+- !private "FacebookAccount"
+- !private "GoogleAccount"
+- !private "IncorrectCredentialsError"
+- "MemoryAccount"
+- "Random"
+- "Realm"
+- "String"
+- "URandom"
+- !private "UnsupportedCredentialsError"
+- !private "UsernamePassword"
+- "WebMemoryRealm"
+depends-member:
+- !private ["C9Turnstile6APIKey", "id"]
+- !private ["C9Turnstile6APIKey", "secret"]
+- ["P9Turnstile7Account", "URandom"]
+- !private ["P9Turnstile7Account", "apiKeySecret"]
+- !private ["P9Turnstile7Account", "digitsID"]
+- !private ["P9Turnstile7Account", "facebookID"]
+- !private ["P9Turnstile7Account", "googleID"]
+- !private ["P9Turnstile7Account", "init"]
+- !private ["P9Turnstile7Account", "password"]
+- ["P9Turnstile7Account", "uniqueID"]
+- !private ["P9Turnstile7Account", "username"]
+- ["P9Turnstile7Account", ""]
+- !private ["V9Turnstile17AccountTakenError", "init"]
+- !private ["Ps9AnyObject", "AccountTakenError"]
+- !private ["Ps9AnyObject", "IncorrectCredentialsError"]
+- ["Ps9AnyObject", "MemoryAccount"]
+- !private ["Ps9AnyObject", "String"]
+- ["Ps9AnyObject", "URandom"]
+- !private ["Ps9AnyObject", "UnsupportedCredentialsError"]
+- !private ["Ps9AnyObject", "accounts"]
+- ["Ps9AnyObject", "authenticate"]
+- !private ["Ps9AnyObject", "id"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "password"]
+- !private ["Ps9AnyObject", "random"]
+- ["Ps9AnyObject", "register"]
+- !private ["Ps9AnyObject", "secret"]
+- ["Ps9AnyObject", "secureToken"]
+- !private ["Ps9AnyObject", "username"]
+- ["Ps9AnyObject", ""]
+- !private ["Sa", "append"]
+- !private ["Sa", "filter"]
+- !private ["Sa", "first"]
+- ["Sa", "init"]
+- !private ["Ps23BidirectionalCollection", "append"]
+- !private ["Ps23BidirectionalCollection", "filter"]
+- !private ["Ps23BidirectionalCollection", "first"]
+- ["Ps23BidirectionalCollection", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Ps7CVarArg", "append"]
+- !private ["Ps7CVarArg", "filter"]
+- !private ["Ps7CVarArg", "first"]
+- ["Ps7CVarArg", "init"]
+- !private ["Ps10Collection", "append"]
+- !private ["Ps10Collection", "filter"]
+- !private ["Ps10Collection", "first"]
+- ["Ps10Collection", "init"]
+- !private ["Ps10Comparable", "init"]
+- !private ["P9Turnstile11Credentials", "id"]
+- !private ["P9Turnstile11Credentials", "password"]
+- !private ["P9Turnstile11Credentials", "secret"]
+- !private ["P9Turnstile11Credentials", "uniqueID"]
+- !private ["P9Turnstile11Credentials", "username"]
+- !private ["P9Turnstile16CredentialsError", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "append"]
+- !private ["Ps28CustomDebugStringConvertible", "filter"]
+- !private ["Ps28CustomDebugStringConvertible", "first"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "append"]
+- !private ["Ps17CustomReflectable", "filter"]
+- !private ["Ps17CustomReflectable", "first"]
+- ["Ps17CustomReflectable", "init"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "append"]
+- !private ["Ps23CustomStringConvertible", "filter"]
+- !private ["Ps23CustomStringConvertible", "first"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["V12TurnstileWeb13DigitsAccount", "deinit"]
+- !private ["V12TurnstileWeb13DigitsAccount", "uniqueID"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps5Error", "init"]
+- !private ["Ps25ExpressibleByArrayLiteral", "append"]
+- !private ["Ps25ExpressibleByArrayLiteral", "filter"]
+- !private ["Ps25ExpressibleByArrayLiteral", "first"]
+- ["Ps25ExpressibleByArrayLiteral", "init"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["V12TurnstileWeb15FacebookAccount", "deinit"]
+- !private ["V12TurnstileWeb15FacebookAccount", "uniqueID"]
+- !private ["V12TurnstileWeb13GoogleAccount", "deinit"]
+- !private ["V12TurnstileWeb13GoogleAccount", "uniqueID"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "init"]
+- !private ["V9Turnstile25IncorrectCredentialsError", "init"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- ["V12TurnstileWeb13MemoryAccount", "String"]
+- ["V12TurnstileWeb13MemoryAccount", "URandom"]
+- ["V12TurnstileWeb13MemoryAccount", "apiKeySecret"]
+- ["V12TurnstileWeb13MemoryAccount", "deinit"]
+- !private ["V12TurnstileWeb13MemoryAccount", "digitsID"]
+- ["V12TurnstileWeb13MemoryAccount", "facebookID"]
+- ["V12TurnstileWeb13MemoryAccount", "googleID"]
+- ["V12TurnstileWeb13MemoryAccount", "init"]
+- ["V12TurnstileWeb13MemoryAccount", "password"]
+- ["V12TurnstileWeb13MemoryAccount", "uniqueID"]
+- ["V12TurnstileWeb13MemoryAccount", "username"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["Ps17MutableCollection", "append"]
+- !private ["Ps17MutableCollection", "filter"]
+- !private ["Ps17MutableCollection", "first"]
+- ["Ps17MutableCollection", "init"]
+- ["P15TurnstileCrypto6Random", "init"]
+- ["P15TurnstileCrypto6Random", "secureToken"]
+- !private ["Ps22RandomAccessCollection", "append"]
+- !private ["Ps22RandomAccessCollection", "filter"]
+- !private ["Ps22RandomAccessCollection", "first"]
+- ["Ps22RandomAccessCollection", "init"]
+- !private ["Ps26RangeReplaceableCollection", "append"]
+- !private ["Ps26RangeReplaceableCollection", "filter"]
+- !private ["Ps26RangeReplaceableCollection", "first"]
+- ["Ps26RangeReplaceableCollection", "init"]
+- !private ["P9Turnstile5Realm", "AccountTakenError"]
+- !private ["P9Turnstile5Realm", "IncorrectCredentialsError"]
+- ["P9Turnstile5Realm", "MemoryAccount"]
+- !private ["P9Turnstile5Realm", "String"]
+- ["P9Turnstile5Realm", "URandom"]
+- !private ["P9Turnstile5Realm", "UnsupportedCredentialsError"]
+- !private ["P9Turnstile5Realm", "accounts"]
+- ["P9Turnstile5Realm", "authenticate"]
+- !private ["P9Turnstile5Realm", "random"]
+- ["P9Turnstile5Realm", "register"]
+- ["P9Turnstile5Realm", ""]
+- !private ["Ps8Sequence", "append"]
+- !private ["Ps8Sequence", "filter"]
+- !private ["Ps8Sequence", "first"]
+- ["Ps8Sequence", "init"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["P9Turnstile14TurnstileError", "init"]
+- ["C15TurnstileCrypto7URandom", "init"]
+- ["C15TurnstileCrypto7URandom", "secureToken"]
+- !private ["V9Turnstile27UnsupportedCredentialsError", "init"]
+- !private ["C9Turnstile16UsernamePassword", "password"]
+- !private ["C9Turnstile16UsernamePassword", "username"]
+- !private ["C12TurnstileWeb14WebMemoryRealm", "APIKey"]
+- ["C12TurnstileWeb14WebMemoryRealm", "Account"]
+- !private ["C12TurnstileWeb14WebMemoryRealm", "AccountTakenError"]
+- ["C12TurnstileWeb14WebMemoryRealm", "Credentials"]
+- !private ["C12TurnstileWeb14WebMemoryRealm", "DigitsAccount"]
+- !private ["C12TurnstileWeb14WebMemoryRealm", "FacebookAccount"]
+- !private ["C12TurnstileWeb14WebMemoryRealm", "GoogleAccount"]
+- !private ["C12TurnstileWeb14WebMemoryRealm", "IncorrectCredentialsError"]
+- ["C12TurnstileWeb14WebMemoryRealm", "MemoryAccount"]
+- ["C12TurnstileWeb14WebMemoryRealm", "Random"]
+- !private ["C12TurnstileWeb14WebMemoryRealm", "String"]
+- ["C12TurnstileWeb14WebMemoryRealm", "URandom"]
+- !private ["C12TurnstileWeb14WebMemoryRealm", "UnsupportedCredentialsError"]
+- !private ["C12TurnstileWeb14WebMemoryRealm", "UsernamePassword"]
+- !private ["C12TurnstileWeb14WebMemoryRealm", "accounts"]
+- ["C12TurnstileWeb14WebMemoryRealm", "authenticate"]
+- ["C12TurnstileWeb14WebMemoryRealm", "deinit"]
+- ["C12TurnstileWeb14WebMemoryRealm", "init"]
+- !private ["C12TurnstileWeb14WebMemoryRealm", "random"]
+- ["C12TurnstileWeb14WebMemoryRealm", "register"]
+- !private ["Ps14_ArrayProtocol", "append"]
+- !private ["Ps14_ArrayProtocol", "filter"]
+- !private ["Ps14_ArrayProtocol", "first"]
+- ["Ps14_ArrayProtocol", "init"]
+- !private ["Ps23_BidirectionalIndexable", "append"]
+- !private ["Ps23_BidirectionalIndexable", "filter"]
+- !private ["Ps23_BidirectionalIndexable", "first"]
+- ["Ps23_BidirectionalIndexable", "init"]
+- !private ["Ps24_DestructorSafeContainer", "append"]
+- !private ["Ps24_DestructorSafeContainer", "filter"]
+- !private ["Ps24_DestructorSafeContainer", "first"]
+- ["Ps24_DestructorSafeContainer", "init"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "init"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps10_Indexable", "append"]
+- !private ["Ps10_Indexable", "filter"]
+- !private ["Ps10_Indexable", "first"]
+- ["Ps10_Indexable", "init"]
+- !private ["Ps14_IndexableBase", "append"]
+- !private ["Ps14_IndexableBase", "filter"]
+- !private ["Ps14_IndexableBase", "first"]
+- ["Ps14_IndexableBase", "init"]
+- !private ["Ps17_MutableIndexable", "append"]
+- !private ["Ps17_MutableIndexable", "filter"]
+- !private ["Ps17_MutableIndexable", "first"]
+- ["Ps17_MutableIndexable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "append"]
+- !private ["Ps21_ObjectiveCBridgeable", "filter"]
+- !private ["Ps21_ObjectiveCBridgeable", "first"]
+- ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps22_RandomAccessIndexable", "append"]
+- !private ["Ps22_RandomAccessIndexable", "filter"]
+- !private ["Ps22_RandomAccessIndexable", "first"]
+- ["Ps22_RandomAccessIndexable", "init"]
+- !private ["Ps26_RangeReplaceableIndexable", "append"]
+- !private ["Ps26_RangeReplaceableIndexable", "filter"]
+- !private ["Ps26_RangeReplaceableIndexable", "first"]
+- ["Ps26_RangeReplaceableIndexable", "init"]
+depends-nominal:
+- !private "C9Turnstile6APIKey"
+- "P9Turnstile7Account"
+- !private "V9Turnstile17AccountTakenError"
+- "Ps9AnyObject"
+- "Sa"
+- "Ps23BidirectionalCollection"
+- !private "Sb"
+- "Ps7CVarArg"
+- "Ps10Collection"
+- !private "Ps10Comparable"
+- !private "P9Turnstile11Credentials"
+- !private "P9Turnstile16CredentialsError"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- !private "V12TurnstileWeb13DigitsAccount"
+- !private "Ps9Equatable"
+- !private "Ps5Error"
+- "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "V12TurnstileWeb15FacebookAccount"
+- !private "V12TurnstileWeb13GoogleAccount"
+- !private "Ps8Hashable"
+- !private "V9Turnstile25IncorrectCredentialsError"
+- !private "Ps25LosslessStringConvertible"
+- "V12TurnstileWeb13MemoryAccount"
+- !private "Ps10MirrorPath"
+- "Ps17MutableCollection"
+- "P15TurnstileCrypto6Random"
+- "Ps22RandomAccessCollection"
+- "Ps26RangeReplaceableCollection"
+- "P9Turnstile5Realm"
+- "Ps8Sequence"
+- !private "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- !private "P9Turnstile14TurnstileError"
+- "C15TurnstileCrypto7URandom"
+- !private "V9Turnstile27UnsupportedCredentialsError"
+- !private "C9Turnstile16UsernamePassword"
+- "C12TurnstileWeb14WebMemoryRealm"
+- "Ps14_ArrayProtocol"
+- "Ps23_BidirectionalIndexable"
+- "Ps24_DestructorSafeContainer"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps33_ExpressibleByStringInterpolation"
+- !private "Ps9_Hashable"
+- "Ps10_Indexable"
+- "Ps14_IndexableBase"
+- "Ps17_MutableIndexable"
+- "Ps21_ObjectiveCBridgeable"
+- "Ps22_RandomAccessIndexable"
+- "Ps26_RangeReplaceableIndexable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/CLibreSSL.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.apinotesc"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/Turnstile.swiftmodule"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/TurnstileCrypto.swiftmodule"
+interface-hash: "f584bc7efe2a07a180d3b288829884e3"

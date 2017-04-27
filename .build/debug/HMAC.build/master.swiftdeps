@@ -1,0 +1,6 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.48 clang-802.0.38)"
+options: "e997976b9e2dd9494cb2872da99fbd93"
+build_time: [546606956, 330394000]
+inputs:
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/crypto.git-7980259129511365902/Sources/HMAC/HMAC.swift": [546606914, 0]
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/crypto.git-7980259129511365902/Sources/HMAC/Method.swift": [546606914, 0]

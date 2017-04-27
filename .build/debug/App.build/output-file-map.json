@@ -1,0 +1,23 @@
+{
+  "": {
+    "swift-dependencies": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/App.build/master.swiftdeps"
+  },
+  "/Users/mprechner/vapor-demo/HelloWorld/Sources/App/main.swift": {
+    "dependencies": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/App.build/main.d",
+    "object": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/App.build/main.swift.o",
+    "swiftmodule": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/App.build/main~partial.swiftmodule",
+    "swift-dependencies": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/App.build/main.swiftdeps"
+  },
+  "/Users/mprechner/vapor-demo/HelloWorld/Sources/App/Controllers/PostController.swift": {
+    "dependencies": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/App.build/PostController.d",
+    "object": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/App.build/Controllers/PostController.swift.o",
+    "swiftmodule": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/App.build/PostController~partial.swiftmodule",
+    "swift-dependencies": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/App.build/PostController.swiftdeps"
+  },
+  "/Users/mprechner/vapor-demo/HelloWorld/Sources/App/Models/Post.swift": {
+    "dependencies": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/App.build/Post.d",
+    "object": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/App.build/Models/Post.swift.o",
+    "swiftmodule": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/App.build/Post~partial.swiftmodule",
+    "swift-dependencies": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/App.build/Post.swiftdeps"
+  }
+}

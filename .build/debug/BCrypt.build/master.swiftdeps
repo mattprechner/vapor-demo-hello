@@ -1,0 +1,6 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.48 clang-802.0.38)"
+options: "e5ed4b5da36ce1ba71e48113fde2c8c6"
+build_time: [546606956, 337537000]
+inputs:
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/crypto.git-7980259129511365902/Sources/BCrypt/BCrypt+Deprecated.swift": [546606914, 0]
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/crypto.git-7980259129511365902/Sources/BCrypt/BCrypt.swift": [546606914, 0]

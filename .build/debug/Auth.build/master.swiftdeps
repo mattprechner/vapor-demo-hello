@@ -1,0 +1,19 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.48 clang-802.0.38)"
+options: "280158d689d2f6a2efff37c0c0c1bbcf"
+build_time: [546606968, 463783000]
+inputs:
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/vapor.git-5492988889259800272/Sources/Auth/Authentication/AuthError.swift": [546606899, 0]
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/vapor.git-5492988889259800272/Sources/Auth/Authentication/AuthMiddleware.swift": [546606899, 0]
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/vapor.git-5492988889259800272/Sources/Auth/Authentication/CacheSessionManager.swift": [546606899, 0]
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/vapor.git-5492988889259800272/Sources/Auth/Authentication/LoginRedirectMiddleware.swift": [546606899, 0]
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/vapor.git-5492988889259800272/Sources/Auth/Authentication/ProtectMiddleware.swift": [546606899, 0]
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/vapor.git-5492988889259800272/Sources/Auth/Authentication/Request+Subject.swift": [546606899, 0]
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/vapor.git-5492988889259800272/Sources/Auth/Authentication/Authenticator/Authenticator.swift": [546606899, 0]
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/vapor.git-5492988889259800272/Sources/Auth/Authentication/Authenticator/Realm.swift": [546606899, 0]
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/vapor.git-5492988889259800272/Sources/Auth/Authentication/Authenticator/User+Authenticator.swift": [546606899, 0]
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/vapor.git-5492988889259800272/Sources/Auth/Authentication/Credentials/Identifier.swift": [546606899, 0]
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/vapor.git-5492988889259800272/Sources/Auth/Authentication/Header/Authorization.swift": [546606899, 0]
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/vapor.git-5492988889259800272/Sources/Auth/Authentication/Header/Basic.swift": [546606899, 0]
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/vapor.git-5492988889259800272/Sources/Auth/Authentication/Header/Bearer.swift": [546606899, 0]
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/vapor.git-5492988889259800272/Sources/Auth/Authentication/Header/Request+Authorization.swift": [546606899, 0]
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/vapor.git-5492988889259800272/Sources/Auth/Authentication/User/User.swift": [546606899, 0]

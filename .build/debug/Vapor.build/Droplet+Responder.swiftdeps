@@ -1,0 +1,626 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+- "C5Vapor7Droplet"
+provides-member:
+- ["C5Vapor7Droplet", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!="
+- !private "&&"
+- !private "=="
+- !private "Abort"
+- !private "Array"
+- "AssignmentPrecedence"
+- !private "BooleanLiteralType"
+- "Dictionary"
+- "Droplet"
+- !private "ErrorView"
+- !private "HTTP"
+- !private "JSON"
+- "Request"
+- "Responder"
+- "Response"
+- !private "StringLiteralType"
+- !private "UnicodeScalarType"
+depends-member:
+- !private ["O5Vapor5Abort", "deinit"]
+- !private ["O5Vapor5Abort", "notFound"]
+- !private ["P5Vapor10AbortError", "notFound"]
+- !private ["Ps9AnyObject", "Abort"]
+- !private ["Ps9AnyObject", "ErrorView"]
+- !private ["Ps9AnyObject", "Handler"]
+- !private ["Ps9AnyObject", "JSON"]
+- !private ["Ps9AnyObject", "Request"]
+- !private ["Ps9AnyObject", "Response"]
+- !private ["Ps9AnyObject", "accept"]
+- !private ["Ps9AnyObject", "body"]
+- !private ["Ps9AnyObject", "bytes"]
+- !private ["Ps9AnyObject", "environment"]
+- !private ["Ps9AnyObject", "headers"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "json"]
+- !private ["Ps9AnyObject", "log"]
+- !private ["Ps9AnyObject", "makeResponse"]
+- !private ["Ps9AnyObject", "method"]
+- !private ["Ps9AnyObject", "middleware"]
+- ["Ps9AnyObject", "respond"]
+- !private ["Ps9AnyObject", "route"]
+- !private ["Ps9AnyObject", "router"]
+- !private ["Ps9AnyObject", "shared"]
+- !private ["Ps9AnyObject", "status"]
+- !private ["Ps9AnyObject", "uri"]
+- !private ["Sa", "chain"]
+- !private ["Sa", "contains"]
+- !private ["Sa", "prefers"]
+- !private ["Ps23BidirectionalCollection", "chain"]
+- !private ["Ps23BidirectionalCollection", "contains"]
+- !private ["Ps23BidirectionalCollection", "prefers"]
+- !private ["O4HTTP4Body", "data"]
+- !private ["P4HTTP17BodyRepresentable", "bytes"]
+- !private ["P4HTTP17BodyRepresentable", "data"]
+- !private ["P4HTTP17BodyRepresentable", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["P4Core16BytesConvertible", "bytes"]
+- !private ["P4Core16BytesConvertible", "init"]
+- !private ["P4Core18BytesInitializable", "bytes"]
+- !private ["P4Core18BytesInitializable", "init"]
+- !private ["P4Core18BytesRepresentable", "bytes"]
+- !private ["P4Core18BytesRepresentable", "init"]
+- !private ["Ps7CVarArg", "bytes"]
+- !private ["Ps7CVarArg", "chain"]
+- !private ["Ps7CVarArg", "contains"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "prefers"]
+- !private ["Ps7CVarArg", "subscript"]
+- !private ["Ps10Collection", "chain"]
+- !private ["Ps10Collection", "contains"]
+- !private ["Ps10Collection", "prefers"]
+- !private ["Ps10Collection", "subscript"]
+- !private ["Ps10Comparable", "bytes"]
+- !private ["Ps10Comparable", "init"]
+- !private ["P4Node7Context", "chain"]
+- !private ["P4Node7Context", "contains"]
+- !private ["P4Node7Context", "prefers"]
+- !private ["P4Node7Context", "subscript"]
+- !private ["P5Vapor9Countable", "bytes"]
+- !private ["P5Vapor9Countable", "chain"]
+- !private ["P5Vapor9Countable", "contains"]
+- !private ["P5Vapor9Countable", "init"]
+- !private ["P5Vapor9Countable", "prefers"]
+- !private ["P5Vapor9Countable", "subscript"]
+- !private ["Ps28CustomDebugStringConvertible", "bytes"]
+- !private ["Ps28CustomDebugStringConvertible", "chain"]
+- !private ["Ps28CustomDebugStringConvertible", "contains"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "prefers"]
+- !private ["Ps28CustomDebugStringConvertible", "subscript"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "bytes"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "bytes"]
+- !private ["Ps17CustomReflectable", "chain"]
+- !private ["Ps17CustomReflectable", "contains"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "prefers"]
+- !private ["Ps17CustomReflectable", "subscript"]
+- !private ["Ps23CustomStringConvertible", "Handler"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "accept"]
+- !private ["Ps23CustomStringConvertible", "body"]
+- !private ["Ps23CustomStringConvertible", "bytes"]
+- !private ["Ps23CustomStringConvertible", "chain"]
+- !private ["Ps23CustomStringConvertible", "contains"]
+- !private ["Ps23CustomStringConvertible", "delete"]
+- !private ["Ps23CustomStringConvertible", "get"]
+- ["Ps23CustomStringConvertible", "head"]
+- !private ["Ps23CustomStringConvertible", "headers"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "json"]
+- !private ["Ps23CustomStringConvertible", "method"]
+- !private ["Ps23CustomStringConvertible", "options"]
+- !private ["Ps23CustomStringConvertible", "patch"]
+- !private ["Ps23CustomStringConvertible", "path"]
+- !private ["Ps23CustomStringConvertible", "post"]
+- !private ["Ps23CustomStringConvertible", "prefers"]
+- !private ["Ps23CustomStringConvertible", "production"]
+- !private ["Ps23CustomStringConvertible", "put"]
+- !private ["Ps23CustomStringConvertible", "status"]
+- !private ["Ps23CustomStringConvertible", "subscript"]
+- !private ["Ps23CustomStringConvertible", "uri"]
+- !private ["Vs10Dictionary", "subscript"]
+- !private ["C5Vapor7Droplet", "Abort"]
+- !private ["C5Vapor7Droplet", "ErrorView"]
+- !private ["C5Vapor7Droplet", "HTTP"]
+- !private ["C5Vapor7Droplet", "JSON"]
+- ["C5Vapor7Droplet", "Request"]
+- !private ["C5Vapor7Droplet", "Responder"]
+- ["C5Vapor7Droplet", "Response"]
+- ["C5Vapor7Droplet", "deinit"]
+- !private ["C5Vapor7Droplet", "environment"]
+- !private ["C5Vapor7Droplet", "log"]
+- !private ["C5Vapor7Droplet", "middleware"]
+- ["C5Vapor7Droplet", "respond"]
+- !private ["C5Vapor7Droplet", "router"]
+- !private ["O5Vapor11Environment", "production"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "bytes"]
+- !private ["Ps9Equatable", "delete"]
+- !private ["Ps9Equatable", "get"]
+- ["Ps9Equatable", "head"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "internalServerError"]
+- !private ["Ps9Equatable", "notImplemented"]
+- !private ["Ps9Equatable", "notModified"]
+- !private ["Ps9Equatable", "ok"]
+- !private ["Ps9Equatable", "options"]
+- !private ["Ps9Equatable", "patch"]
+- !private ["Ps9Equatable", "post"]
+- !private ["Ps9Equatable", "production"]
+- !private ["Ps9Equatable", "put"]
+- !private ["Ps5Error", "notFound"]
+- !private ["C5Vapor9ErrorView", "makeResponse"]
+- !private ["C5Vapor9ErrorView", "shared"]
+- !private ["Ps25ExpressibleByArrayLiteral", "chain"]
+- !private ["Ps25ExpressibleByArrayLiteral", "contains"]
+- !private ["Ps25ExpressibleByArrayLiteral", "data"]
+- !private ["Ps25ExpressibleByArrayLiteral", "prefers"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "subscript"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "bytes"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "bytes"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "bytes"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["VC4HTTP7Request7Handler", "init"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "bytes"]
+- !private ["Ps8Hashable", "delete"]
+- !private ["Ps8Hashable", "get"]
+- ["Ps8Hashable", "head"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "internalServerError"]
+- !private ["Ps8Hashable", "notImplemented"]
+- !private ["Ps8Hashable", "notModified"]
+- !private ["Ps8Hashable", "ok"]
+- !private ["Ps8Hashable", "options"]
+- !private ["Ps8Hashable", "patch"]
+- !private ["Ps8Hashable", "post"]
+- !private ["Ps8Hashable", "put"]
+- !private ["V4HTTP9HeaderKey", "init"]
+- !private ["V4JSON4JSON", "init"]
+- !private ["P4JSON15JSONConvertible", "init"]
+- !private ["P4JSON17JSONInitializable", "init"]
+- !private ["P4JSON17JSONRepresentable", "init"]
+- !private ["P4HTTP13KeyAccessible", "subscript"]
+- !private ["P4Node13KeyAccessible", "subscript"]
+- !private ["P8Settings13KeyAccessible", "subscript"]
+- !private ["P5Vapor11LogProtocol", "error"]
+- !private ["P5Vapor11LogProtocol", "info"]
+- !private ["P5Vapor11LogProtocol", "warning"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "bytes"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["C4HTTP7Message", "Handler"]
+- !private ["C4HTTP7Message", "accept"]
+- !private ["C4HTTP7Message", "body"]
+- !private ["C4HTTP7Message", "headers"]
+- !private ["C4HTTP7Message", "json"]
+- !private ["C4HTTP7Message", "method"]
+- !private ["C4HTTP7Message", "status"]
+- !private ["C4HTTP7Message", "uri"]
+- !private ["O4HTTP6Method", "delete"]
+- !private ["O4HTTP6Method", "get"]
+- ["O4HTTP6Method", "head"]
+- !private ["O4HTTP6Method", "options"]
+- !private ["O4HTTP6Method", "patch"]
+- !private ["O4HTTP6Method", "post"]
+- !private ["O4HTTP6Method", "put"]
+- !private ["Ps10MirrorPath", "bytes"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["Ps17MutableCollection", "chain"]
+- !private ["Ps17MutableCollection", "contains"]
+- !private ["Ps17MutableCollection", "prefers"]
+- !private ["PSo8NSCoding", "bytes"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo9NSCopying", "bytes"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo16NSMutableCopying", "bytes"]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["CSo8NSObject", "bytes"]
+- !private ["PSo16NSObjectProtocol", "bytes"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo14NSSecureCoding", "bytes"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "bytes"]
+- !private ["CSo8NSString", "init"]
+- !private ["P4Node10NodeBacked", "init"]
+- !private ["P4Node15NodeConvertible", "_getBuiltinLogicValue"]
+- !private ["P4Node15NodeConvertible", "bytes"]
+- !private ["P4Node15NodeConvertible", "init"]
+- !private ["P4Node17NodeInitializable", "_getBuiltinLogicValue"]
+- !private ["P4Node17NodeInitializable", "bytes"]
+- !private ["P4Node17NodeInitializable", "init"]
+- !private ["P4Node17NodeRepresentable", "Handler"]
+- !private ["P4Node17NodeRepresentable", "_getBuiltinLogicValue"]
+- !private ["P4Node17NodeRepresentable", "accept"]
+- !private ["P4Node17NodeRepresentable", "bytes"]
+- !private ["P4Node17NodeRepresentable", "init"]
+- !private ["P4Node17NodeRepresentable", "method"]
+- !private ["P4Node17NodeRepresentable", "path"]
+- !private ["P4Node17NodeRepresentable", "uri"]
+- !private ["P7Routing19ParametersContainer", "Handler"]
+- !private ["P7Routing19ParametersContainer", "accept"]
+- !private ["P7Routing19ParametersContainer", "method"]
+- !private ["P7Routing19ParametersContainer", "uri"]
+- !private ["P13PathIndexable9PathIndex", "bytes"]
+- !private ["P13PathIndexable9PathIndex", "init"]
+- !private ["P13PathIndexable13PathIndexable", "init"]
+- !private ["P11Polymorphic11Polymorphic", "_getBuiltinLogicValue"]
+- !private ["P11Polymorphic11Polymorphic", "bytes"]
+- !private ["P11Polymorphic11Polymorphic", "init"]
+- !private ["P5Vapor24PolymorphicInitializable", "bytes"]
+- !private ["P5Vapor24PolymorphicInitializable", "init"]
+- !private ["Ps22RandomAccessCollection", "chain"]
+- !private ["Ps22RandomAccessCollection", "contains"]
+- !private ["Ps22RandomAccessCollection", "prefers"]
+- !private ["Ps26RangeReplaceableCollection", "chain"]
+- !private ["Ps26RangeReplaceableCollection", "contains"]
+- !private ["Ps26RangeReplaceableCollection", "prefers"]
+- !private ["C4HTTP7Request", "Handler"]
+- !private ["C4HTTP7Request", "accept"]
+- !private ["C4HTTP7Request", "method"]
+- !private ["C4HTTP7Request", "uri"]
+- !private ["P5Vapor23RequestContentSubscript", "bytes"]
+- !private ["P5Vapor23RequestContentSubscript", "init"]
+- !private ["P4HTTP9Responder", "Abort"]
+- !private ["P4HTTP9Responder", "ErrorView"]
+- !private ["P4HTTP9Responder", "JSON"]
+- !private ["P4HTTP9Responder", "Request"]
+- !private ["P4HTTP9Responder", "Response"]
+- !private ["P4HTTP9Responder", "environment"]
+- !private ["P4HTTP9Responder", "init"]
+- !private ["P4HTTP9Responder", "log"]
+- !private ["P4HTTP9Responder", "middleware"]
+- ["P4HTTP9Responder", "respond"]
+- !private ["P4HTTP9Responder", "router"]
+- ["P4HTTP9Responder", ""]
+- !private ["C4HTTP8Response", "body"]
+- !private ["C4HTTP8Response", "headers"]
+- !private ["C4HTTP8Response", "init"]
+- !private ["C4HTTP8Response", "json"]
+- !private ["C4HTTP8Response", "status"]
+- !private ["P4HTTP21ResponseRepresentable", "body"]
+- !private ["P4HTTP21ResponseRepresentable", "bytes"]
+- !private ["P4HTTP21ResponseRepresentable", "headers"]
+- !private ["P4HTTP21ResponseRepresentable", "init"]
+- !private ["P4HTTP21ResponseRepresentable", "json"]
+- !private ["P4HTTP21ResponseRepresentable", "status"]
+- !private ["P7Routing12RouteBuilder", "Abort"]
+- !private ["P7Routing12RouteBuilder", "ErrorView"]
+- !private ["P7Routing12RouteBuilder", "JSON"]
+- !private ["P7Routing12RouteBuilder", "Request"]
+- !private ["P7Routing12RouteBuilder", "Response"]
+- !private ["P7Routing12RouteBuilder", "environment"]
+- !private ["P7Routing12RouteBuilder", "log"]
+- !private ["P7Routing12RouteBuilder", "middleware"]
+- ["P7Routing12RouteBuilder", "respond"]
+- !private ["P7Routing12RouteBuilder", "route"]
+- !private ["P7Routing12RouteBuilder", "router"]
+- !private ["C7Routing6Router", "route"]
+- !private ["Ps8Sequence", "chain"]
+- !private ["Ps8Sequence", "contains"]
+- !private ["Ps8Sequence", "prefers"]
+- !private ["Ps8Sequence", "subscript"]
+- !private ["O4HTTP6Status", "internalServerError"]
+- !private ["O4HTTP6Status", "notImplemented"]
+- !private ["O4HTTP6Status", "notModified"]
+- !private ["O4HTTP6Status", "ok"]
+- !private ["SS", "bytes"]
+- !private ["SS", "deinit"]
+- !private ["SS", "init"]
+- !private ["P15TypeSafeRouting19StringInitializable", "bytes"]
+- !private ["P15TypeSafeRouting19StringInitializable", "init"]
+- !private ["Ps16TextOutputStream", "bytes"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "bytes"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["P9Transport15TransferMessage", "Handler"]
+- !private ["P9Transport15TransferMessage", "accept"]
+- !private ["P9Transport15TransferMessage", "body"]
+- !private ["P9Transport15TransferMessage", "headers"]
+- !private ["P9Transport15TransferMessage", "init"]
+- !private ["P9Transport15TransferMessage", "json"]
+- !private ["P9Transport15TransferMessage", "method"]
+- !private ["P9Transport15TransferMessage", "status"]
+- !private ["P9Transport15TransferMessage", "uri"]
+- !private ["V3URI3URI", "path"]
+- !private ["P5Vapor11Validatable", "_getBuiltinLogicValue"]
+- !private ["P5Vapor11Validatable", "bytes"]
+- !private ["P5Vapor11Validatable", "chain"]
+- !private ["P5Vapor11Validatable", "contains"]
+- !private ["P5Vapor11Validatable", "init"]
+- !private ["P5Vapor11Validatable", "prefers"]
+- !private ["P5Vapor11Validatable", "subscript"]
+- !private ["Ps14_ArrayProtocol", "chain"]
+- !private ["Ps14_ArrayProtocol", "contains"]
+- !private ["Ps14_ArrayProtocol", "prefers"]
+- !private ["Ps23_BidirectionalIndexable", "chain"]
+- !private ["Ps23_BidirectionalIndexable", "contains"]
+- !private ["Ps23_BidirectionalIndexable", "prefers"]
+- !private ["Ps24_DestructorSafeContainer", "chain"]
+- !private ["Ps24_DestructorSafeContainer", "contains"]
+- !private ["Ps24_DestructorSafeContainer", "prefers"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "bytes"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "bytes"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "bytes"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "bytes"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "bytes"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "bytes"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "bytes"]
+- !private ["Ps9_Hashable", "delete"]
+- !private ["Ps9_Hashable", "get"]
+- ["Ps9_Hashable", "head"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "internalServerError"]
+- !private ["Ps9_Hashable", "notImplemented"]
+- !private ["Ps9_Hashable", "notModified"]
+- !private ["Ps9_Hashable", "ok"]
+- !private ["Ps9_Hashable", "options"]
+- !private ["Ps9_Hashable", "patch"]
+- !private ["Ps9_Hashable", "post"]
+- !private ["Ps9_Hashable", "put"]
+- !private ["Ps10_Indexable", "chain"]
+- !private ["Ps10_Indexable", "contains"]
+- !private ["Ps10_Indexable", "prefers"]
+- !private ["Ps10_Indexable", "subscript"]
+- !private ["Ps14_IndexableBase", "chain"]
+- !private ["Ps14_IndexableBase", "contains"]
+- !private ["Ps14_IndexableBase", "prefers"]
+- !private ["Ps14_IndexableBase", "subscript"]
+- !private ["Ps17_MutableIndexable", "chain"]
+- !private ["Ps17_MutableIndexable", "contains"]
+- !private ["Ps17_MutableIndexable", "prefers"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "bytes"]
+- !private ["Ps21_ObjectiveCBridgeable", "chain"]
+- !private ["Ps21_ObjectiveCBridgeable", "contains"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "prefers"]
+- !private ["Ps21_ObjectiveCBridgeable", "subscript"]
+- !private ["Ps22_RandomAccessIndexable", "chain"]
+- !private ["Ps22_RandomAccessIndexable", "contains"]
+- !private ["Ps22_RandomAccessIndexable", "prefers"]
+- !private ["Ps26_RangeReplaceableIndexable", "chain"]
+- !private ["Ps26_RangeReplaceableIndexable", "contains"]
+- !private ["Ps26_RangeReplaceableIndexable", "prefers"]
+depends-nominal:
+- !private "O5Vapor5Abort"
+- !private "P5Vapor10AbortError"
+- "Ps9AnyObject"
+- !private "Sa"
+- !private "Ps23BidirectionalCollection"
+- !private "O4HTTP4Body"
+- !private "P4HTTP17BodyRepresentable"
+- !private "Sb"
+- !private "P4Core16BytesConvertible"
+- !private "P4Core18BytesInitializable"
+- !private "P4Core18BytesRepresentable"
+- !private "Ps7CVarArg"
+- !private "Ps10Collection"
+- !private "Ps10Comparable"
+- !private "P4Node7Context"
+- !private "P5Vapor9Countable"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- !private "Vs10Dictionary"
+- "C5Vapor7Droplet"
+- !private "O5Vapor11Environment"
+- "Ps9Equatable"
+- !private "Ps5Error"
+- !private "C5Vapor9ErrorView"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps30ExpressibleByDictionaryLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "VC4HTTP7Request7Handler"
+- "Ps8Hashable"
+- !private "V4HTTP9HeaderKey"
+- !private "V4JSON4JSON"
+- !private "P4JSON15JSONConvertible"
+- !private "P4JSON17JSONInitializable"
+- !private "P4JSON17JSONRepresentable"
+- !private "P4HTTP13KeyAccessible"
+- !private "P4Node13KeyAccessible"
+- !private "P8Settings13KeyAccessible"
+- !private "P5Vapor11LogProtocol"
+- !private "Ps25LosslessStringConvertible"
+- !private "C4HTTP7Message"
+- "O4HTTP6Method"
+- !private "Ps10MirrorPath"
+- !private "Ps17MutableCollection"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "PSo16NSMutableCopying"
+- !private "CSo8NSObject"
+- !private "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- !private "P4Node10NodeBacked"
+- !private "P4Node15NodeConvertible"
+- !private "P4Node17NodeInitializable"
+- !private "P4Node17NodeRepresentable"
+- !private "P7Routing19ParametersContainer"
+- !private "P13PathIndexable9PathIndex"
+- !private "P13PathIndexable13PathIndexable"
+- !private "P11Polymorphic11Polymorphic"
+- !private "P5Vapor24PolymorphicInitializable"
+- !private "Ps22RandomAccessCollection"
+- !private "Ps26RangeReplaceableCollection"
+- !private "C4HTTP7Request"
+- !private "P5Vapor23RequestContentSubscript"
+- "P4HTTP9Responder"
+- !private "C4HTTP8Response"
+- !private "P4HTTP21ResponseRepresentable"
+- "P7Routing12RouteBuilder"
+- !private "C7Routing6Router"
+- !private "Ps8Sequence"
+- !private "O4HTTP6Status"
+- !private "SS"
+- !private "P15TypeSafeRouting19StringInitializable"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- !private "P9Transport15TransferMessage"
+- !private "V3URI3URI"
+- !private "P5Vapor11Validatable"
+- !private "Ps14_ArrayProtocol"
+- !private "Ps23_BidirectionalIndexable"
+- !private "Ps24_DestructorSafeContainer"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps33_ExpressibleByStringInterpolation"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- !private "Ps10_Indexable"
+- !private "Ps14_IndexableBase"
+- !private "Ps17_MutableIndexable"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps22_RandomAccessIndexable"
+- !private "Ps26_RangeReplaceableIndexable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/CLibreSSL.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.apinotesc"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/Cipher.swiftmodule"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/whrlpool.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/ui_compat.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/txt_db.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/x509v3.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/x509.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/ts.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/tls.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/ripemd.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/rc4.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/rc2.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/rand.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/poly1305.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/pkcs12.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/safestack.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/opensslfeatures.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/opensslconf.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/ossl_typ.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/ocsp.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/modes.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/md5.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/md4.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/krb5_asn.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/idea.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/gost.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/lhash.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/err.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/ui.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/rsa.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/engine.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/ssl3.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/ssl.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/srtp.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/ssl23.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/tls1.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/evp.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/ssl2.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/pem2.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/pkcs7.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/x509_vfy.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/sha.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/ec.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/ecdh.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/ecdsa.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/stack.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/pem.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/hmac.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/dtls1.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/dso.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/dsa.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/dh.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/des.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/conf_api.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/conf.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/crypto.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/comp.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/cms.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/obj_mac.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/objects.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/cmac.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/chacha.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/cast.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/camellia.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/buffer.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/blowfish.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/asn1t.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/asn1_mac.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/bio.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/bn.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/opensslv.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/asn1.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/aes.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/clibressl.git-4924093653370840509/Sources/CLibreSSL/include/CLibreSSL.h"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/Core.swiftmodule"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/libc.swiftmodule"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/Essentials.swiftmodule"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/Console.swiftmodule"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/Polymorphic.swiftmodule"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/Settings.swiftmodule"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/JSON.swiftmodule"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/Jay.swiftmodule"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/Node.swiftmodule"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/PathIndexable.swiftmodule"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/HTTP.swiftmodule"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/Transport.swiftmodule"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/SocksCore.swiftmodule"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/TLS.swiftmodule"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/URI.swiftmodule"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/Fluent.swiftmodule"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/Cache.swiftmodule"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/Sessions.swiftmodule"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/Cookies.swiftmodule"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/Random.swiftmodule"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/HTTPRouting.swiftmodule"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/Routing.swiftmodule"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/HMAC.swiftmodule"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/TypeSafeRouting.swiftmodule"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/WebSockets.swiftmodule"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/Hash.swiftmodule"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/Socks.swiftmodule"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/FormData.swiftmodule"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/Multipart.swiftmodule"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/Leaf.swiftmodule"
+interface-hash: "04fddccb6588270f6ec4a00d0a7a503a"

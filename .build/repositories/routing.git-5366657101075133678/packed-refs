@@ -1,0 +1,22 @@
+# pack-refs with: peeled fully-peeled 
+43124d2d6041f29696ff8a859791da90d23510fc refs/heads/102
+f5b2220a82e74a031175c6761feea8b7df9b88b3 refs/heads/alpha
+992de55bc2e2ff9158a392fe6efcde37a41e0ea5 refs/heads/master
+523307769b9c50a4a0a4ea7d60af544d063d98d8 refs/heads/multi-slug-102
+efe56ac9ae2b744225a922176b5377b0052c0efd refs/heads/options
+0a5d9b1e8900d89a5b69b2eca78d848ced00076b refs/heads/percent-decode
+f87de87ffd2774ddbf6079b2532ad83690de3b79 refs/heads/spring-cleaning
+fff9b67b04ffe0df7d57d0005fee4e66d64d1048 refs/tags/1.0.0
+b5b8dbd12c55907e2e47ddc2a4fe391dc73be979 refs/tags/1.0.1
+438f713c75a329488041d8a64f4060269d8bf7c9 refs/tags/1.0.2
+43124d2d6041f29696ff8a859791da90d23510fc refs/tags/1.1.0
+545c8c7e970e95d8ecdef3a0ea59b5423308c69b refs/tags/2.0.0-alpha.1
+4f6d93d9cfaca66c7f906f65919e8dd20430b0a7 refs/tags/2.0.0-alpha.2
+cf6b6a4a6560b655c43992559ed53469cf3ec206 refs/tags/2.0.0-alpha.3
+364dea0e456c07743b965d93e7877045839f87e4 refs/tags/2.0.0-alpha.4
+0737008e6f57ed60513286908d6945417cb01433 refs/tags/2.0.0-alpha.5
+2ea67f38aaa3d6e57e5bab0d4146157dae5325f1 refs/tags/2.0.0-alpha.6
+8ee5bfd6c2150bd262f4ffdc3976c4106467e2e4 refs/tags/2.0.0-alpha.7
+f791f5b2944addb5dab23e08a47e5c7fc401cd18 refs/tags/2.0.0-alpha.8
+1b3bd49669733e7a5fda6804ce07505e1e0e1cd2 refs/tags/2.0.0-beta.1
+fca1ac2218890484611054e7621860919aff3264 refs/tags/2.0.0-beta.2

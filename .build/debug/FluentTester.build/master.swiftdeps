@@ -1,0 +1,12 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.48 clang-802.0.38)"
+options: "4bdb88d2d35140df950f3848c89b4ed0"
+build_time: [546606957, 427911000]
+inputs:
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/fluent.git-6251908308727715749/Sources/FluentTester/Atom.swift": [546606912, 0]
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/fluent.git-6251908308727715749/Sources/FluentTester/Compound.swift": [546606912, 0]
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/fluent.git-6251908308727715749/Sources/FluentTester/Student.swift": [546606912, 0]
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/fluent.git-6251908308727715749/Sources/FluentTester/Tester+InsertAndFind.swift": [546606912, 0]
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/fluent.git-6251908308727715749/Sources/FluentTester/Tester+PivotsAndRelations.swift": [546606912, 0]
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/fluent.git-6251908308727715749/Sources/FluentTester/Tester+Schema.swift": [546606912, 0]
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/fluent.git-6251908308727715749/Sources/FluentTester/Tester+Utilities.swift": [546606912, 0]
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/fluent.git-6251908308727715749/Sources/FluentTester/Tester.swift": [546606912, 0]

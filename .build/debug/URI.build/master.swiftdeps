@@ -1,0 +1,14 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.48 clang-802.0.38)"
+options: "0953e6fe196e9723e147293407dc565a"
+build_time: [546606957, 917929000]
+inputs:
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/engine.git-3311994267206676365/Sources/URI/PercentDecoding.swift": [546606914, 0]
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/engine.git-3311994267206676365/Sources/URI/Model/URI+Byte.swift": [546606913, 0]
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/engine.git-3311994267206676365/Sources/URI/Model/URI+Modification.swift": [546606914, 0]
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/engine.git-3311994267206676365/Sources/URI/Model/URI+Ports.swift": [546606914, 0]
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/engine.git-3311994267206676365/Sources/URI/Model/URI+String.swift": [546606914, 0]
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/engine.git-3311994267206676365/Sources/URI/Model/URI.swift": [546606914, 0]
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/engine.git-3311994267206676365/Sources/URI/Parser/Parser+Components.swift": [546606913, 0]
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/engine.git-3311994267206676365/Sources/URI/Parser/Parser+Public.swift": [546606913, 0]
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/engine.git-3311994267206676365/Sources/URI/Parser/Parser+SubComponents.swift": [546606913, 0]
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/engine.git-3311994267206676365/Sources/URI/Parser/Parser.swift": [546606914, 0]

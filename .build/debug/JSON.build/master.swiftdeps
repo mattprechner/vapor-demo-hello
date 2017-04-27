@@ -1,0 +1,13 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.48 clang-802.0.38)"
+options: "2fa366e5cbf3b782d86b23ae52bc7293"
+build_time: [546606952, 275234000]
+inputs:
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/json.git-9153249592855998091/Sources/JSON/File.swift": [546606909, 0]
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/json.git-9153249592855998091/Sources/JSON/JSON+Bytes.swift": [546606909, 0]
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/json.git-9153249592855998091/Sources/JSON/JSON+Equatable.swift": [546606909, 0]
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/json.git-9153249592855998091/Sources/JSON/JSON+Node.swift": [546606909, 0]
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/json.git-9153249592855998091/Sources/JSON/JSON+Parse.swift": [546606909, 0]
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/json.git-9153249592855998091/Sources/JSON/JSON+Serialize.swift": [546606909, 0]
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/json.git-9153249592855998091/Sources/JSON/JSON.swift": [546606909, 0]
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/json.git-9153249592855998091/Sources/JSON/JSONRepresentable.swift": [546606909, 0]
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/json.git-9153249592855998091/Sources/JSON/Sequence+Convertible.swift": [546606909, 0]

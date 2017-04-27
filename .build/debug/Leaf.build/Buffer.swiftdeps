@@ -1,0 +1,107 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Buffer"
+provides-nominal:
+- "V4Leaf6Buffer"
+provides-member:
+- ["V4Leaf6Buffer", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "AssignmentPrecedence"
+- "Buffer"
+- "BufferProtocol"
+- "IndexingIterator"
+- "Sequence"
+depends-member:
+- !private ["Sa", "makeIterator"]
+- !private ["Ps23BidirectionalCollection", "makeIterator"]
+- ["V4Leaf6Buffer", "Element"]
+- ["V4Leaf6Buffer", "IndexingIterator"]
+- ["V4Leaf6Buffer", "Sequence"]
+- ["V4Leaf6Buffer", "T"]
+- !private ["V4Leaf6Buffer", "buffer"]
+- ["V4Leaf6Buffer", "current"]
+- ["V4Leaf6Buffer", "deinit"]
+- ["V4Leaf6Buffer", "init"]
+- ["V4Leaf6Buffer", "moveForward"]
+- ["V4Leaf6Buffer", "next"]
+- ["V4Leaf6Buffer", "previous"]
+- !private ["P4Leaf14BufferProtocol", "buffer"]
+- ["P4Leaf14BufferProtocol", "current"]
+- ["P4Leaf14BufferProtocol", "moveForward"]
+- ["P4Leaf14BufferProtocol", "next"]
+- ["P4Leaf14BufferProtocol", "previous"]
+- ["P4Leaf14BufferProtocol", ""]
+- !private ["Ps7CVarArg", "makeIterator"]
+- !private ["Ps10Collection", "makeIterator"]
+- !private ["P4Node7Context", "makeIterator"]
+- !private ["Ps28CustomDebugStringConvertible", "makeIterator"]
+- !private ["Ps17CustomReflectable", "makeIterator"]
+- !private ["Ps23CustomStringConvertible", "makeIterator"]
+- !private ["Ps25ExpressibleByArrayLiteral", "makeIterator"]
+- !private ["Vs16IndexingIterator", "next"]
+- !private ["Ps16IteratorProtocol", "next"]
+- !private ["Ps17MutableCollection", "makeIterator"]
+- !private ["Ps22RandomAccessCollection", "makeIterator"]
+- !private ["Ps26RangeReplaceableCollection", "makeIterator"]
+- !private ["Ps8Sequence", "array"]
+- !private ["Ps8Sequence", "makeIterator"]
+- !private ["Ps8Sequence", "next"]
+- !private ["Ps14_ArrayProtocol", "makeIterator"]
+- !private ["Ps23_BidirectionalIndexable", "makeIterator"]
+- !private ["Ps24_DestructorSafeContainer", "makeIterator"]
+- !private ["Ps10_Indexable", "makeIterator"]
+- !private ["Ps14_IndexableBase", "makeIterator"]
+- !private ["Ps17_MutableIndexable", "makeIterator"]
+- !private ["Ps21_ObjectiveCBridgeable", "makeIterator"]
+- !private ["Ps22_RandomAccessIndexable", "makeIterator"]
+- !private ["Ps26_RangeReplaceableIndexable", "makeIterator"]
+depends-nominal:
+- !private "Sa"
+- !private "Ps23BidirectionalCollection"
+- "V4Leaf6Buffer"
+- "P4Leaf14BufferProtocol"
+- !private "Ps7CVarArg"
+- !private "Ps10Collection"
+- !private "P4Node7Context"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Vs16IndexingIterator"
+- !private "Ps16IteratorProtocol"
+- !private "Ps17MutableCollection"
+- !private "Ps22RandomAccessCollection"
+- !private "Ps26RangeReplaceableCollection"
+- !private "Ps8Sequence"
+- !private "Ps14_ArrayProtocol"
+- !private "Ps23_BidirectionalIndexable"
+- !private "Ps24_DestructorSafeContainer"
+- !private "Ps10_Indexable"
+- !private "Ps14_IndexableBase"
+- !private "Ps17_MutableIndexable"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps22_RandomAccessIndexable"
+- !private "Ps26_RangeReplaceableIndexable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/Core.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/CLibreSSL.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.apinotesc"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/libc.swiftmodule"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/Node.swiftmodule"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/PathIndexable.swiftmodule"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/Polymorphic.swiftmodule"
+interface-hash: "e1fcc9f5fda5ccd21d6efded8f7ef0cb"

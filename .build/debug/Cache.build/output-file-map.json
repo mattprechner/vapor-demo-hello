@@ -1,0 +1,23 @@
+{
+  "": {
+    "swift-dependencies": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/Cache.build/master.swiftdeps"
+  },
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/vapor.git-5492988889259800272/Sources/Cache/CacheProtocol.swift": {
+    "dependencies": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/Cache.build/CacheProtocol.d",
+    "object": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/Cache.build/CacheProtocol.swift.o",
+    "swiftmodule": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/Cache.build/CacheProtocol~partial.swiftmodule",
+    "swift-dependencies": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/Cache.build/CacheProtocol.swiftdeps"
+  },
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/vapor.git-5492988889259800272/Sources/Cache/FluentCache.swift": {
+    "dependencies": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/Cache.build/FluentCache.d",
+    "object": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/Cache.build/FluentCache.swift.o",
+    "swiftmodule": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/Cache.build/FluentCache~partial.swiftmodule",
+    "swift-dependencies": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/Cache.build/FluentCache.swiftdeps"
+  },
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/vapor.git-5492988889259800272/Sources/Cache/MemoryCache.swift": {
+    "dependencies": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/Cache.build/MemoryCache.d",
+    "object": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/Cache.build/MemoryCache.swift.o",
+    "swiftmodule": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/Cache.build/MemoryCache~partial.swiftmodule",
+    "swift-dependencies": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/Cache.build/MemoryCache.swiftdeps"
+  }
+}

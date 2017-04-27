@@ -1,0 +1,17 @@
+{
+  "": {
+    "swift-dependencies": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/PathIndexable.build/master.swiftdeps"
+  },
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/path-indexable.git-6101080875983074629/Sources/PathIndexable/PathIndexable+Subscripting.swift": {
+    "dependencies": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/PathIndexable.build/PathIndexable+Subscripting.d",
+    "object": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/PathIndexable.build/PathIndexable+Subscripting.swift.o",
+    "swiftmodule": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/PathIndexable.build/PathIndexable+Subscripting~partial.swiftmodule",
+    "swift-dependencies": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/PathIndexable.build/PathIndexable+Subscripting.swiftdeps"
+  },
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/path-indexable.git-6101080875983074629/Sources/PathIndexable/PathIndexable.swift": {
+    "dependencies": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/PathIndexable.build/PathIndexable.d",
+    "object": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/PathIndexable.build/PathIndexable.swift.o",
+    "swiftmodule": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/PathIndexable.build/PathIndexable~partial.swiftmodule",
+    "swift-dependencies": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/PathIndexable.build/PathIndexable.swiftdeps"
+  }
+}

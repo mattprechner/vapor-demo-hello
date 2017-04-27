@@ -1,0 +1,358 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Config"
+- "=="
+provides-nominal:
+- "V8Settings6Config"
+provides-member:
+- ["V8Settings6Config", ""]
+- ["O4Node4Node", ""]
+- ["O4Node4Node", "makeConfig"]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- !private "??"
+- "AssignmentPrecedence"
+- "Bool"
+- "Config"
+- !private "Dictionary"
+- "Equatable"
+- "Node"
+- "NodeBacked"
+- "Source"
+depends-member:
+- !private ["Sa", "forEach"]
+- !private ["Ps23BidirectionalCollection", "forEach"]
+- !private ["Ps7CVarArg", "forEach"]
+- !private ["Ps10Collection", "forEach"]
+- ["V8Settings6Config", "Node"]
+- ["V8Settings6Config", "Source"]
+- ["V8Settings6Config", "array"]
+- ["V8Settings6Config", "bool"]
+- ["V8Settings6Config", "deinit"]
+- ["V8Settings6Config", "double"]
+- ["V8Settings6Config", "float"]
+- ["V8Settings6Config", "init"]
+- ["V8Settings6Config", "int"]
+- ["V8Settings6Config", "isNull"]
+- ["V8Settings6Config", "makeNode"]
+- ["V8Settings6Config", "node"]
+- ["V8Settings6Config", "object"]
+- ["V8Settings6Config", "pathIndexableArray"]
+- ["V8Settings6Config", "pathIndexableObject"]
+- ["V8Settings6Config", "string"]
+- ["V8Settings6Config", "uint"]
+- !private ["P4Node7Context", "Node"]
+- !private ["P4Node7Context", "forEach"]
+- !private ["P4Node7Context", "hydratedEnv"]
+- !private ["P4Node7Context", "init"]
+- !private ["P4Node7Context", "makeCLIConfig"]
+- !private ["P4Node7Context", "makeConfig"]
+- !private ["P4Node7Context", "merged"]
+- !private ["P4Node7Context", "object"]
+- !private ["Ps28CustomDebugStringConvertible", "flatMap"]
+- !private ["Ps28CustomDebugStringConvertible", "forEach"]
+- !private ["Ps17CustomReflectable", "flatMap"]
+- !private ["Ps17CustomReflectable", "forEach"]
+- !private ["Ps23CustomStringConvertible", "forEach"]
+- !private ["Ps9Equatable", "Node"]
+- ["Ps9Equatable", "array"]
+- ["Ps9Equatable", "bool"]
+- ["Ps9Equatable", "double"]
+- ["Ps9Equatable", "float"]
+- !private ["Ps9Equatable", "hydratedEnv"]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "int"]
+- ["Ps9Equatable", "isNull"]
+- !private ["Ps9Equatable", "makeCLIConfig"]
+- !private ["Ps9Equatable", "makeConfig"]
+- ["Ps9Equatable", "makeNode"]
+- !private ["Ps9Equatable", "merged"]
+- ["Ps9Equatable", "node"]
+- ["Ps9Equatable", "object"]
+- ["Ps9Equatable", "pathIndexableArray"]
+- ["Ps9Equatable", "pathIndexableObject"]
+- ["Ps9Equatable", "string"]
+- ["Ps9Equatable", "uint"]
+- ["Ps9Equatable", ""]
+- !private ["Ps25ExpressibleByArrayLiteral", "Node"]
+- !private ["Ps25ExpressibleByArrayLiteral", "forEach"]
+- !private ["Ps25ExpressibleByArrayLiteral", "hydratedEnv"]
+- !private ["Ps25ExpressibleByArrayLiteral", "init"]
+- !private ["Ps25ExpressibleByArrayLiteral", "makeCLIConfig"]
+- !private ["Ps25ExpressibleByArrayLiteral", "makeConfig"]
+- !private ["Ps25ExpressibleByArrayLiteral", "merged"]
+- !private ["Ps25ExpressibleByArrayLiteral", "object"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "Node"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "hydratedEnv"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "init"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "makeCLIConfig"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "makeConfig"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "merged"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "object"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "Node"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "hydratedEnv"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "init"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "makeCLIConfig"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "makeConfig"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "merged"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "object"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "Node"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "hydratedEnv"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "makeCLIConfig"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "makeConfig"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "merged"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "object"]
+- !private ["Ps25ExpressibleByFloatLiteral", "Node"]
+- !private ["Ps25ExpressibleByFloatLiteral", "hydratedEnv"]
+- !private ["Ps25ExpressibleByFloatLiteral", "init"]
+- !private ["Ps25ExpressibleByFloatLiteral", "makeCLIConfig"]
+- !private ["Ps25ExpressibleByFloatLiteral", "makeConfig"]
+- !private ["Ps25ExpressibleByFloatLiteral", "merged"]
+- !private ["Ps25ExpressibleByFloatLiteral", "object"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "Node"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "hydratedEnv"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "init"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "makeCLIConfig"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "makeConfig"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "merged"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "object"]
+- !private ["Ps23ExpressibleByNilLiteral", "Node"]
+- !private ["Ps23ExpressibleByNilLiteral", "flatMap"]
+- !private ["Ps23ExpressibleByNilLiteral", "hydratedEnv"]
+- !private ["Ps23ExpressibleByNilLiteral", "init"]
+- !private ["Ps23ExpressibleByNilLiteral", "makeCLIConfig"]
+- !private ["Ps23ExpressibleByNilLiteral", "makeConfig"]
+- !private ["Ps23ExpressibleByNilLiteral", "merged"]
+- !private ["Ps23ExpressibleByNilLiteral", "object"]
+- !private ["Ps26ExpressibleByStringLiteral", "Node"]
+- !private ["Ps26ExpressibleByStringLiteral", "hydratedEnv"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "makeCLIConfig"]
+- !private ["Ps26ExpressibleByStringLiteral", "makeConfig"]
+- !private ["Ps26ExpressibleByStringLiteral", "merged"]
+- !private ["Ps26ExpressibleByStringLiteral", "object"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "Node"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "hydratedEnv"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "makeCLIConfig"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "makeConfig"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "merged"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "object"]
+- !private ["P4Core11Extractable", "flatMap"]
+- !private ["Ps17MutableCollection", "forEach"]
+- ["O4Node4Node", "Node"]
+- ["O4Node4Node", "Source"]
+- !private ["O4Node4Node", "hydratedEnv"]
+- !private ["O4Node4Node", "init"]
+- !private ["O4Node4Node", "makeCLIConfig"]
+- ["O4Node4Node", "makeConfig"]
+- !private ["O4Node4Node", "merged"]
+- !private ["O4Node4Node", "object"]
+- !private ["P4Node10NodeBacked", "Node"]
+- ["P4Node10NodeBacked", "array"]
+- ["P4Node10NodeBacked", "bool"]
+- ["P4Node10NodeBacked", "double"]
+- ["P4Node10NodeBacked", "float"]
+- !private ["P4Node10NodeBacked", "hydratedEnv"]
+- ["P4Node10NodeBacked", "init"]
+- ["P4Node10NodeBacked", "int"]
+- ["P4Node10NodeBacked", "isNull"]
+- !private ["P4Node10NodeBacked", "makeCLIConfig"]
+- !private ["P4Node10NodeBacked", "makeConfig"]
+- ["P4Node10NodeBacked", "makeNode"]
+- !private ["P4Node10NodeBacked", "merged"]
+- ["P4Node10NodeBacked", "node"]
+- ["P4Node10NodeBacked", "object"]
+- ["P4Node10NodeBacked", "pathIndexableArray"]
+- ["P4Node10NodeBacked", "pathIndexableObject"]
+- ["P4Node10NodeBacked", "string"]
+- ["P4Node10NodeBacked", "uint"]
+- ["P4Node10NodeBacked", ""]
+- !private ["P4Node15NodeConvertible", "Node"]
+- ["P4Node15NodeConvertible", "array"]
+- ["P4Node15NodeConvertible", "bool"]
+- ["P4Node15NodeConvertible", "double"]
+- ["P4Node15NodeConvertible", "float"]
+- !private ["P4Node15NodeConvertible", "hydratedEnv"]
+- ["P4Node15NodeConvertible", "init"]
+- ["P4Node15NodeConvertible", "int"]
+- ["P4Node15NodeConvertible", "isNull"]
+- !private ["P4Node15NodeConvertible", "makeCLIConfig"]
+- !private ["P4Node15NodeConvertible", "makeConfig"]
+- ["P4Node15NodeConvertible", "makeNode"]
+- !private ["P4Node15NodeConvertible", "merged"]
+- ["P4Node15NodeConvertible", "node"]
+- ["P4Node15NodeConvertible", "object"]
+- ["P4Node15NodeConvertible", "pathIndexableArray"]
+- ["P4Node15NodeConvertible", "pathIndexableObject"]
+- ["P4Node15NodeConvertible", "string"]
+- ["P4Node15NodeConvertible", "uint"]
+- ["P4Node15NodeConvertible", ""]
+- !private ["P4Node17NodeInitializable", "Node"]
+- ["P4Node17NodeInitializable", "array"]
+- ["P4Node17NodeInitializable", "bool"]
+- ["P4Node17NodeInitializable", "double"]
+- ["P4Node17NodeInitializable", "float"]
+- !private ["P4Node17NodeInitializable", "hydratedEnv"]
+- ["P4Node17NodeInitializable", "init"]
+- ["P4Node17NodeInitializable", "int"]
+- ["P4Node17NodeInitializable", "isNull"]
+- !private ["P4Node17NodeInitializable", "makeCLIConfig"]
+- !private ["P4Node17NodeInitializable", "makeConfig"]
+- ["P4Node17NodeInitializable", "makeNode"]
+- !private ["P4Node17NodeInitializable", "merged"]
+- ["P4Node17NodeInitializable", "node"]
+- ["P4Node17NodeInitializable", "object"]
+- ["P4Node17NodeInitializable", "pathIndexableArray"]
+- ["P4Node17NodeInitializable", "pathIndexableObject"]
+- ["P4Node17NodeInitializable", "string"]
+- ["P4Node17NodeInitializable", "uint"]
+- ["P4Node17NodeInitializable", ""]
+- !private ["P4Node17NodeRepresentable", "Node"]
+- ["P4Node17NodeRepresentable", "array"]
+- ["P4Node17NodeRepresentable", "bool"]
+- ["P4Node17NodeRepresentable", "double"]
+- ["P4Node17NodeRepresentable", "float"]
+- !private ["P4Node17NodeRepresentable", "hydratedEnv"]
+- ["P4Node17NodeRepresentable", "init"]
+- ["P4Node17NodeRepresentable", "int"]
+- ["P4Node17NodeRepresentable", "isNull"]
+- !private ["P4Node17NodeRepresentable", "makeCLIConfig"]
+- !private ["P4Node17NodeRepresentable", "makeConfig"]
+- ["P4Node17NodeRepresentable", "makeNode"]
+- !private ["P4Node17NodeRepresentable", "merged"]
+- ["P4Node17NodeRepresentable", "node"]
+- ["P4Node17NodeRepresentable", "object"]
+- ["P4Node17NodeRepresentable", "pathIndexableArray"]
+- ["P4Node17NodeRepresentable", "pathIndexableObject"]
+- ["P4Node17NodeRepresentable", "string"]
+- ["P4Node17NodeRepresentable", "uint"]
+- ["P4Node17NodeRepresentable", ""]
+- !private ["Sq", "flatMap"]
+- !private ["P13PathIndexable13PathIndexable", "Node"]
+- ["P13PathIndexable13PathIndexable", "array"]
+- ["P13PathIndexable13PathIndexable", "bool"]
+- ["P13PathIndexable13PathIndexable", "double"]
+- ["P13PathIndexable13PathIndexable", "float"]
+- !private ["P13PathIndexable13PathIndexable", "hydratedEnv"]
+- ["P13PathIndexable13PathIndexable", "init"]
+- ["P13PathIndexable13PathIndexable", "int"]
+- ["P13PathIndexable13PathIndexable", "isNull"]
+- !private ["P13PathIndexable13PathIndexable", "makeCLIConfig"]
+- !private ["P13PathIndexable13PathIndexable", "makeConfig"]
+- ["P13PathIndexable13PathIndexable", "makeNode"]
+- !private ["P13PathIndexable13PathIndexable", "merged"]
+- ["P13PathIndexable13PathIndexable", "node"]
+- ["P13PathIndexable13PathIndexable", "object"]
+- ["P13PathIndexable13PathIndexable", "pathIndexableArray"]
+- ["P13PathIndexable13PathIndexable", "pathIndexableObject"]
+- ["P13PathIndexable13PathIndexable", "string"]
+- ["P13PathIndexable13PathIndexable", "uint"]
+- ["P13PathIndexable13PathIndexable", ""]
+- !private ["P11Polymorphic11Polymorphic", "Node"]
+- ["P11Polymorphic11Polymorphic", "array"]
+- ["P11Polymorphic11Polymorphic", "bool"]
+- ["P11Polymorphic11Polymorphic", "double"]
+- ["P11Polymorphic11Polymorphic", "float"]
+- !private ["P11Polymorphic11Polymorphic", "hydratedEnv"]
+- ["P11Polymorphic11Polymorphic", "init"]
+- ["P11Polymorphic11Polymorphic", "int"]
+- ["P11Polymorphic11Polymorphic", "isNull"]
+- !private ["P11Polymorphic11Polymorphic", "makeCLIConfig"]
+- !private ["P11Polymorphic11Polymorphic", "makeConfig"]
+- ["P11Polymorphic11Polymorphic", "makeNode"]
+- !private ["P11Polymorphic11Polymorphic", "merged"]
+- ["P11Polymorphic11Polymorphic", "node"]
+- ["P11Polymorphic11Polymorphic", "object"]
+- ["P11Polymorphic11Polymorphic", "pathIndexableArray"]
+- ["P11Polymorphic11Polymorphic", "pathIndexableObject"]
+- ["P11Polymorphic11Polymorphic", "string"]
+- ["P11Polymorphic11Polymorphic", "uint"]
+- ["P11Polymorphic11Polymorphic", ""]
+- !private ["Ps22RandomAccessCollection", "forEach"]
+- !private ["Ps26RangeReplaceableCollection", "forEach"]
+- !private ["Ps8Sequence", "forEach"]
+- !private ["O8Settings6Source", "Node"]
+- !private ["O8Settings6Source", "commandLine"]
+- !private ["O8Settings6Source", "directory"]
+- !private ["O8Settings6Source", "makeConfig"]
+- !private ["O8Settings6Source", "memory"]
+- !private ["Ps14_ArrayProtocol", "forEach"]
+- !private ["Ps23_BidirectionalIndexable", "forEach"]
+- !private ["Ps24_DestructorSafeContainer", "forEach"]
+- !private ["Ps10_Indexable", "forEach"]
+- !private ["Ps14_IndexableBase", "forEach"]
+- !private ["Ps17_MutableIndexable", "forEach"]
+- !private ["Ps21_ObjectiveCBridgeable", "flatMap"]
+- !private ["Ps21_ObjectiveCBridgeable", "forEach"]
+- !private ["Ps22_RandomAccessIndexable", "forEach"]
+- !private ["Ps26_RangeReplaceableIndexable", "forEach"]
+depends-nominal:
+- !private "Sa"
+- !private "Ps23BidirectionalCollection"
+- !private "Ps7CVarArg"
+- !private "Ps10Collection"
+- "V8Settings6Config"
+- !private "P4Node7Context"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps30ExpressibleByDictionaryLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps25ExpressibleByFloatLiteral"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- !private "Ps23ExpressibleByNilLiteral"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "P4Core11Extractable"
+- !private "Ps17MutableCollection"
+- "O4Node4Node"
+- "P4Node10NodeBacked"
+- "P4Node15NodeConvertible"
+- "P4Node17NodeInitializable"
+- "P4Node17NodeRepresentable"
+- !private "Sq"
+- "P13PathIndexable13PathIndexable"
+- "P11Polymorphic11Polymorphic"
+- !private "Ps22RandomAccessCollection"
+- !private "Ps26RangeReplaceableCollection"
+- !private "Ps8Sequence"
+- !private "O8Settings6Source"
+- !private "Ps14_ArrayProtocol"
+- !private "Ps23_BidirectionalIndexable"
+- !private "Ps24_DestructorSafeContainer"
+- !private "Ps10_Indexable"
+- !private "Ps14_IndexableBase"
+- !private "Ps17_MutableIndexable"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps22_RandomAccessIndexable"
+- !private "Ps26_RangeReplaceableIndexable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/CLibreSSL.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.apinotesc"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/Core.swiftmodule"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/libc.swiftmodule"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/JSON.swiftmodule"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/Jay.swiftmodule"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/Node.swiftmodule"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/PathIndexable.swiftmodule"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/Polymorphic.swiftmodule"
+interface-hash: "6080bd87a35b0675b85fd5f5fa6d8d94"

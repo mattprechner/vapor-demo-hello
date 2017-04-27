@@ -1,0 +1,17 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.48 clang-802.0.38)"
+options: "e8508c3871e17209e47ea71f7b8e9efe"
+build_time: [546606950, 30724000]
+inputs:
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/Turnstile.git-2443676010155639616/Sources/Turnstile/TurnstileError.swift": [546606901, 0]
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/Turnstile.git-2443676010155639616/Sources/Turnstile/Core/Subject.swift": [546606901, 0]
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/Turnstile.git-2443676010155639616/Sources/Turnstile/Core/Turnstile.swift": [546606901, 0]
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/Turnstile.git-2443676010155639616/Sources/Turnstile/Credentials/APIKey.swift": [546606901, 0]
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/Turnstile.git-2443676010155639616/Sources/Turnstile/Credentials/Credentials.swift": [546606901, 0]
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/Turnstile.git-2443676010155639616/Sources/Turnstile/Credentials/CredentialsError.swift": [546606901, 0]
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/Turnstile.git-2443676010155639616/Sources/Turnstile/Credentials/Token.swift": [546606901, 0]
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/Turnstile.git-2443676010155639616/Sources/Turnstile/Credentials/UsernamePassword.swift": [546606901, 0]
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/Turnstile.git-2443676010155639616/Sources/Turnstile/Realm/Account.swift": [546606901, 0]
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/Turnstile.git-2443676010155639616/Sources/Turnstile/Realm/MemoryRealm.swift": [546606901, 0]
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/Turnstile.git-2443676010155639616/Sources/Turnstile/Realm/Realm.swift": [546606901, 0]
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/Turnstile.git-2443676010155639616/Sources/Turnstile/SessionManager/MemorySessionManager.swift": [546606901, 0]
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/Turnstile.git-2443676010155639616/Sources/Turnstile/SessionManager/SessionManager.swift": [546606901, 0]

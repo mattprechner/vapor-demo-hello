@@ -1,0 +1,9 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.48 clang-802.0.38)"
+options: "637ce897ab768fd0bf6d17d0313a963e"
+build_time: [546606965, 805425000]
+inputs:
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/routing.git-5366657101075133678/Sources/HTTPRouting/Request+Routing.swift": [546606906, 0]
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/routing.git-5366657101075133678/Sources/HTTPRouting/RouteBuilder+HTTP.swift": [546606906, 0]
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/routing.git-5366657101075133678/Sources/HTTPRouting/Router+HTTP.swift": [546606906, 0]
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/routing.git-5366657101075133678/Sources/HTTPRouting/Routing+HTTP.swift": [546606906, 0]
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/routing.git-5366657101075133678/Sources/HTTPRouting/Utilities.swift": [546606906, 0]

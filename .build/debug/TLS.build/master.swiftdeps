@@ -1,0 +1,11 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.48 clang-802.0.38)"
+options: "9a9010e15cc78808e16ddb69032cbdcb"
+build_time: [546606952, 274107000]
+inputs:
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/tls.git-2678149690400510061/Sources/TLS/Certificates.swift": [546606915, 0]
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/tls.git-2678149690400510061/Sources/TLS/Config.swift": [546606915, 0]
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/tls.git-2678149690400510061/Sources/TLS/Context.swift": [546606915, 0]
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/tls.git-2678149690400510061/Sources/TLS/Error.swift": [546606915, 0]
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/tls.git-2678149690400510061/Sources/TLS/Mode.swift": [546606915, 0]
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/tls.git-2678149690400510061/Sources/TLS/Socket.swift": [546606915, 0]
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/tls.git-2678149690400510061/Sources/TLS/Utilities.swift": [546606915, 0]

@@ -1,0 +1,111 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Subject"
+- "AuthenticationDetails"
+provides-nominal:
+- "C9Turnstile7Subject"
+- "V9Turnstile21AuthenticationDetails"
+provides-member:
+- ["C9Turnstile7Subject", ""]
+- ["V9Turnstile21AuthenticationDetails", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!="
+- "Account"
+- "AssignmentPrecedence"
+- "AuthenticationDetails"
+- "Bool"
+- "BooleanLiteralType"
+- "Credentials"
+- !private "Session"
+- "String"
+- "Subject"
+- "TernaryPrecedence"
+- "Turnstile"
+depends-member:
+- !private ["Ps9AnyObject", "AuthenticationDetails"]
+- !private ["Ps9AnyObject", "Session"]
+- !private ["Ps9AnyObject", "authDetails"]
+- !private ["Ps9AnyObject", "realm"]
+- !private ["Ps9AnyObject", "restore"]
+- !private ["Ps9AnyObject", "sessionManager"]
+- !private ["Ps9AnyObject", "turnstile"]
+- ["Ps9AnyObject", ""]
+- ["V9Turnstile21AuthenticationDetails", "Account"]
+- ["V9Turnstile21AuthenticationDetails", "Credentials"]
+- ["V9Turnstile21AuthenticationDetails", "String"]
+- ["V9Turnstile21AuthenticationDetails", "account"]
+- ["V9Turnstile21AuthenticationDetails", "credentialType"]
+- ["V9Turnstile21AuthenticationDetails", "init"]
+- ["V9Turnstile21AuthenticationDetails", "sessionID"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["P9Turnstile5Realm", "authenticate"]
+- !private ["P9Turnstile5Realm", "register"]
+- !private ["V9Turnstile7Session", "deinit"]
+- !private ["P9Turnstile14SessionManager", "createSession"]
+- !private ["P9Turnstile14SessionManager", "destroySession"]
+- !private ["P9Turnstile14SessionManager", "restoreAccount"]
+- ["C9Turnstile7Subject", "AuthenticationDetails"]
+- ["C9Turnstile7Subject", "Bool"]
+- ["C9Turnstile7Subject", "Credentials"]
+- !private ["C9Turnstile7Subject", "Session"]
+- ["C9Turnstile7Subject", "String"]
+- ["C9Turnstile7Subject", "Turnstile"]
+- ["C9Turnstile7Subject", "authDetails"]
+- ["C9Turnstile7Subject", "authenticated"]
+- ["C9Turnstile7Subject", "deinit"]
+- ["C9Turnstile7Subject", "init"]
+- ["C9Turnstile7Subject", "login"]
+- ["C9Turnstile7Subject", "logout"]
+- ["C9Turnstile7Subject", "register"]
+- !private ["C9Turnstile7Subject", "restore"]
+- !private ["C9Turnstile7Subject", "turnstile"]
+- !private ["C9Turnstile9Turnstile", "realm"]
+- !private ["C9Turnstile9Turnstile", "sessionManager"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+depends-nominal:
+- "Ps9AnyObject"
+- "V9Turnstile21AuthenticationDetails"
+- !private "Sb"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- !private "Ps9Equatable"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps8Hashable"
+- !private "Ps25LosslessStringConvertible"
+- !private "P9Turnstile5Realm"
+- !private "V9Turnstile7Session"
+- !private "P9Turnstile14SessionManager"
+- "C9Turnstile7Subject"
+- !private "C9Turnstile9Turnstile"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/CLibreSSL.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.apinotesc"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/TurnstileCrypto.swiftmodule"
+interface-hash: "0589dce81b513fa0edce4f7574500286"

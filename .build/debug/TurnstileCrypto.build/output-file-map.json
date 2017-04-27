@@ -1,0 +1,23 @@
+{
+  "": {
+    "swift-dependencies": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/TurnstileCrypto.build/master.swiftdeps"
+  },
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/Turnstile.git-2443676010155639616/Sources/TurnstileCrypto/BCrypt.swift": {
+    "dependencies": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/TurnstileCrypto.build/BCrypt.d",
+    "object": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/TurnstileCrypto.build/BCrypt.swift.o",
+    "swiftmodule": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/TurnstileCrypto.build/BCrypt~partial.swiftmodule",
+    "swift-dependencies": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/TurnstileCrypto.build/BCrypt.swiftdeps"
+  },
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/Turnstile.git-2443676010155639616/Sources/TurnstileCrypto/Random.swift": {
+    "dependencies": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/TurnstileCrypto.build/Random.d",
+    "object": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/TurnstileCrypto.build/Random.swift.o",
+    "swiftmodule": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/TurnstileCrypto.build/Random~partial.swiftmodule",
+    "swift-dependencies": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/TurnstileCrypto.build/Random.swiftdeps"
+  },
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/Turnstile.git-2443676010155639616/Sources/TurnstileCrypto/URandom.swift": {
+    "dependencies": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/TurnstileCrypto.build/URandom.d",
+    "object": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/TurnstileCrypto.build/URandom.swift.o",
+    "swiftmodule": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/TurnstileCrypto.build/URandom~partial.swiftmodule",
+    "swift-dependencies": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/TurnstileCrypto.build/URandom.swiftdeps"
+  }
+}

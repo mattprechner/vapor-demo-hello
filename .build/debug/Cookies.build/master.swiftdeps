@@ -1,0 +1,15 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.48 clang-802.0.38)"
+options: "fb6008843be3e6a9eebea1f136d3d40a"
+build_time: [546606967, 127479000]
+inputs:
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/vapor.git-5492988889259800272/Sources/Cookies/Cookie+BytesConvertible.swift": [546606899, 0]
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/vapor.git-5492988889259800272/Sources/Cookies/Cookie+Parse.swift": [546606899, 0]
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/vapor.git-5492988889259800272/Sources/Cookies/Cookie+Serialize.swift": [546606899, 0]
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/vapor.git-5492988889259800272/Sources/Cookies/Cookie.swift": [546606899, 0]
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/vapor.git-5492988889259800272/Sources/Cookies/Cookies+BytesConvertible.swift": [546606899, 0]
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/vapor.git-5492988889259800272/Sources/Cookies/Cookies+Literal.swift": [546606899, 0]
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/vapor.git-5492988889259800272/Sources/Cookies/Cookies+Parse.swift": [546606899, 0]
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/vapor.git-5492988889259800272/Sources/Cookies/Cookies+Serialize.swift": [546606899, 0]
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/vapor.git-5492988889259800272/Sources/Cookies/Cookies.swift": [546606899, 0]
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/vapor.git-5492988889259800272/Sources/Cookies/Request+Cookies.swift": [546606899, 0]
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/vapor.git-5492988889259800272/Sources/Cookies/Response+Cookies.swift": [546606899, 0]

@@ -1,0 +1,6 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.48 clang-802.0.38)"
+options: "eaa13e614af32bd57a2cc82a124c9ac3"
+build_time: [546606943, 356032000]
+inputs:
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/path-indexable.git-6101080875983074629/Sources/PathIndexable/PathIndexable+Subscripting.swift": [546606902, 0]
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/path-indexable.git-6101080875983074629/Sources/PathIndexable/PathIndexable.swift": [546606902, 0]

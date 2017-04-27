@@ -1,0 +1,9 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.48 clang-802.0.38)"
+options: "c1a7462b6d9f61c298dec5da26ed18f8"
+build_time: [546606945, 836653000]
+inputs:
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/socks.git--8001262774462276871/Sources/Socks/Socks.swift": [546606908, 0]
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/socks.git--8001262774462276871/Sources/Socks/SynchronousTCPServer.swift": [546606908, 0]
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/socks.git--8001262774462276871/Sources/Socks/SynchronousUDPServer.swift": [546606908, 0]
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/socks.git--8001262774462276871/Sources/Socks/TCPClient.swift": [546606908, 0]
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/socks.git--8001262774462276871/Sources/Socks/UDPClient.swift": [546606908, 0]

@@ -1,0 +1,5 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.48 clang-802.0.38)"
+options: "304a968f02c55c3c600a644b0aaefa4f"
+build_time: [546606943, 351842000]
+inputs:
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/core.git-9210800844849382486/Sources/libc/libc.swift": [546606900, 0]

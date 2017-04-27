@@ -1,0 +1,152 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "BooleanParser"
+provides-nominal:
+- "V3Jay13BooleanParser"
+provides-member:
+- ["V3Jay13BooleanParser", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "BooleanLiteralType"
+- "BooleanParser"
+- !private "ByteReader"
+- !private "Const"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "JSON"
+- "Jay"
+- !private "JayError"
+- "JsonParser"
+- "Reader"
+- !private "~="
+depends-member:
+- !private ["Ps9AnyObject", "init"]
+- !private ["Sa", "subscript"]
+- !private ["Ps23BidirectionalCollection", "subscript"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["V3Jay13BooleanParser", "ByteReader"]
+- !private ["V3Jay13BooleanParser", "Const"]
+- ["V3Jay13BooleanParser", "JSON"]
+- ["V3Jay13BooleanParser", "Jay"]
+- !private ["V3Jay13BooleanParser", "JayError"]
+- ["V3Jay13BooleanParser", "Reader"]
+- ["V3Jay13BooleanParser", "deinit"]
+- ["V3Jay13BooleanParser", "init"]
+- ["V3Jay13BooleanParser", "parse"]
+- ["V3Jay13BooleanParser", "parsing"]
+- !private ["V3Jay13BooleanParser", "prepareForReading"]
+- !private ["C3Jay10ByteReader", "deinit"]
+- !private ["C3Jay10ByteReader", "init"]
+- !private ["Ps7CVarArg", "subscript"]
+- !private ["Ps10Collection", "subscript"]
+- !private ["V3Jay5Const", "False"]
+- !private ["V3Jay5Const", "True"]
+- !private ["Ps28CustomDebugStringConvertible", "subscript"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "subscript"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "subscript"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps5Error", "unexpectedCharacter"]
+- !private ["Ps25ExpressibleByArrayLiteral", "subscript"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["O3Jay4JSON", "boolean"]
+- ["V3Jay3Jay", "ParsingOptions"]
+- !private ["O3Jay8JayError", "deinit"]
+- !private ["O3Jay8JayError", "unexpectedCharacter"]
+- !private ["P3Jay15JsonFormattable", "boolean"]
+- !private ["P3Jay10JsonParser", "ByteReader"]
+- !private ["P3Jay10JsonParser", "Const"]
+- !private ["P3Jay10JsonParser", "JayError"]
+- ["P3Jay10JsonParser", "parse"]
+- ["P3Jay10JsonParser", "parsing"]
+- !private ["P3Jay10JsonParser", "prepareForReading"]
+- ["P3Jay10JsonParser", ""]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps17MutableCollection", "subscript"]
+- !private ["P3Jay20ParsingOptionsHaving", "ByteReader"]
+- !private ["P3Jay20ParsingOptionsHaving", "Const"]
+- !private ["P3Jay20ParsingOptionsHaving", "JayError"]
+- ["P3Jay20ParsingOptionsHaving", "parse"]
+- ["P3Jay20ParsingOptionsHaving", "parsing"]
+- !private ["P3Jay20ParsingOptionsHaving", "prepareForReading"]
+- ["P3Jay20ParsingOptionsHaving", ""]
+- !private ["Ps22RandomAccessCollection", "subscript"]
+- !private ["Ps26RangeReplaceableCollection", "subscript"]
+- !private ["P3Jay6Reader", "curr"]
+- !private ["P3Jay6Reader", "init"]
+- !private ["P3Jay6Reader", "stopAtFirstDifference"]
+- !private ["Ps8Sequence", "subscript"]
+- !private ["Ps14_ArrayProtocol", "subscript"]
+- !private ["Ps23_BidirectionalIndexable", "subscript"]
+- !private ["Ps24_DestructorSafeContainer", "subscript"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps10_Indexable", "subscript"]
+- !private ["Ps14_IndexableBase", "subscript"]
+- !private ["Ps17_MutableIndexable", "subscript"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "subscript"]
+- !private ["Ps22_RandomAccessIndexable", "subscript"]
+- !private ["Ps26_RangeReplaceableIndexable", "subscript"]
+depends-nominal:
+- !private "Ps9AnyObject"
+- !private "Sa"
+- !private "Ps23BidirectionalCollection"
+- !private "Sb"
+- "V3Jay13BooleanParser"
+- !private "C3Jay10ByteReader"
+- !private "Ps7CVarArg"
+- !private "Ps10Collection"
+- !private "V3Jay5Const"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- !private "Ps9Equatable"
+- !private "Ps5Error"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps8Hashable"
+- !private "O3Jay4JSON"
+- "V3Jay3Jay"
+- !private "O3Jay8JayError"
+- !private "P3Jay15JsonFormattable"
+- "P3Jay10JsonParser"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps17MutableCollection"
+- "P3Jay20ParsingOptionsHaving"
+- !private "Ps22RandomAccessCollection"
+- !private "Ps26RangeReplaceableCollection"
+- !private "P3Jay6Reader"
+- !private "Ps8Sequence"
+- !private "Ps14_ArrayProtocol"
+- !private "Ps23_BidirectionalIndexable"
+- !private "Ps24_DestructorSafeContainer"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps9_Hashable"
+- !private "Ps10_Indexable"
+- !private "Ps14_IndexableBase"
+- !private "Ps17_MutableIndexable"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps22_RandomAccessIndexable"
+- !private "Ps26_RangeReplaceableIndexable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/CLibreSSL.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.apinotesc"
+interface-hash: "95b8cbbe1ab873550afe393047579166"

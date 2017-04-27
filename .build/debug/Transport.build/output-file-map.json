@@ -1,0 +1,59 @@
+{
+  "": {
+    "swift-dependencies": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/Transport.build/master.swiftdeps"
+  },
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/engine.git-3311994267206676365/Sources/Transport/Streams/FoundationStream.swift": {
+    "dependencies": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/Transport.build/FoundationStream.d",
+    "object": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/Transport.build/Streams/FoundationStream.swift.o",
+    "swiftmodule": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/Transport.build/FoundationStream~partial.swiftmodule",
+    "swift-dependencies": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/Transport.build/FoundationStream.swiftdeps"
+  },
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/engine.git-3311994267206676365/Sources/Transport/Streams/Socks+Stream.swift": {
+    "dependencies": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/Transport.build/Socks+Stream.d",
+    "object": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/Transport.build/Streams/Socks+Stream.swift.o",
+    "swiftmodule": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/Transport.build/Socks+Stream~partial.swiftmodule",
+    "swift-dependencies": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/Transport.build/Socks+Stream.swiftdeps"
+  },
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/engine.git-3311994267206676365/Sources/Transport/Streams/Stream.swift": {
+    "dependencies": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/Transport.build/Stream.d",
+    "object": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/Transport.build/Streams/Stream.swift.o",
+    "swiftmodule": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/Transport.build/Stream~partial.swiftmodule",
+    "swift-dependencies": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/Transport.build/Stream.swiftdeps"
+  },
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/engine.git-3311994267206676365/Sources/Transport/Streams/StreamBuffer.swift": {
+    "dependencies": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/Transport.build/StreamBuffer.d",
+    "object": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/Transport.build/Streams/StreamBuffer.swift.o",
+    "swiftmodule": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/Transport.build/StreamBuffer~partial.swiftmodule",
+    "swift-dependencies": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/Transport.build/StreamBuffer.swiftdeps"
+  },
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/engine.git-3311994267206676365/Sources/Transport/Streams/Watchable.swift": {
+    "dependencies": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/Transport.build/Watchable.d",
+    "object": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/Transport.build/Streams/Watchable.swift.o",
+    "swiftmodule": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/Transport.build/Watchable~partial.swiftmodule",
+    "swift-dependencies": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/Transport.build/Watchable.swiftdeps"
+  },
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/engine.git-3311994267206676365/Sources/Transport/TransferProtocols/TransferProtocols.swift": {
+    "dependencies": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/Transport.build/TransferProtocols.d",
+    "object": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/Transport.build/TransferProtocols/TransferProtocols.swift.o",
+    "swiftmodule": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/Transport.build/TransferProtocols~partial.swiftmodule",
+    "swift-dependencies": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/Transport.build/TransferProtocols.swiftdeps"
+  },
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/engine.git-3311994267206676365/Sources/Transport/Streams/ProgramStream/ClientStream.swift": {
+    "dependencies": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/Transport.build/ClientStream.d",
+    "object": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/Transport.build/Streams/ProgramStream/ClientStream.swift.o",
+    "swiftmodule": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/Transport.build/ClientStream~partial.swiftmodule",
+    "swift-dependencies": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/Transport.build/ClientStream.swiftdeps"
+  },
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/engine.git-3311994267206676365/Sources/Transport/Streams/ProgramStream/ProgramStream.swift": {
+    "dependencies": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/Transport.build/ProgramStream.d",
+    "object": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/Transport.build/Streams/ProgramStream/ProgramStream.swift.o",
+    "swiftmodule": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/Transport.build/ProgramStream~partial.swiftmodule",
+    "swift-dependencies": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/Transport.build/ProgramStream.swiftdeps"
+  },
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/engine.git-3311994267206676365/Sources/Transport/Streams/ProgramStream/ServerStream.swift": {
+    "dependencies": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/Transport.build/ServerStream.d",
+    "object": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/Transport.build/Streams/ProgramStream/ServerStream.swift.o",
+    "swiftmodule": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/Transport.build/ServerStream~partial.swiftmodule",
+    "swift-dependencies": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/Transport.build/ServerStream.swiftdeps"
+  }
+}

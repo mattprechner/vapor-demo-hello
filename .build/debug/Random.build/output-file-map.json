@@ -1,0 +1,29 @@
+{
+  "": {
+    "swift-dependencies": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/Random.build/master.swiftdeps"
+  },
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/crypto.git-7980259129511365902/Sources/Random/CryptoRandom.swift": {
+    "dependencies": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/Random.build/CryptoRandom.d",
+    "object": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/Random.build/CryptoRandom.swift.o",
+    "swiftmodule": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/Random.build/CryptoRandom~partial.swiftmodule",
+    "swift-dependencies": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/Random.build/CryptoRandom.swiftdeps"
+  },
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/crypto.git-7980259129511365902/Sources/Random/Random+Deprecated.swift": {
+    "dependencies": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/Random.build/Random+Deprecated.d",
+    "object": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/Random.build/Random+Deprecated.swift.o",
+    "swiftmodule": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/Random.build/Random+Deprecated~partial.swiftmodule",
+    "swift-dependencies": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/Random.build/Random+Deprecated.swiftdeps"
+  },
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/crypto.git-7980259129511365902/Sources/Random/Random.swift": {
+    "dependencies": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/Random.build/Random.d",
+    "object": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/Random.build/Random.swift.o",
+    "swiftmodule": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/Random.build/Random~partial.swiftmodule",
+    "swift-dependencies": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/Random.build/Random.swiftdeps"
+  },
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/crypto.git-7980259129511365902/Sources/Random/URandom.swift": {
+    "dependencies": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/Random.build/URandom.d",
+    "object": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/Random.build/URandom.swift.o",
+    "swiftmodule": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/Random.build/URandom~partial.swiftmodule",
+    "swift-dependencies": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/Random.build/URandom.swiftdeps"
+  }
+}

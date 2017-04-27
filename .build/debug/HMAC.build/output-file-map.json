@@ -1,0 +1,17 @@
+{
+  "": {
+    "swift-dependencies": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/HMAC.build/master.swiftdeps"
+  },
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/crypto.git-7980259129511365902/Sources/HMAC/HMAC.swift": {
+    "dependencies": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/HMAC.build/HMAC.d",
+    "object": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/HMAC.build/HMAC.swift.o",
+    "swiftmodule": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/HMAC.build/HMAC~partial.swiftmodule",
+    "swift-dependencies": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/HMAC.build/HMAC.swiftdeps"
+  },
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/crypto.git-7980259129511365902/Sources/HMAC/Method.swift": {
+    "dependencies": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/HMAC.build/Method.d",
+    "object": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/HMAC.build/Method.swift.o",
+    "swiftmodule": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/HMAC.build/Method~partial.swiftmodule",
+    "swift-dependencies": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/HMAC.build/Method.swiftdeps"
+  }
+}

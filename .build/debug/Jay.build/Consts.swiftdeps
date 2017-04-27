@@ -1,0 +1,237 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Const"
+- "StartChars"
+provides-nominal:
+- "V3Jay5Const"
+- "V3Jay10StartChars"
+provides-member:
+- ["V3Jay5Const", ""]
+- ["V3Jay10StartChars", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "..."
+- "Array"
+- "Const"
+- "JChar"
+- "Set"
+- "StartChars"
+- "StringLiteralType"
+depends-member:
+- ["Ps9AnyObject", "init"]
+- ["Sa", "subscript"]
+- ["Ps23BidirectionalCollection", "subscript"]
+- ["Ps7CVarArg", "init"]
+- ["Ps7CVarArg", "keys"]
+- ["Ps7CVarArg", "subscript"]
+- ["Ps7CVarArg", "union"]
+- ["Ps10Collection", "init"]
+- ["Ps10Collection", "keys"]
+- ["Ps10Collection", "subscript"]
+- ["Ps10Collection", "union"]
+- ["Ps10Comparable", "init"]
+- ["V3Jay5Const", "Backspace"]
+- ["V3Jay5Const", "BackspaceChar"]
+- ["V3Jay5Const", "BeginArray"]
+- ["V3Jay5Const", "BeginObject"]
+- ["V3Jay5Const", "CarriageReturn"]
+- ["V3Jay5Const", "CarriageReturnChar"]
+- ["V3Jay5Const", "Const"]
+- ["V3Jay5Const", "ControlCharacters"]
+- ["V3Jay5Const", "DecimalPoint"]
+- ["V3Jay5Const", "Digits0to9"]
+- ["V3Jay5Const", "Digits1to9"]
+- ["V3Jay5Const", "EndArray"]
+- ["V3Jay5Const", "EndObject"]
+- ["V3Jay5Const", "Escape"]
+- ["V3Jay5Const", "Escaped"]
+- ["V3Jay5Const", "EscapingRules"]
+- ["V3Jay5Const", "EscapingRulesInv"]
+- ["V3Jay5Const", "Exponent"]
+- ["V3Jay5Const", "False"]
+- ["V3Jay5Const", "FalseString"]
+- ["V3Jay5Const", "FormFeed"]
+- ["V3Jay5Const", "FormFeedChar"]
+- ["V3Jay5Const", "HexDigits"]
+- ["V3Jay5Const", "HexLettersDo"]
+- ["V3Jay5Const", "HexLettersUp"]
+- ["V3Jay5Const", "HorizontalTab"]
+- ["V3Jay5Const", "HorizontalTabChar"]
+- ["V3Jay5Const", "JChar"]
+- ["V3Jay5Const", "Minus"]
+- ["V3Jay5Const", "NameSeparator"]
+- ["V3Jay5Const", "NewLine"]
+- ["V3Jay5Const", "NewLineChar"]
+- ["V3Jay5Const", "Null"]
+- ["V3Jay5Const", "NullString"]
+- ["V3Jay5Const", "NumberTerminators"]
+- ["V3Jay5Const", "Plus"]
+- ["V3Jay5Const", "QuotationMark"]
+- ["V3Jay5Const", "ReverseSolidus"]
+- ["V3Jay5Const", "Set"]
+- ["V3Jay5Const", "SimpleEscaped"]
+- ["V3Jay5Const", "Solidus"]
+- ["V3Jay5Const", "Space"]
+- ["V3Jay5Const", "Star"]
+- ["V3Jay5Const", "True"]
+- ["V3Jay5Const", "TrueString"]
+- ["V3Jay5Const", "UnicodeStart"]
+- ["V3Jay5Const", "ValueSeparator"]
+- ["V3Jay5Const", "Whitespace"]
+- ["V3Jay5Const", "Zero"]
+- ["V3Jay5Const", "init"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "keys"]
+- ["Ps28CustomDebugStringConvertible", "subscript"]
+- ["Ps28CustomDebugStringConvertible", "union"]
+- ["Ps29CustomPlaygroundQuickLookable", "init"]
+- ["Ps17CustomReflectable", "init"]
+- ["Ps17CustomReflectable", "keys"]
+- ["Ps17CustomReflectable", "subscript"]
+- ["Ps17CustomReflectable", "union"]
+- ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "keys"]
+- ["Ps23CustomStringConvertible", "subscript"]
+- ["Ps23CustomStringConvertible", "union"]
+- ["Vs10Dictionary", "keys"]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "union"]
+- ["Ps25ExpressibleByArrayLiteral", "init"]
+- ["Ps25ExpressibleByArrayLiteral", "subscript"]
+- ["Ps25ExpressibleByArrayLiteral", "union"]
+- ["Ps30ExpressibleByDictionaryLiteral", "keys"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- ["Ps26ExpressibleByStringLiteral", "init"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "union"]
+- ["Ps25LosslessStringConvertible", "init"]
+- ["Ps10MirrorPath", "init"]
+- ["Ps17MutableCollection", "subscript"]
+- ["PSo8NSCoding", "init"]
+- ["PSo9NSCopying", "init"]
+- ["PSo16NSMutableCopying", "init"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo14NSSecureCoding", "init"]
+- ["CSo8NSString", "init"]
+- ["Ps22RandomAccessCollection", "subscript"]
+- ["Ps26RangeReplaceableCollection", "subscript"]
+- ["Ps8Sequence", "init"]
+- ["Ps8Sequence", "keys"]
+- ["Ps8Sequence", "subscript"]
+- ["Ps8Sequence", "union"]
+- ["Vs3Set", "init"]
+- ["Vs3Set", "union"]
+- ["Ps10SetAlgebra", "init"]
+- ["Ps10SetAlgebra", "union"]
+- ["V3Jay10StartChars", "Array"]
+- ["V3Jay10StartChars", "Boolean"]
+- ["V3Jay10StartChars", "Comment"]
+- ["V3Jay10StartChars", "Const"]
+- ["V3Jay10StartChars", "JChar"]
+- ["V3Jay10StartChars", "Null"]
+- ["V3Jay10StartChars", "Number"]
+- ["V3Jay10StartChars", "Object"]
+- ["V3Jay10StartChars", "Set"]
+- ["V3Jay10StartChars", "String"]
+- ["V3Jay10StartChars", "init"]
+- ["SS", "init"]
+- ["Ps16TextOutputStream", "init"]
+- ["Ps20TextOutputStreamable", "init"]
+- ["Ps14_ArrayProtocol", "subscript"]
+- ["Ps23_BidirectionalIndexable", "subscript"]
+- ["Ps24_DestructorSafeContainer", "subscript"]
+- ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- ["Ps33_ExpressibleByStringInterpolation", "init"]
+- ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- ["Ps9_Hashable", "init"]
+- ["Ps9_Hashable", "union"]
+- ["Ps10_Indexable", "init"]
+- ["Ps10_Indexable", "keys"]
+- ["Ps10_Indexable", "subscript"]
+- ["Ps10_Indexable", "union"]
+- ["Ps14_IndexableBase", "init"]
+- ["Ps14_IndexableBase", "keys"]
+- ["Ps14_IndexableBase", "subscript"]
+- ["Ps14_IndexableBase", "union"]
+- ["Ps17_MutableIndexable", "subscript"]
+- ["Ps21_ObjectiveCBridgeable", "init"]
+- ["Ps21_ObjectiveCBridgeable", "keys"]
+- ["Ps21_ObjectiveCBridgeable", "subscript"]
+- ["Ps21_ObjectiveCBridgeable", "union"]
+- ["Ps22_RandomAccessIndexable", "subscript"]
+- ["Ps26_RangeReplaceableIndexable", "subscript"]
+depends-nominal:
+- "Ps9AnyObject"
+- "Sa"
+- "Ps23BidirectionalCollection"
+- "Ps7CVarArg"
+- "Ps10Collection"
+- "Ps10Comparable"
+- "V3Jay5Const"
+- "Ps28CustomDebugStringConvertible"
+- "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Vs10Dictionary"
+- "Ps9Equatable"
+- "Ps25ExpressibleByArrayLiteral"
+- "Ps30ExpressibleByDictionaryLiteral"
+- "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- "Ps26ExpressibleByStringLiteral"
+- "Ps33ExpressibleByUnicodeScalarLiteral"
+- "Ps8Hashable"
+- "Ps25LosslessStringConvertible"
+- "Ps10MirrorPath"
+- "Ps17MutableCollection"
+- "PSo8NSCoding"
+- "PSo9NSCopying"
+- "PSo16NSMutableCopying"
+- "PSo16NSObjectProtocol"
+- "PSo14NSSecureCoding"
+- "CSo8NSString"
+- "Ps22RandomAccessCollection"
+- "Ps26RangeReplaceableCollection"
+- "Ps8Sequence"
+- "Vs3Set"
+- "Ps10SetAlgebra"
+- "V3Jay10StartChars"
+- "SS"
+- "Ps16TextOutputStream"
+- "Ps20TextOutputStreamable"
+- "Ps14_ArrayProtocol"
+- "Ps23_BidirectionalIndexable"
+- "Ps24_DestructorSafeContainer"
+- "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- "Ps34_ExpressibleByBuiltinStringLiteral"
+- "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- "Ps33_ExpressibleByStringInterpolation"
+- "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- "Ps10_Indexable"
+- "Ps14_IndexableBase"
+- "Ps17_MutableIndexable"
+- "Ps21_ObjectiveCBridgeable"
+- "Ps22_RandomAccessIndexable"
+- "Ps26_RangeReplaceableIndexable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/CLibreSSL.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.apinotesc"
+interface-hash: "c880086a7829754bae19ee3fee16e140"

@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/libc.build/master.swiftdeps"
+  },
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/core.git-9210800844849382486/Sources/libc/libc.swift": {
+    "dependencies": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/libc.build/libc.d",
+    "object": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/libc.build/libc.swift.o",
+    "swiftmodule": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/libc.build/libc~partial.swiftmodule",
+    "swift-dependencies": "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/libc.build/libc.swiftdeps"
+  }
+}

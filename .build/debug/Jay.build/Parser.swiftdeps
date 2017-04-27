@@ -1,0 +1,188 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Parser"
+- "JsonParser"
+- "ParsingOptionsHaving"
+provides-nominal:
+- "V3Jay6Parser"
+- "P3Jay10JsonParser"
+- "P3Jay20ParsingOptionsHaving"
+provides-member:
+- ["V3Jay6Parser", ""]
+- ["P3Jay10JsonParser", ""]
+- ["P3Jay20ParsingOptionsHaving", ""]
+- ["V3Jay6Parser", "parseJsonFromData"]
+- ["P3Jay20ParsingOptionsHaving", "prepareForReading"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!"
+- !private "=="
+- !private ">"
+- "AssignmentPrecedence"
+- !private "BooleanLiteralType"
+- !private "ByteReader"
+- !private "CommentParser"
+- !private "Const"
+- "JChar"
+- "JSON"
+- "Jay"
+- !private "JayError"
+- "JsonParser"
+- "Parser"
+- "ParsingOptionsHaving"
+- "Reader"
+- !private "RootParser"
+- !private "||"
+depends-member:
+- !private ["Ps9AnyObject", "init"]
+- !private ["Sa", "isEmpty"]
+- !private ["Ps23BidirectionalCollection", "isEmpty"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["C3Jay10ByteReader", "deinit"]
+- !private ["C3Jay10ByteReader", "init"]
+- !private ["Ps7CVarArg", "isEmpty"]
+- !private ["Ps10Collection", "isEmpty"]
+- !private ["V3Jay13CommentParser", "init"]
+- !private ["V3Jay13CommentParser", "parse"]
+- !private ["V3Jay5Const", "Solidus"]
+- !private ["Ps28CustomDebugStringConvertible", "isEmpty"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "isEmpty"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "isEmpty"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "allowComments"]
+- !private ["Ps9Equatable", "contains"]
+- !private ["Ps5Error", "extraTokensFound"]
+- !private ["Ps25ExpressibleByArrayLiteral", "allowComments"]
+- !private ["Ps25ExpressibleByArrayLiteral", "contains"]
+- !private ["Ps25ExpressibleByArrayLiteral", "isEmpty"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- ["V3Jay3Jay", "ParsingOptions"]
+- !private ["O3Jay8JayError", "deinit"]
+- !private ["O3Jay8JayError", "extraTokensFound"]
+- ["P3Jay10JsonParser", "JSON"]
+- ["P3Jay10JsonParser", "Reader"]
+- !private ["P3Jay10JsonParser", "init"]
+- ["P3Jay10JsonParser", "parse"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps17MutableCollection", "isEmpty"]
+- !private ["Ps9OptionSet", "allowComments"]
+- !private ["Ps9OptionSet", "contains"]
+- !private ["V3Jay6Parser", "ByteReader"]
+- ["V3Jay6Parser", "JChar"]
+- ["V3Jay6Parser", "JSON"]
+- ["V3Jay6Parser", "Jay"]
+- !private ["V3Jay6Parser", "JayError"]
+- ["V3Jay6Parser", "Reader"]
+- !private ["V3Jay6Parser", "RootParser"]
+- ["V3Jay6Parser", "init"]
+- ["V3Jay6Parser", "parseJsonFromData"]
+- ["V3Jay6Parser", "parseJsonFromReader"]
+- ["V3Jay6Parser", "parsing"]
+- !private ["VV3Jay3Jay14ParsingOptions", "allowComments"]
+- !private ["VV3Jay3Jay14ParsingOptions", "contains"]
+- !private ["VV3Jay3Jay14ParsingOptions", "deinit"]
+- !private ["P3Jay20ParsingOptionsHaving", "CommentParser"]
+- !private ["P3Jay20ParsingOptionsHaving", "Const"]
+- ["P3Jay20ParsingOptionsHaving", "JSON"]
+- ["P3Jay20ParsingOptionsHaving", "Jay"]
+- ["P3Jay20ParsingOptionsHaving", "Reader"]
+- !private ["P3Jay20ParsingOptionsHaving", "init"]
+- ["P3Jay20ParsingOptionsHaving", "parse"]
+- ["P3Jay20ParsingOptionsHaving", "parsing"]
+- ["P3Jay20ParsingOptionsHaving", "prepareForReading"]
+- ["P3Jay20ParsingOptionsHaving", ""]
+- !private ["Ps22RandomAccessCollection", "isEmpty"]
+- !private ["Ps26RangeReplaceableCollection", "isEmpty"]
+- !private ["Ps16RawRepresentable", "allowComments"]
+- !private ["Ps16RawRepresentable", "contains"]
+- !private ["P3Jay6Reader", "consumeWhitespace"]
+- !private ["P3Jay6Reader", "curr"]
+- !private ["P3Jay6Reader", "ensureNotDone"]
+- !private ["P3Jay6Reader", "finishParsingWhenValid"]
+- !private ["P3Jay6Reader", "init"]
+- !private ["P3Jay6Reader", "isDone"]
+- !private ["V3Jay10RootParser", "deinit"]
+- !private ["V3Jay10RootParser", "init"]
+- !private ["V3Jay10RootParser", "parse"]
+- !private ["Ps8Sequence", "isEmpty"]
+- !private ["Ps10SetAlgebra", "allowComments"]
+- !private ["Ps10SetAlgebra", "contains"]
+- !private ["Ps14_ArrayProtocol", "isEmpty"]
+- !private ["Ps23_BidirectionalIndexable", "isEmpty"]
+- !private ["Ps24_DestructorSafeContainer", "isEmpty"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps10_Indexable", "isEmpty"]
+- !private ["Ps14_IndexableBase", "isEmpty"]
+- !private ["Ps17_MutableIndexable", "isEmpty"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "isEmpty"]
+- !private ["Ps22_RandomAccessIndexable", "isEmpty"]
+- !private ["Ps26_RangeReplaceableIndexable", "isEmpty"]
+depends-nominal:
+- !private "Ps9AnyObject"
+- !private "Sa"
+- !private "Ps23BidirectionalCollection"
+- !private "Sb"
+- !private "C3Jay10ByteReader"
+- !private "Ps7CVarArg"
+- !private "Ps10Collection"
+- !private "V3Jay13CommentParser"
+- !private "V3Jay5Const"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- !private "Ps9Equatable"
+- !private "Ps5Error"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps8Hashable"
+- "V3Jay3Jay"
+- !private "O3Jay8JayError"
+- "P3Jay10JsonParser"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps17MutableCollection"
+- !private "Ps9OptionSet"
+- "V3Jay6Parser"
+- !private "VV3Jay3Jay14ParsingOptions"
+- "P3Jay20ParsingOptionsHaving"
+- !private "Ps22RandomAccessCollection"
+- !private "Ps26RangeReplaceableCollection"
+- !private "Ps16RawRepresentable"
+- !private "P3Jay6Reader"
+- !private "V3Jay10RootParser"
+- !private "Ps8Sequence"
+- !private "Ps10SetAlgebra"
+- !private "Ps14_ArrayProtocol"
+- !private "Ps23_BidirectionalIndexable"
+- !private "Ps24_DestructorSafeContainer"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps9_Hashable"
+- !private "Ps10_Indexable"
+- !private "Ps14_IndexableBase"
+- !private "Ps17_MutableIndexable"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps22_RandomAccessIndexable"
+- !private "Ps26_RangeReplaceableIndexable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/CLibreSSL.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.apinotesc"
+interface-hash: "a642717e8847f17527524c06ad8bcc04"

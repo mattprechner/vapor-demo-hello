@@ -1,0 +1,6 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.48 clang-802.0.38)"
+options: "b02dc0305076e7cbe67266a544d70ff9"
+build_time: [546606943, 351854000]
+inputs:
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/polymorphic.git--4354167031091999056/Sources/Polymorphic.swift": [546606903, 0]
+  "/Users/mprechner/vapor-demo/HelloWorld/.build/checkouts/polymorphic.git--4354167031091999056/Sources/String+Polymorphic.swift": [546606903, 0]
