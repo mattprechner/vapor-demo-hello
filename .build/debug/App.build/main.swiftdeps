@@ -5,8 +5,9 @@ provides-nominal:
 provides-member:
 provides-dynamic-lookup:
 depends-top-level:
-- "Date"
+- "Dictionary"
 - "Droplet"
+- "JSON"
 - "StringLiteralType"
 - "UnicodeScalarType"
 - "drop"
@@ -25,7 +26,6 @@ depends-member:
 - ["Ps29CustomPlaygroundQuickLookable", "init"]
 - ["Ps17CustomReflectable", "init"]
 - ["Ps23CustomStringConvertible", "init"]
-- ["V10Foundation4Date", "init"]
 - ["C5Vapor7Droplet", "get"]
 - ["C5Vapor7Droplet", "init"]
 - ["C5Vapor7Droplet", "run"]
@@ -34,6 +34,10 @@ depends-member:
 - ["Ps26ExpressibleByStringLiteral", "init"]
 - ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
 - ["Ps8Hashable", "init"]
+- ["V4JSON4JSON", "init"]
+- ["P4JSON15JSONConvertible", "init"]
+- ["P4JSON17JSONInitializable", "init"]
+- ["P4JSON17JSONRepresentable", "init"]
 - ["Ps25LosslessStringConvertible", "init"]
 - ["Ps10MirrorPath", "init"]
 - ["PSo8NSCoding", "init"]
@@ -42,13 +46,14 @@ depends-member:
 - ["PSo16NSObjectProtocol", "init"]
 - ["PSo14NSSecureCoding", "init"]
 - ["CSo8NSString", "init"]
+- ["P4Node10NodeBacked", "init"]
 - ["P4Node15NodeConvertible", "init"]
 - ["P4Node17NodeInitializable", "init"]
 - ["P4Node17NodeRepresentable", "init"]
 - ["P13PathIndexable9PathIndex", "init"]
+- ["P13PathIndexable13PathIndexable", "init"]
 - ["P11Polymorphic11Polymorphic", "init"]
 - ["P5Vapor24PolymorphicInitializable", "init"]
-- ["P10Foundation20ReferenceConvertible", "init"]
 - ["P5Vapor23RequestContentSubscript", "init"]
 - ["P4HTTP9Responder", "get"]
 - ["P4HTTP9Responder", "init"]
@@ -83,13 +88,16 @@ depends-nominal:
 - "Ps29CustomPlaygroundQuickLookable"
 - "Ps17CustomReflectable"
 - "Ps23CustomStringConvertible"
-- "V10Foundation4Date"
 - "C5Vapor7Droplet"
 - "Ps9Equatable"
 - "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
 - "Ps26ExpressibleByStringLiteral"
 - "Ps33ExpressibleByUnicodeScalarLiteral"
 - "Ps8Hashable"
+- "V4JSON4JSON"
+- "P4JSON15JSONConvertible"
+- "P4JSON17JSONInitializable"
+- "P4JSON17JSONRepresentable"
 - "Ps25LosslessStringConvertible"
 - "Ps10MirrorPath"
 - "PSo8NSCoding"
@@ -98,13 +106,14 @@ depends-nominal:
 - "PSo16NSObjectProtocol"
 - "PSo14NSSecureCoding"
 - "CSo8NSString"
+- "P4Node10NodeBacked"
 - "P4Node15NodeConvertible"
 - "P4Node17NodeInitializable"
 - "P4Node17NodeRepresentable"
 - "P13PathIndexable9PathIndex"
+- "P13PathIndexable13PathIndexable"
 - "P11Polymorphic11Polymorphic"
 - "P5Vapor24PolymorphicInitializable"
-- "P10Foundation20ReferenceConvertible"
 - "P5Vapor23RequestContentSubscript"
 - "P4HTTP9Responder"
 - "P4HTTP21ResponseRepresentable"
@@ -242,4 +251,4 @@ depends-external:
 - "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/TypeSafeRouting.swiftmodule"
 - "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/WebSockets.swiftmodule"
 - "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/Socks.swiftmodule"
-interface-hash: "7beaa2fb74f8fe1f3264ae42ff7b640b"
+interface-hash: "4c256f19f58be615d8f87a535c719c70"

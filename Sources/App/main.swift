@@ -5,8 +5,9 @@ let drop = Droplet()
 
 drop.get("/") { request in
 
-	let date = Date()
-    return "Hello World"
+	return try JSON(node: [
+        "version": "1.0"
+    ])
 }
 
 drop.run()
