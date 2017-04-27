@@ -1,7 +1,7 @@
 version: "Apple Swift version 3.1 (swiftlang-802.0.48 clang-802.0.38)"
 options: "77bfafde3ee8c632e7cf942fdb0ea8aa"
-build_time: [546616388, 896338000]
+build_time: [546619005, 534898000]
 inputs:
-  "/Users/mprechner/vapor-demo/HelloWorld/Sources/App/main.swift": [546616375, 0]
+  "/Users/mprechner/vapor-demo/HelloWorld/Sources/App/main.swift": [546618994, 0]
   "/Users/mprechner/vapor-demo/HelloWorld/Sources/App/Controllers/PostController.swift": [546605326, 0]
   "/Users/mprechner/vapor-demo/HelloWorld/Sources/App/Models/Post.swift": [546605326, 0]

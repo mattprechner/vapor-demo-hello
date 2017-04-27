@@ -5,6 +5,9 @@ provides-nominal:
 provides-member:
 provides-dynamic-lookup:
 depends-top-level:
+- "AssignmentPrecedence"
+- "Date"
+- "DateFormatter"
 - "Dictionary"
 - "Droplet"
 - "JSON"
@@ -12,38 +15,66 @@ depends-top-level:
 - "UnicodeScalarType"
 - "drop"
 depends-member:
+- ["Ps9AnyObject", "dateFormat"]
 - ["Ps9AnyObject", "get"]
 - ["Ps9AnyObject", "init"]
 - ["Ps9AnyObject", "run"]
+- ["Ps9AnyObject", "string"]
 - ["P4HTTP17BodyRepresentable", "init"]
 - ["P4Core16BytesConvertible", "init"]
 - ["P4Core18BytesInitializable", "init"]
 - ["P4Core18BytesRepresentable", "init"]
+- ["Ps7CVarArg", "dateFormat"]
 - ["Ps7CVarArg", "init"]
+- ["Ps7CVarArg", "string"]
 - ["Ps10Comparable", "init"]
 - ["P5Vapor9Countable", "init"]
+- ["Ps28CustomDebugStringConvertible", "dateFormat"]
 - ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "string"]
 - ["Ps29CustomPlaygroundQuickLookable", "init"]
 - ["Ps17CustomReflectable", "init"]
+- ["Ps23CustomStringConvertible", "dateFormat"]
 - ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "string"]
+- ["V10Foundation4Date", "init"]
+- ["CSo13DateFormatter", "dateFormat"]
+- ["CSo13DateFormatter", "init"]
+- ["CSo13DateFormatter", "string"]
 - ["C5Vapor7Droplet", "get"]
 - ["C5Vapor7Droplet", "init"]
 - ["C5Vapor7Droplet", "run"]
+- ["Ps9Equatable", "dateFormat"]
 - ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "string"]
 - ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
 - ["Ps26ExpressibleByStringLiteral", "init"]
 - ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- ["CSo9Formatter", "dateFormat"]
+- ["CSo9Formatter", "init"]
+- ["CSo9Formatter", "string"]
+- ["Ps8Hashable", "dateFormat"]
 - ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "string"]
 - ["V4JSON4JSON", "init"]
 - ["P4JSON15JSONConvertible", "init"]
 - ["P4JSON17JSONInitializable", "init"]
 - ["P4JSON17JSONRepresentable", "init"]
 - ["Ps25LosslessStringConvertible", "init"]
 - ["Ps10MirrorPath", "init"]
+- ["PSo8NSCoding", "dateFormat"]
 - ["PSo8NSCoding", "init"]
+- ["PSo8NSCoding", "string"]
+- ["PSo9NSCopying", "dateFormat"]
 - ["PSo9NSCopying", "init"]
+- ["PSo9NSCopying", "string"]
 - ["PSo16NSMutableCopying", "init"]
+- ["CSo8NSObject", "dateFormat"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "string"]
+- ["PSo16NSObjectProtocol", "dateFormat"]
 - ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "string"]
 - ["PSo14NSSecureCoding", "init"]
 - ["CSo8NSString", "init"]
 - ["P4Node10NodeBacked", "init"]
@@ -54,6 +85,7 @@ depends-member:
 - ["P13PathIndexable13PathIndexable", "init"]
 - ["P11Polymorphic11Polymorphic", "init"]
 - ["P5Vapor24PolymorphicInitializable", "init"]
+- ["P10Foundation20ReferenceConvertible", "init"]
 - ["P5Vapor23RequestContentSubscript", "init"]
 - ["P4HTTP9Responder", "get"]
 - ["P4HTTP9Responder", "init"]
@@ -73,7 +105,9 @@ depends-member:
 - ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
 - ["Ps33_ExpressibleByStringInterpolation", "init"]
 - ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- ["Ps9_Hashable", "dateFormat"]
 - ["Ps9_Hashable", "init"]
+- ["Ps9_Hashable", "string"]
 - ["Ps21_ObjectiveCBridgeable", "init"]
 depends-nominal:
 - "Ps9AnyObject"
@@ -88,11 +122,14 @@ depends-nominal:
 - "Ps29CustomPlaygroundQuickLookable"
 - "Ps17CustomReflectable"
 - "Ps23CustomStringConvertible"
+- "V10Foundation4Date"
+- "CSo13DateFormatter"
 - "C5Vapor7Droplet"
 - "Ps9Equatable"
 - "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
 - "Ps26ExpressibleByStringLiteral"
 - "Ps33ExpressibleByUnicodeScalarLiteral"
+- "CSo9Formatter"
 - "Ps8Hashable"
 - "V4JSON4JSON"
 - "P4JSON15JSONConvertible"
@@ -103,6 +140,7 @@ depends-nominal:
 - "PSo8NSCoding"
 - "PSo9NSCopying"
 - "PSo16NSMutableCopying"
+- "CSo8NSObject"
 - "PSo16NSObjectProtocol"
 - "PSo14NSSecureCoding"
 - "CSo8NSString"
@@ -114,6 +152,7 @@ depends-nominal:
 - "P13PathIndexable13PathIndexable"
 - "P11Polymorphic11Polymorphic"
 - "P5Vapor24PolymorphicInitializable"
+- "P10Foundation20ReferenceConvertible"
 - "P5Vapor23RequestContentSubscript"
 - "P4HTTP9Responder"
 - "P4HTTP21ResponseRepresentable"
@@ -251,4 +290,4 @@ depends-external:
 - "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/TypeSafeRouting.swiftmodule"
 - "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/WebSockets.swiftmodule"
 - "/Users/mprechner/vapor-demo/HelloWorld/.build/debug/Socks.swiftmodule"
-interface-hash: "4c256f19f58be615d8f87a535c719c70"
+interface-hash: "893f76a7b3c4650b87c226f707aff83b"
